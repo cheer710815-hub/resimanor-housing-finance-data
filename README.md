@@ -6,6 +6,15 @@
 
 - https://resimanor.com/
 
+## Canonical data source
+
+- [2026 스트레스 DSR 주택담보대출 데이터](https://resimanor.com/housing-finance-dsr-data/)
+- 기준 공개본: 2026-09-18
+- Zenodo DOI: https://doi.org/10.5281/zenodo.22840870
+- Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
+
+이 저장소는 위 원문 데이터 페이지의 계산 기준, 출처 정책과 재사용 정보를 보조하기 위한 공개 저장소입니다. 최신 설명과 수정 사항은 canonical data source를 우선합니다.
+
 ## Purpose
 
 이 저장소는 주택금융 정보를 단순 요약하는 데 그치지 않고, 공식 자료를 바탕으로 계산 기준과 판단 과정을 공개하기 위해 운영합니다.
@@ -33,6 +42,10 @@
 ## Citation
 
 자료를 인용할 때는 저장소 이름, 문서 제목, 기준일과 원문 URL을 함께 표시해 주세요.
+
+권장 원문 표기:
+
+> Resimanor, "2026 스트레스 DSR 주택담보대출 데이터", https://resimanor.com/housing-finance-dsr-data/
 
 ## Disclaimer
 
