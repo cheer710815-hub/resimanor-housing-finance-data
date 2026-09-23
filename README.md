@@ -17,6 +17,15 @@
 
 이 저장소는 위 원문 데이터 페이지의 계산 기준, 출처 정책과 재사용 정보를 보조하기 위한 공개 저장소입니다. 최신 설명과 수정 사항은 canonical data source를 우선합니다.
 
+## Related public datasets
+
+### Korea Bogeumjari Loan Rates 2026
+
+- Canonical source: https://resimanor.com/%eb%b3%b4%ea%b8%88%ec%9e%90%eb%a6%ac%eb%a1%a0/
+- Kaggle dataset: https://www.kaggle.com/datasets/resimanor/korea-bogeumjari-loan-rates-2026
+
+보금자리론 만기별 금리와 주요 조건을 비교할 수 있도록 정리한 공개 데이터입니다.
+
 ## Purpose
 
 이 저장소는 주택금융 정보를 단순 요약하는 데 그치지 않고, 공식 자료를 바탕으로 계산 기준과 판단 과정을 공개하기 위해 운영합니다.
