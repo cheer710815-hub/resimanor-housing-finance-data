@@ -12,6 +12,7 @@
 - 기준 공개본: 2026-09-18
 - Zenodo DOI: https://doi.org/10.5281/zenodo.22840870
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
+- Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
 
 이 저장소는 위 원문 데이터 페이지의 계산 기준, 출처 정책과 재사용 정보를 보조하기 위한 공개 저장소입니다. 최신 설명과 수정 사항은 canonical data source를 우선합니다.
 
