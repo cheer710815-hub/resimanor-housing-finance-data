@@ -1,0 +1,5 @@
+annual_income_krw,dsr_limit_pct,credit_loan_balance_krw,credit_loan_rate_pct,credit_dsr_maturity_years,annual_existing_debt_service_krw,annual_mortgage_capacity_remaining_krw,mortgage_screening_rate_pct,mortgage_term_years,repayment_method,estimated_mortgage_limit_krw,base_date,canonical_source
+80000000,40,0,5.0,5,0,32000000,7.0,30,equal_principal_interest,400800000,2026-09-18,https://resimanor.com/housing-finance-dsr-data/
+80000000,40,30000000,5.0,5,7500000,24500000,7.0,30,equal_principal_interest,306900000,2026-09-18,https://resimanor.com/housing-finance-dsr-data/
+80000000,40,50000000,5.0,5,12500000,19500000,7.0,30,equal_principal_interest,244200000,2026-09-18,https://resimanor.com/housing-finance-dsr-data/
+80000000,40,100000000,5.0,5,25000000,7000000,7.0,30,equal_principal_interest,87700000,2026-09-18,https://resimanor.com/housing-finance-dsr-data/
