@@ -12,6 +12,7 @@
 - 기준 공개본: 2026-09-18
 - Zenodo DOI: https://doi.org/10.5281/zenodo.22840870
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
+- Harvard Dataverse DOI: https://doi.org/10.7910/DVN/Y4J5LD
 - Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
 - Kaggle dataset: https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026
 
