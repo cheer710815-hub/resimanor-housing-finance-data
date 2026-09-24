@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the canonical Resimanor data page and the archived dataset."
+title: "2026 Korea Stress DSR Mortgage Limit Examples"
+type: dataset
+version: "1.0"
+date-released: 2026-09-18
+license: CC-BY-4.0
+authors:
+  - name: "Resimanor"
+url: "https://resimanor.com/housing-finance-dsr-data/"
+repository-code: "https://github.com/cheer710815-hub/resimanor-housing-finance-data"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22840870"
+    description: "Zenodo version 1.0"
+  - type: doi
+    value: "10.6084/m9.figshare.33948214"
+    description: "Figshare public dataset"
