@@ -17,6 +17,14 @@
 
 이 저장소는 위 원문 데이터 페이지의 계산 기준, 출처 정책과 재사용 정보를 보조하기 위한 공개 저장소입니다. 최신 설명과 수정 사항은 canonical data source를 우선합니다.
 
+## Reference and citation pages
+
+- [2026 주택금융·DSR 데이터센터](https://resimanor.com/housing-finance-dsr-data/)
+- [자료 이용·인용 정책](https://resimanor.com/citation-policy/)
+- [2026 전세안전 데이터센터](https://resimanor.com/jeonse-safety-data/)
+
+외부 데이터 저장소에서 이 자료를 인용하거나 재사용할 때는 가능한 경우 위 원문 데이터 페이지와 인용 정책을 함께 확인해 주세요.
+
 ## Related public datasets
 
 ### Korea Bogeumjari Loan Rates 2026
