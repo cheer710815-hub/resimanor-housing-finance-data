@@ -1,0 +1,58 @@
+{
+  "profile": "data-package",
+  "name": "resimanor-housing-finance-data-2026",
+  "title": "2026 Korea Housing Finance and Stress DSR Data",
+  "description": "Public reference data for Korean mortgage limits, stress DSR, housing purchase cash requirements, repayment examples and housing finance calculations maintained by Resimanor.",
+  "homepage": "https://resimanor.com/housing-finance-dsr-data/",
+  "version": "1.0",
+  "created": "2026-09-18",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "keywords": [
+    "Korea housing finance",
+    "mortgage",
+    "stress DSR",
+    "DSR",
+    "housing purchase",
+    "mortgage limit",
+    "주택담보대출",
+    "스트레스 DSR",
+    "주택금융"
+  ],
+  "sources": [
+    {
+      "title": "Canonical Resimanor data page",
+      "path": "https://resimanor.com/housing-finance-dsr-data/"
+    },
+    {
+      "title": "Zenodo DOI",
+      "path": "https://doi.org/10.5281/zenodo.22840870"
+    },
+    {
+      "title": "Figshare DOI",
+      "path": "https://doi.org/10.6084/m9.figshare.33948214"
+    },
+    {
+      "title": "Harvard Dataverse DOI",
+      "path": "https://doi.org/10.7910/DVN/Y4J5LD"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Resimanor",
+      "role": "author",
+      "path": "https://resimanor.com/"
+    }
+  ],
+  "custom": {
+    "citation_policy": "https://resimanor.com/citation-policy/",
+    "related_data_center": "https://resimanor.com/jeonse-safety-data/",
+    "github_repository": "https://github.com/cheer710815-hub/resimanor-housing-finance-data",
+    "huggingface": "https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026",
+    "kaggle": "https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026"
+  }
+}
