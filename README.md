@@ -20,6 +20,10 @@
 
 이 저장소는 위 원문 데이터 페이지의 계산 기준, 출처 정책과 재사용 정보를 보조하기 위한 공개 저장소입니다. 최신 설명과 수정 사항은 canonical data source를 우선합니다.
 
+## Media & citation kit
+
+- [PRESS-KIT.md](./PRESS-KIT.md)
+
 ## Public documentation
 
 - [DagsHub public repository](https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data)
