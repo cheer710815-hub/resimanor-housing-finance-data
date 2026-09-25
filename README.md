@@ -53,6 +53,8 @@
 
 - `METHODOLOGY.md`: 자료 수집, 계산, 검수 원칙
 - `SOURCE_POLICY.md`: 허용 출처와 인용 원칙
+- `CITATION.cff`: GitHub·연구도구용 인용 메타데이터
+- `datapackage.json`: 원문 URL, DOI, 라이선스와 주제 키워드를 담은 기계판독형 데이터 패키지 메타데이터
 
 ## Data policy
 
