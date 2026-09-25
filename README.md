@@ -11,6 +11,8 @@
 - [2026 스트레스 DSR 주택담보대출 데이터](https://resimanor.com/housing-finance-dsr-data/)
 - 기준 공개본: 2026-09-18
 - Zenodo DOI: https://doi.org/10.5281/zenodo.22840870
+- Zenodo concept DOI: https://doi.org/10.5281/zenodo.22840869
+- Zenodo Community: https://zenodo.org/communities/resimanor-housing-finance-data/
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/Y4J5LD
 - Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
