@@ -22,6 +22,7 @@
 
 ## Public documentation
 
+- [DagsHub public repository](https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data)
 - [GitLab public mirror](https://gitlab.com/housing-data-korea-group/resimanor-housing-finance-data)
 - [GitBook public documentation](https://housing-data-korea.gitbook.io/housing-data-korea-docs/)
 
