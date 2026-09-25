@@ -10,3 +10,10 @@ site:
       content:
         directory: ./
         language: ko
+    - type: space
+      key: apttosell-housing-subscription
+      title: AptToSell Housing Subscription Data
+      path: apttosell-housing-subscription
+      content:
+        directory: ./apttosell
+        language: ko
