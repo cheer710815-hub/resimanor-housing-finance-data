@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Housing Data Korea Docs
+  structure:
+    - type: space
+      key: resimanor-housing-finance
+      title: Resimanor Housing Finance Data
+      path: resimanor-housing-finance
+      default: true
+      content:
+        directory: ./
+        language: ko
