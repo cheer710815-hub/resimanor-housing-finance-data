@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#ffffff"/>
+<text x="70" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#16324f">2026 스트레스 DSR 연소득별 주담대 한도 예시</text>
+<text x="70" y="108" font-family="Arial, sans-serif" font-size="18" fill="#5d7285">단위: 억원 · 동일 가정 비교용 · 기준일 2026-09-18</text>
+<line x1="110" y1="600" x2="1110" y2="600" stroke="#9aa8b5" stroke-width="2"/>
+<line x1="110" y1="160" x2="110" y2="600" stroke="#9aa8b5" stroke-width="2"/>
+<g font-family="Arial, sans-serif" font-size="17" fill="#526577">
+<text x="62" y="605">0</text><text x="48" y="530">1</text><text x="48" y="455">2</text><text x="48" y="380">3</text><text x="48" y="305">4</text><text x="48" y="230">5</text><text x="48" y="165">6</text>
+</g>
+<g stroke="#e5ebef" stroke-width="1">
+<line x1="110" y1="525" x2="1110" y2="525"/><line x1="110" y1="450" x2="1110" y2="450"/><line x1="110" y1="375" x2="1110" y2="375"/><line x1="110" y1="300" x2="1110" y2="300"/><line x1="110" y1="225" x2="1110" y2="225"/><line x1="110" y1="150" x2="1110" y2="150"/>
+</g>
+<!-- bars: incomes 4,5,6,7,8,10천만원; regional scenario values 2.56,3.20,3.83,4.47,5.11,6.39억원 scaled 75px/억원 -->
+<g fill="#2f6f9f">
+<rect x="155" y="408" width="90" height="192"/><rect x="315" y="360" width="90" height="240"/><rect x="475" y="313" width="90" height="287"/><rect x="635" y="265" width="90" height="335"/><rect x="795" y="217" width="90" height="383"/><rect x="955" y="121" width="90" height="479"/>
+</g>
+<g font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#173149">
+<text x="200" y="635">4천</text><text x="360" y="635">5천</text><text x="520" y="635">6천</text><text x="680" y="635">7천</text><text x="840" y="635">8천</text><text x="1000" y="635">1억</text>
+</g>
+<g font-family="Arial, sans-serif" font-size="17" text-anchor="middle" fill="#173149">
+<text x="200" y="395">2.56</text><text x="360" y="347">3.20</text><text x="520" y="300">3.83</text><text x="680" y="252">4.47</text><text x="840" y="204">5.11</text><text x="1000" y="108">6.39</text>
+</g>
+<text x="110" y="685" font-family="Arial, sans-serif" font-size="16" fill="#6e7f8d">Source: https://resimanor.com/housing-finance-dsr-data/ · CC BY 4.0</text>
+</svg>
