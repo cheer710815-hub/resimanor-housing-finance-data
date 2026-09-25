@@ -24,6 +24,8 @@
 
 - [PRESS-KIT.md](./PRESS-KIT.md)
 - [EMBED.md](./EMBED.md) — 복사해서 붙여넣을 수 있는 차트·출처 링크 코드
+- [2026 하반기 스트레스 DSR 미디어 브리프](./MEDIA-BRIEF-2026-H2-STRESS-DSR.md)
+- [기사·리포트용 비교 CSV](./media_stress_dsr_h2_2026.csv)
 
 ## Public documentation
 
