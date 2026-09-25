@@ -53,6 +53,8 @@
     "related_data_center": "https://resimanor.com/jeonse-safety-data/",
     "github_repository": "https://github.com/cheer710815-hub/resimanor-housing-finance-data",
     "huggingface": "https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026",
-    "kaggle": "https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026"
+    "kaggle": "https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026",
+    "gitlab_repository": "https://gitlab.com/housing-data-korea-group/resimanor-housing-finance-data",
+    "gitbook_documentation": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/"
   }
 }
