@@ -104,3 +104,8 @@ CSV:
 https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/income_mortgage_limits.csv
 
 Use the JSON endpoint for apps, MCP servers, agents, and web tools that need reproducible example scenarios for stress DSR and mortgage-limit comparisons.
+
+
+## Monthly reference snapshots
+
+- September 2026: https://github.com/cheer710815-hub/resimanor-housing-finance-data/blob/main/reports/2026-09-reference-snapshot.md
