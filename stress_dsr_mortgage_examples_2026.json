@@ -1,0 +1,25 @@
+{
+  "name": "Korea stress DSR mortgage limit examples 2026",
+  "base_date": "2026-09-18",
+  "canonical_source": "https://resimanor.com/housing-finance-dsr-data/",
+  "assumptions": {
+    "dsr_limit_pct": 40,
+    "actual_mortgage_rate_pct": 4.0,
+    "mortgage_term_years": 30,
+    "repayment_method": "equal_principal_interest"
+  },
+  "income_scenarios": [
+    {"annual_income_krw":40000000,"no_stress":279000000,"regional_example":256000000,"capital_regulated_example":200000000},
+    {"annual_income_krw":50000000,"no_stress":349000000,"regional_example":320000000,"capital_regulated_example":250000000},
+    {"annual_income_krw":60000000,"no_stress":419000000,"regional_example":383000000,"capital_regulated_example":301000000},
+    {"annual_income_krw":70000000,"no_stress":489000000,"regional_example":447000000,"capital_regulated_example":351000000},
+    {"annual_income_krw":80000000,"no_stress":559000000,"regional_example":511000000,"capital_regulated_example":401000000},
+    {"annual_income_krw":100000000,"no_stress":698000000,"regional_example":639000000,"capital_regulated_example":501000000}
+  ],
+  "credit_debt_scenarios_for_income_80000000": [
+    {"credit_loan_balance_krw":0,"estimated_mortgage_limit_krw":400800000},
+    {"credit_loan_balance_krw":30000000,"estimated_mortgage_limit_krw":306900000},
+    {"credit_loan_balance_krw":50000000,"estimated_mortgage_limit_krw":244200000},
+    {"credit_loan_balance_krw":100000000,"estimated_mortgage_limit_krw":87700000}
+  ]
+}
