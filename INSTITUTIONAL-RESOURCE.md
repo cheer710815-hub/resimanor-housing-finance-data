@@ -34,6 +34,15 @@ Resimanor provides reusable housing-finance and DSR reference data for education
 
 Resimanor는 금융당국의 공식 기준과 직접 계산값을 구분하고 계산 가정·CSV·DOI를 함께 제공하는 공개 참고자료입니다.
 
+## Suitable education settings
+
+이 자료는 다음과 같은 교육과정의 보조자료로 활용할 수 있습니다.
+
+- 금융기관·금융교육기관의 주택금융·DSR 교육
+- 대학·평생교육원의 부동산금융·프롭테크 수업
+- 중장년 대상 주택구입·대출·자산관리 교육
+- 공공기관의 주거금융·재무설계 교육
+
 ## Suggested link labels
 
 기관·대학·연구실의 관련사이트 목록에서는 다음과 같이 짧게 표기할 수 있습니다.
