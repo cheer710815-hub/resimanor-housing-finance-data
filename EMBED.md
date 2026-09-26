@@ -61,7 +61,7 @@ CC BY 4.0. 재사용 시 출처와 원문 링크를 함께 표시해 주세요.
 
 ```html
 <div data-resimanor-dsr-widget></div>
-<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/resimanor-housing-finance-data@main/widgets/resimanor-dsr-widget.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/resimanor-housing-finance-data@1e5b9492f5a33a62d7a9fe7be29b16903786a43e/widgets/resimanor-dsr-widget.js"></script>
 ```
 
 ### Widget source
