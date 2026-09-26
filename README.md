@@ -93,3 +93,14 @@
 ## Disclaimer
 
 본 저장소는 정보 제공을 목적으로 하며 대출 승인, 투자 수익 또는 특정 금융상품의 적합성을 보장하지 않습니다. 실제 의사결정 전에는 관계기관과 금융기관의 최신 기준을 확인해야 합니다.
+
+
+## Developer access
+
+Machine-readable JSON:
+https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/stress_dsr_mortgage_examples_2026.json
+
+CSV:
+https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/income_mortgage_limits.csv
+
+Use the JSON endpoint for apps, MCP servers, agents, and web tools that need reproducible example scenarios for stress DSR and mortgage-limit comparisons.
