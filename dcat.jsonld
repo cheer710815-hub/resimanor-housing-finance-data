@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@type": "dcat:Catalog",
+  "@id": "https://github.com/cheer710815-hub/resimanor-housing-finance-data",
+  "dct:title": "Resimanor South Korea Housing Finance Data Catalog",
+  "dct:description": "Public reference datasets for South Korea stress DSR and mortgage-limit scenarios.",
+  "dct:publisher": {
+    "@type": "foaf:Agent",
+    "foaf:name": "Resimanor"
+  },
+  "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+  "dct:language": "ko",
+  "dcat:dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://resimanor.com/housing-finance-dsr-data/",
+      "dct:title": "Korea Stress DSR Mortgage Limits by Income 2026",
+      "dct:description": "South Korea housing-finance reference data comparing estimated mortgage limits by annual income under stress-DSR screening scenarios.",
+      "dct:spatial": "South Korea",
+      "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dct:format": "text/csv",
+          "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/income_mortgage_limits.csv"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dct:format": "application/json",
+          "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/stress_dsr_mortgage_examples_2026.json"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://resimanor.com/housing-finance-dsr-data/#credit-debt",
+      "dct:title": "Korea Mortgage Limits by Existing Credit Debt 2026",
+      "dct:description": "South Korea housing-finance reference data showing how existing credit-loan balances affect remaining mortgage capacity under a stress-DSR scenario.",
+      "dct:spatial": "South Korea",
+      "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dct:format": "text/csv",
+          "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/credit_debt_mortgage_limits.csv"
+        }
+      ]
+    }
+  ]
+}
