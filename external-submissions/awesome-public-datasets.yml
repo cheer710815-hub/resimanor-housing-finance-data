@@ -1,0 +1,37 @@
+---
+title: Korea Stress DSR and Mortgage Limit Reference Data 2026
+homepage: https://github.com/cheer710815-hub/resimanor-housing-finance-data
+category: Finance
+description: Open reference data for South Korea's stress DSR framework and reproducible mortgage-limit examples by annual income and existing credit-loan balance. Includes CSV and JSON files, methodology, citation guidance, and canonical source pages.
+version: 1.0
+keywords: Korea housing finance, mortgage, stress DSR, DSR, mortgage limit, 주택담보대출, 스트레스 DSR, 주택금융
+image:
+temporal: 2026
+spatial: South Korea
+access_level: public
+copyrights:
+accrual_periodicity: monthly
+specification:
+data_quality: true
+data_dictionary: https://github.com/cheer710815-hub/resimanor-housing-finance-data/blob/main/datapackage.json
+language: ko,en
+license: CC BY 4.0
+publisher:
+  - name: Resimanor
+    web: https://resimanor.com/
+organization:
+  - name: Resimanor
+    web: https://resimanor.com/
+issued_time: 2026-09
+sources:
+  - name: Income mortgage-limit CSV
+    access_url: https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/income_mortgage_limits.csv
+  - name: Credit-debt mortgage-limit CSV
+    access_url: https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/credit_debt_mortgage_limits.csv
+  - name: Stress DSR JSON
+    access_url: https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/stress_dsr_mortgage_examples_2026.json
+references:
+  - title: Canonical data center
+    reference: https://resimanor.com/housing-finance-dsr-data/
+  - title: Zenodo DOI
+    reference: https://doi.org/10.5281/zenodo.22840870
