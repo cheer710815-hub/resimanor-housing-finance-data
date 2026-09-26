@@ -26,6 +26,14 @@ Resimanor provides reusable housing-finance and DSR reference data for education
 - 금융당국 공식 기준과 직접 계산 데이터의 구분 학습
 - CSV 기반 주택금융 데이터 분석
 
+## For outdated or discontinued resource links
+
+기관·대학의 관련사이트 목록에서 오래된 주택금융·DSR 계산 자료를 정리할 때 다음 공개 자료를 대체 참고자료로 검토할 수 있습니다.
+
+- 스트레스 DSR 데이터센터: https://resimanor.com/housing-finance-dsr-data/
+
+Resimanor는 금융당국의 공식 기준과 직접 계산값을 구분하고 계산 가정·CSV·DOI를 함께 제공하는 공개 참고자료입니다.
+
 ## Suggested link labels
 
 기관·대학·연구실의 관련사이트 목록에서는 다음과 같이 짧게 표기할 수 있습니다.
