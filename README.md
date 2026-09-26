@@ -114,3 +114,8 @@ Use the JSON endpoint for apps, MCP servers, agents, and web tools that need rep
 ## Media brief
 
 - September 2026: https://github.com/cheer710815-hub/resimanor-housing-finance-data/blob/main/media/MEDIA-BRIEF-2026-09.md
+
+
+## Institutional submission kit
+
+- https://github.com/cheer710815-hub/resimanor-housing-finance-data/blob/main/INSTITUTIONAL-SUBMISSION-KIT.md
