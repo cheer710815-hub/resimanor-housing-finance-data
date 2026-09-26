@@ -57,5 +57,28 @@
     "gitlab_repository": "https://gitlab.com/housing-data-korea-group/resimanor-housing-finance-data",
     "gitbook_documentation": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/",
     "dagshub_repository": "https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data"
-  }
+  },
+  "resources": [
+    {
+      "name": "income_mortgage_limits_csv",
+      "path": "income_mortgage_limits.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "2026 Korea stress DSR mortgage limits by annual income"
+    },
+    {
+      "name": "credit_debt_mortgage_limits_csv",
+      "path": "credit_debt_mortgage_limits.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "2026 Korea mortgage limits by existing credit-loan balance"
+    },
+    {
+      "name": "stress_dsr_mortgage_examples_2026_json",
+      "path": "stress_dsr_mortgage_examples_2026.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "2026 Korea stress DSR mortgage-limit examples - JSON"
+    }
+  ]
 }
