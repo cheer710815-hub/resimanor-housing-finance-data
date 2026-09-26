@@ -51,3 +51,23 @@ Resimanor의 공개 차트와 데이터를 기사·블로그·가이드에 사�
 ## License
 
 CC BY 4.0. 재사용 시 출처와 원문 링크를 함께 표시해 주세요.
+
+
+## Interactive widget
+
+스트레스 DSR 한도 예시 위젯을 외부 블로그·교육자료·가이드에 삽입할 수 있습니다. 위젯 하단의 Resimanor 원문 링크를 유지해 주세요.
+
+### HTML embed
+
+```html
+<div data-resimanor-dsr-widget></div>
+<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/resimanor-housing-finance-data@main/widgets/resimanor-dsr-widget.js"></script>
+```
+
+### Widget source
+
+- https://github.com/cheer710815-hub/resimanor-housing-finance-data/blob/main/widgets/resimanor-dsr-widget.js
+
+### Canonical source
+
+- https://resimanor.com/housing-finance-dsr-data/
