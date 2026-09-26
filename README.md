@@ -23,6 +23,7 @@
 ## Educational & institutional resource
 
 - [INSTITUTIONAL-RESOURCE.md](./INSTITUTIONAL-RESOURCE.md) — 대학·연구기관·교육기관용 자료 안내
+- [INSTITUTIONAL-LINK-PLAYBOOK.md](./INSTITUTIONAL-LINK-PLAYBOOK.md) — 기관형 링크 획득 운영 기준
 - 추천 링크명: 스트레스 DSR 데이터센터 / 주택금융·DSR 데이터
 
 ## Media & citation kit
