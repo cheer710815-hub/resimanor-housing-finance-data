@@ -20,6 +20,11 @@
 
 이 저장소는 위 원문 데이터 페이지의 계산 기준, 출처 정책과 재사용 정보를 보조하기 위한 공개 저장소입니다. 최신 설명과 수정 사항은 canonical data source를 우선합니다.
 
+## Educational & institutional resource
+
+- [INSTITUTIONAL-RESOURCE.md](./INSTITUTIONAL-RESOURCE.md) — 대학·연구기관·교육기관용 자료 안내
+- 추천 링크명: 스트레스 DSR 데이터센터 / 주택금융·DSR 데이터
+
 ## Media & citation kit
 
 - [PRESS-KIT.md](./PRESS-KIT.md)
