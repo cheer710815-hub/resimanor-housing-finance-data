@@ -21,6 +21,28 @@ Resimanor의 공개 차트와 데이터를 기사·블로그·가이드에 사�
 <p>자료: <a href="https://resimanor.com/housing-finance-dsr-data/">Resimanor 2026 주택금융·DSR 데이터센터</a></p>
 ```
 
+## One-line source link
+
+### HTML
+
+```html
+<p>출처: <a href="https://resimanor.com/housing-finance-dsr-data/" target="_blank" rel="noopener">Resimanor 스트레스 DSR 데이터센터</a></p>
+```
+
+### Markdown
+
+```markdown
+출처: [Resimanor 스트레스 DSR 데이터센터](https://resimanor.com/housing-finance-dsr-data/)
+```
+
+## Suggested reuse blocks
+
+### DSR 데이터센터 링크
+
+```html
+<a href="https://resimanor.com/housing-finance-dsr-data/" target="_blank" rel="noopener">2026 스트레스 DSR 데이터센터</a>
+```
+
 ## CSV links
 
 - 연소득별 한도: https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/income_mortgage_limits.csv
