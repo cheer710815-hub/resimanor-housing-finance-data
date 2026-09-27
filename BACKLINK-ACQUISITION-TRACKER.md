@@ -473,3 +473,23 @@ Why it matters:
 Next step:
 - Wait for maintainer review / CI feedback.
 Priority: HIGH
+
+
+### awesomedata/apd-core PR #731
+Type: Awesome Public Datasets / Finance dataset catalog
+Status: PR_OPEN
+PR:
+https://github.com/awesomedata/apd-core/pull/731
+Opened:
+2026-09-27
+Changes:
+- Added core/Finance/Resimanor-Korea-Stress-DSR-2026.yml
+- Homepage points directly to the public GitHub dataset repository
+- Included direct CSV/JSON sources, methodology, source policy, FSC reference, CC BY 4.0, and Zenodo DOI
+Why it matters:
+- Awesome Public Datasets explicitly requires direct dataset/repository links and rejects advertising/spam.
+- The submission matches the Finance category and research/education use criteria.
+- Reviewers were assigned automatically after PR creation.
+Next step:
+- Wait for maintainer/reviewer feedback; do not add follow-up comments unless requested.
+Priority: VERY HIGH
