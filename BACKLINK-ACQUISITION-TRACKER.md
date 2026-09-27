@@ -560,27 +560,26 @@ Priority: VERY HIGH
 
 ### European Housing Coop Community Library
 Type: Curated housing research/resource library
-Status: READY_TO_SUBMIT
+Status: SUBMITTED_UNDER_REVIEW
 Target:
 https://www.housingcoop.eu/resources
-Topic fit:
-Housing Finance, Impact Capital & Non-speculative Models
-Verified:
+Submitted:
 2026-09-27
-Finding:
-- European Housing Coop operates an open, crowd-sourced Community Library for housing knowledge, organisations, projects and events.
-- The site explicitly invites users to submit resources.
-- The housing-finance topic page specifically invites research, case studies and other resources related to housing finance, impact capital and non-speculative models.
-Resource fit:
-- Resimanor is a public South Korea housing-finance reference dataset with CSV/JSON files, documented methodology, official FSC source references and DOI-backed archives.
-- Best framing is educational/research reference data for mortgage affordability and stress-DSR scenario analysis, not a commercial website.
-Suggested submission title:
-Resimanor South Korea Stress DSR Housing Finance Reference Data (2026)
-Suggested description:
-Open South Korean housing-finance reference dataset covering stress-DSR mortgage-limit scenarios by income and existing credit debt, with direct CSV/JSON files, methodology, official-source references and DOI-backed archives. Intended for research, education, analysis and software reference use; not lender decisions or live mortgage quotes.
-Preferred destination:
-Housing Finance, Impact Capital & Non-speculative Models
+Submitted resource:
+South Korea Stress DSR Housing Finance Reference Data (2026)
+Submitted link:
+https://github.com/cheer710815-hub/resimanor-housing-finance-data
+Resource type:
+Knowledge
+Share method:
+Link to a Website
+Submission confirmation:
+"Resource Submitted Successfully!" and "Your submission is now under review and will be published once approved by our team."
+Why it matters:
+- European Housing Coop operates an open housing knowledge library for research, policy resources, organisations, projects and events.
+- The housing-finance topic is a direct fit for Resimanor's stress-DSR reference data.
+- Submission linked directly to the public GitHub repository with CSV/JSON, methodology, official-source references and DOI-backed archives.
 Next step:
-- Use the site's Add Resource / Submit a Resource workflow.
-- Do not use email outreach.
+- Wait for editorial review and publication.
+- Do not send follow-up unless requested.
 Priority: VERY HIGH
