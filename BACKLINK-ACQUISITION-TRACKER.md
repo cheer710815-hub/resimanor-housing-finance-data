@@ -513,3 +513,21 @@ Why it matters:
 Next step:
 - Wait for maintainer review; no follow-up comment unless requested.
 Priority: HIGH
+
+
+### Mokwon University broken-link target
+Type: .ac.kr academic resource-page replacement
+Status: VERIFIED_TARGET
+Target page:
+https://www.mokwon.ac.kr/refic/html/sub05/0507.html
+Verified:
+2026-09-27
+Finding:
+- The Department of Real Estate, Finance and Insurance maintains a public related-sites page.
+- The page still lists "스피드뱅크" with an old real21.kr destination.
+- The university's homepage modification board is staff-only, so external users cannot submit the edit directly there.
+Replacement fit:
+- Resimanor housing-finance / stress-DSR dataset is a stronger current educational/reference resource than the obsolete commercial portal link.
+Next step:
+- Hold for a non-email public submission/contact route or a direct institutional relationship.
+Priority: VERY HIGH
