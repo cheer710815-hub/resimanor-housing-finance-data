@@ -129,27 +129,27 @@ AptToSell data center / Resimanor data center.
 
 ### National Housing Conference — Housing Resource Center
 Type: Curated housing resource/data-tool hub
-Status: READY_TO_SUBMIT
+Status: SUBMITTED
 Verified submission form:
 https://hrc.nhc.org/contact-us/
-Verified fields:
-- Full Name
-- Title
-- Organization
-- Work Phone
-- Email Address
-- Suggested Resource Title
-- Suggested Resource Topic Area
-- Suggested Resource Link
-- Comments
+Submitted:
+2026-09-27
+Submitted resource:
+Resimanor South Korea Stress DSR Housing Finance Reference Data (2026)
+Submitted link:
+https://github.com/cheer710815-hub/resimanor-housing-finance-data
+Suggested topic areas:
+Homeownership; Research; Data Tools; Technology
 Why it matters:
 - Maintains a curated housing-policy resource center with a dedicated Data Tools type.
 - Resource entries link users to the original external source.
-- Official form explicitly accepts resource suggestions without requiring prior membership/login.
-Prepared file:
-- external-submissions/nhc-housing-resource-center.md
-Blocker:
-- Actual form submission requires submitter contact details (name/email, and optionally title/phone).
+- Official form explicitly accepts resource suggestions.
+Submission notes:
+- Submitted through the public web form, not by email.
+- Confirmation shown: "Your submission was successful."
+Next step:
+- Wait for editorial review or inclusion.
+- Do not send follow-up unless NHC requests clarification.
 Priority: VERY HIGH
 
 ### MorFi Open Source Housing & Mortgage Data
