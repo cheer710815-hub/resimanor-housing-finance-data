@@ -268,18 +268,34 @@ Constraint:
 
 ### SchemaFinder
 Type: Public dataset search/index + API + MCP
-Status: PREPARED
+Status: VERIFIED_READY_TO_SUBMIT
 Submission:
 https://schemafinder.com/submit
-Why it matters:
-- No-login public dataset submission form is verified.
-- Community submissions go live immediately with a Community badge.
-- Requires an explicit column schema, matching our structured CSVs.
-- Supports dataset discovery plus API/MCP workflows.
-Prepared file:
-- external-submissions/schemafinder.md
+Verified:
+2026-09-27
+Verified fields:
+- Publisher
+- Category
+- Format
+- Geographic scope
+- Update frequency
+- API endpoint (optional)
+- Documentation URL
+- Tags
+- Access: Open or Gated
+- At least one column schema required, up to 100 columns
+- Attribution: anonymous or credited
+- Contact email optional/private
+Fit:
+- Resimanor is openly accessible without signup/payment.
+- Direct CSV/JSON resources and documented methodology are available.
+- Column schema can be supplied directly.
+- South Korea geographic scope and housing-finance category are clear.
+Submission rule:
+- Search first to avoid duplicate URLs; duplicate URLs are rejected automatically.
+Next step:
+- Submit Resimanor first.
 Priority: VERY HIGH
-
 
 ### Awesome Urban Datasets (urban-toolkit)
 Type: Curated public urban-dataset list
