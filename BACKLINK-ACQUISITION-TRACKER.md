@@ -493,3 +493,23 @@ Why it matters:
 Next step:
 - Wait for maintainer/reviewer feedback; do not add follow-up comments unless requested.
 Priority: VERY HIGH
+
+
+### jasonniebauer/awesome-public-data-sources PR #6
+Type: Curated public data source list
+Status: PR_OPEN
+PR:
+https://github.com/jasonniebauer/awesome-public-data-sources/pull/6
+Opened:
+2026-09-27
+Changes:
+- Added Resimanor South Korea Housing Finance Data under Finance & Economics
+- Linked directly to the public GitHub data repository
+- Description highlights CSV/JSON, methodology, and official-source references
+Why it matters:
+- The repository explicitly welcomes public data source PRs.
+- Finance & Economics had an open contribution slot.
+- The contribution is a direct data repository, not a promotional landing page.
+Next step:
+- Wait for maintainer review; no follow-up comment unless requested.
+Priority: HIGH
