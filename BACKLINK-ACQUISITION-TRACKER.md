@@ -583,3 +583,27 @@ Next step:
 - Wait for editorial review and publication.
 - Do not send follow-up unless requested.
 Priority: VERY HIGH
+
+
+### MIT Orbit resource submission
+Type: .edu entrepreneurship resource directory
+Status: READY_TO_SUBMIT
+Target:
+https://orbit.mit.edu/resources/new
+Verified:
+2026-09-27
+Finding:
+- MIT Orbit explicitly invites submission of resources that could benefit the MIT entrepreneurship community.
+- The form supports category "Outside Org" and "Resources".
+- Relevant interests include FinTech, Real Estate, Global, AI and Education.
+- Relevant needs include Research and Advice.
+- The form includes "Not an MIT student", so external-resource relevance is contemplated.
+Resource fit:
+- Resimanor is a public South Korea housing-finance reference dataset with direct CSV/JSON, documented methodology, official FSC references, CC BY 4.0 licensing and DOI archives.
+Best framing:
+- Open research/reference resource for founders, researchers and analysts exploring South Korea housing finance, mortgage affordability and stress-DSR policy.
+Next step:
+- Submit through the public MIT Orbit resource form.
+- Use the GitHub repository as the primary URL.
+- Do not present Resimanor as an MIT-affiliated resource.
+Priority: VERY HIGH
