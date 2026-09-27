@@ -154,7 +154,7 @@ Priority: VERY HIGH
 
 ### MorFi Open Source Housing & Mortgage Data
 Type: Mortgage and housing open-data contribution hub
-Status: SUBMITTED
+Status: UNDER_REVIEW
 Submission route:
 Email to support@morfi.com
 Submitted:
@@ -167,6 +167,12 @@ Submission:
 Next step:
 - Monitor for reply, contribution guidance, or inclusion.
 Priority: HIGH for Resimanor
+
+Reply received: 2026-09-27
+Update:
+- Matthew Miller replied that MorFi mainly focuses on the U.S. mortgage industry but found the South Korean data interesting.
+- MorFi said they will review the dataset and let us know if it is a fit.
+- Sent a brief thank-you reply; no further follow-up until they respond.
 
 ### The Real Deal — Directory of Real Estate Data Sites
 Type: Curated real-estate data-source directory
