@@ -1,6 +1,6 @@
 # Backlink Acquisition Tracker
 
-Updated: 2026-09-26
+Updated: 2026-09-28
 
 This tracker records only legitimate editorial, institutional, open-data, and open-source adoption opportunities for AptToSell and Resimanor.
 
@@ -475,7 +475,7 @@ Priority: VERY HIGH
 
 ### Deal-Scale/awesome-real-estate-investing PR #17
 Type: Curated real-estate investing resource list
-Status: PR_OPEN
+Status: PR_OPEN / BRANCH_REFRESHED_2026-09-28
 PR:
 https://github.com/Deal-Scale/awesome-real-estate-investing/pull/17
 Opened:
@@ -487,8 +487,13 @@ Why it matters:
 - The repository explicitly welcomes PR contributions.
 - The list includes analytics, foundational data, and authoritative research resources.
 - Both submissions disclose maintainer affiliation and link directly to public data repositories.
+Update 2026-09-28:
+- Rebuilt the PR branch from the current upstream master while preserving only the two Korea dataset additions.
+- GitHub compare now reports the branch is 3 commits ahead, 0 behind, with only README.md changed (+2 lines).
+- Canonical links now point directly to AptToSell and Resimanor rather than GitHub repositories.
+
 Next step:
-- Wait for maintainer review / CI feedback.
+- Wait for maintainer review / CI feedback; do not bump the PR.
 Priority: HIGH
 
 
