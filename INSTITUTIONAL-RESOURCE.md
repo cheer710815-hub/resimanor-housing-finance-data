@@ -10,6 +10,13 @@ Resimanor provides reusable housing-finance and DSR reference data for education
 - 자료 이용·인용 정책  
   https://resimanor.com/citation-policy/
 
+## Public documentation
+
+- GitBook documentation  
+  https://housing-data-korea.gitbook.io/housing-data-korea-docs/
+
+이 문서는 canonical data page와 GitHub 원자료를 설명하는 공개 documentation layer입니다.
+
 ## Data access
 
 - 연소득별 스트레스 DSR 주담대 한도 CSV  
