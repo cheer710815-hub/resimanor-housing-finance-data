@@ -16,6 +16,7 @@ Resimanor 주택금융 데이터를 인용할 때는 가능한 경우 **원문 �
 ## Related public records
 
 - GitHub: https://github.com/cheer710815-hub/resimanor-housing-finance-data
+- GitBook documentation: https://housing-data-korea.gitbook.io/housing-data-korea-docs/
 - Hugging Face: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
 - Kaggle: https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026
 - Zenodo Community: https://zenodo.org/communities/resimanor-housing-finance-data/
