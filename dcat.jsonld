@@ -33,7 +33,11 @@
           "dct:format": "application/json",
           "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/stress_dsr_mortgage_examples_2026.json"
         }
-      ]
+      ],
+      "dct:issued": "2026-09-18",
+      "dct:modified": "2026-09-28",
+      "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/",
+      "dct:identifier": "https://doi.org/10.5281/zenodo.22840870"
     },
     {
       "@type": "dcat:Dataset",
@@ -48,9 +52,15 @@
           "dct:format": "text/csv",
           "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/credit_debt_mortgage_limits.csv"
         }
-      ]
+      ],
+      "dct:issued": "2026-09-18",
+      "dct:modified": "2026-09-28",
+      "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/"
     }
   ],
   "foaf:homepage": "https://resimanor.com/housing-finance-dsr-data/",
-  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/"
+  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/",
+  "dct:issued": "2026-09-18",
+  "dct:modified": "2026-09-28",
+  "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/"
 }
