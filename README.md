@@ -1,6 +1,20 @@
 # Resimanor Housing Finance Data
 
-주택 구입에 필요한 자기자금, 대출 한도, 월 상환액과 총비용을 계산하고 검증하기 위한 공개 자료 저장소입니다.
+South Korea's 2026 Stress DSR housing-finance reference data, including income-based mortgage borrowing examples and the effect of existing credit obligations on borrowing capacity.
+
+이 저장소는 대한민국의 2026 스트레스 DSR 제도를 기준으로 연소득별 주택담보대출 한도와 기존 신용대출에 따른 한도 변화를 검증할 수 있도록 정리한 공개 자료입니다. 계산 근거는 금융위원회 등 공식 정책자료를 우선하며, CSV·JSON, 방법론, 출처 정책과 인용 메타데이터를 함께 제공합니다.
+
+## Quick reference
+
+- **Canonical data center:** https://resimanor.com/housing-finance-dsr-data/
+- **Canonical GitHub repository:** https://github.com/cheer710815-hub/resimanor-housing-finance-data
+- **Reference release:** 2026-09-18
+- **Zenodo DOI:** https://doi.org/10.5281/zenodo.22840870
+- **Figshare DOI:** https://doi.org/10.6084/m9.figshare.33948214
+- **Harvard Dataverse DOI:** https://doi.org/10.7910/DVN/Y4J5LD
+- **License:** CC BY 4.0
+
+For current methodology, machine-readable files, updates, and citation information, use the canonical data center and GitHub repository above.
 
 ## Website
 
