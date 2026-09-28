@@ -50,5 +50,7 @@
         }
       ]
     }
-  ]
+  ],
+  "foaf:homepage": "https://resimanor.com/housing-finance-dsr-data/",
+  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/"
 }
