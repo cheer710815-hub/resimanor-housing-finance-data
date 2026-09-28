@@ -36,6 +36,13 @@ Suitable for:
 - 2026 주담대 한도 비교자료
 - 주택금융 교육 참고자료
 
+## Public documentation
+
+GitBook documentation:  
+https://housing-data-korea.gitbook.io/housing-data-korea-docs/
+
+The GitBook site is a public documentation layer for the canonical Resimanor data center and GitHub repository.
+
 ## Data access
 
 JSON:
