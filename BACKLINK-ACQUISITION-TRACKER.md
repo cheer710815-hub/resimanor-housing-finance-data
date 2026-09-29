@@ -125,6 +125,24 @@ Next step:
 - Wait for maintainer response; prepare a project-schema-matched JSON fixture PR only if requested.
 Priority: VERY HIGH
 
+
+### happyendpointhq/awesome-real-estate-apis
+Type: Curated real-estate API/data-source directory
+Status: ACTIVE
+Issue:
+https://github.com/happyendpointhq/awesome-real-estate-apis/issues/2
+Submitted:
+2026-09-29
+Assets:
+- AptToSell South Korea Housing Subscription Data
+- Resimanor South Korea Stress DSR Housing Finance Data
+Why it matters:
+- The repository curates real-estate APIs and data sources by country, including government open data and datasets.
+- Both resources were proposed for Asia Pacific / Datasets, with canonical landing pages, GitHub repositories and DOI archives.
+Next step:
+- Wait for maintainer response; prepare a small README PR if requested.
+Priority: VERY HIGH
+
 ## PREPARED
 
 ### Awesome Public Datasets
