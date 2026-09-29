@@ -529,6 +529,31 @@ Decision:
 - Exclude this target and focus on housing, real-estate, mortgage, public-data, and research catalogs with direct topical fit.
 Priority: EXCLUDED
 
+
+### TechRise Founder Resource Hub
+Type: Founder resource directory / fintech / proptech resource curation
+Status: SUBMITTED_UNDER_REVIEW
+Submitted:
+2026-09-29
+Asset:
+- Resimanor South Korea Stress DSR Housing Finance Reference Data
+Primary URL:
+https://resimanor.com/housing-finance-dsr-data/
+Additional URL:
+https://github.com/cheer710815-hub/resimanor-housing-finance-data
+Submission framing:
+- Category: Advice & Tools
+- Relevant sectors: Fintech; Real Estate / PropTech
+- Cost: Free
+- Geographic scope: Global
+- Contact left blank
+Review model:
+- Submission is reviewed by the site's team before going live.
+Next step:
+- Wait for editorial review/publication.
+- Do not resubmit unless requested.
+Priority: HIGH
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
