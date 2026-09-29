@@ -491,6 +491,22 @@ Prepared file:
 - external-submissions/deal-scale-awesome-real-estate-investing-pr.md
 Priority: MEDIUM
 
+
+### FinDev Gateway
+Type: Financial inclusion content/resource platform
+Status: EXCLUDED_NOT_A_FIT
+Submitted:
+2026-09-26
+Result:
+- Rejected by FinDev Gateway on 2026-09-29.
+- Editorial response stated the submission did not meet FinDev Gateway Guidelines.
+Reason:
+- Resimanor stress-DSR housing-finance reference data is not closely aligned with FinDev Gateway's core financial-inclusion / microfinance scope.
+Decision:
+- Do not resubmit or reframe merely for backlink acquisition.
+- Exclude this target and focus on housing, real-estate, mortgage, public-data, and research catalogs with direct topical fit.
+Priority: EXCLUDED
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
