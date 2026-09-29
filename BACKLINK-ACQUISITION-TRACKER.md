@@ -554,6 +554,28 @@ Next step:
 - Do not resubmit unless requested.
 Priority: HIGH
 
+
+### The Founder Store — AptToSell
+Type: Founder resource directory / proptech tool curation
+Status: SUBMITTED_UNDER_REVIEW
+Submitted:
+2026-09-29
+Asset:
+- AptToSell South Korea Housing Subscription Data & Calculator
+Primary URL:
+https://apttosell.com/housing-subscription-data/
+Submission framing:
+- Platform area: Build Your Workspace
+- Resource type: Platform or tool
+- Positioned as free South Korea housing-subscription reference data plus an 84-point subscription score calculator, with CSV/JSON resources, documented methodology, and DOI-backed archives.
+Submission result:
+- Confirmation shown: "Received."
+- Site states every recommendation is reviewed before anything is listed.
+Next step:
+- Wait for editorial review/publication.
+- Do not resubmit unless requested.
+Priority: HIGH
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
