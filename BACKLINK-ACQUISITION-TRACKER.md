@@ -55,6 +55,24 @@ Next step:
 - Wait for maintainer review; do not bump unless feedback is requested.
 Priority: HIGH
 
+
+### doorijaehyuk/korea-housing-mcp
+Type: Korean housing MCP reference-data adoption
+Status: ACTIVE
+Issue:
+https://github.com/doorijaehyuk/korea-housing-mcp/issues/1
+Submitted:
+2026-09-29
+Assets:
+- AptToSell housing subscription score/deposit reference data
+- Resimanor stress DSR housing-finance reference data
+Why it matters:
+- The MCP combines Korean law, building, and KOSIS sources; the proposed datasets are positioned only as static reference/examples/fixtures, not replacements for live official APIs.
+- The issue links both canonical site pages and offers a repository-structure-matched PR if the maintainer wants it.
+Next step:
+- Wait for maintainer response; prepare a small fixture/documentation PR only if requested.
+Priority: HIGH
+
 ## PREPARED
 
 ### Awesome Public Datasets
