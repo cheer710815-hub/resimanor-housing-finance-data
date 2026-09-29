@@ -143,6 +143,28 @@ Next step:
 - Wait for maintainer response; prepare a small README PR if requested.
 Priority: VERY HIGH
 
+
+### SchemaFinder — AptToSell
+Type: Public dataset search/index + API/MCP discovery
+Status: LIVE
+Submitted:
+2026-09-29
+Asset:
+- AptToSell South Korea Housing Subscription Reference Data
+Canonical URL:
+https://apttosell.com/housing-subscription-data/
+Verification 2026-09-29:
+- Live SchemaFinder dataset page confirmed.
+- Visible attribution: AptToSell Data Project.
+- Visible canonical source link points to https://apttosell.com/housing-subscription-data/
+- Source portal and Documentation buttons are present.
+- 5-column schema is displayed.
+- Tags include South Korea, housing subscription, apartment subscription, cheongyak, subscription score, housing deposit.
+- Geographic Scope currently displays Global.
+Next step:
+- Capture the dataset page URL from the browser address bar for permanent monitoring.
+Priority: VERY HIGH
+
 ## PREPARED
 
 ### Awesome Public Datasets
