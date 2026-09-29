@@ -73,6 +73,23 @@ Next step:
 - Wait for maintainer response; prepare a small fixture/documentation PR only if requested.
 Priority: HIGH
 
+
+### emceeKim/korea-finance-mcp
+Type: Korean finance / real-estate MCP reference-data adoption
+Status: ACTIVE
+Issue:
+https://github.com/emceeKim/korea-finance-mcp/issues/2
+Submitted:
+2026-09-29
+Asset:
+- Resimanor stress DSR housing-finance reference data
+Why it matters:
+- The project already combines ECOS, RTMS, R-ONE, DART and KRX, with deterministic analysis and regression-test emphasis.
+- Resimanor was positioned as a static reference / fixture for documentation, regression testing and cross-checking, not as a replacement for live official APIs or internal logic.
+Next step:
+- Wait for maintainer response; prepare a schema-matched sample file only if requested.
+Priority: HIGH
+
 ## PREPARED
 
 ### Awesome Public Datasets
