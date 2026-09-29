@@ -141,3 +141,15 @@ DCAT 3 JSON-LD:
 https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/dcat.jsonld
 
 This file describes the repository's public datasets and distributions using the W3C Data Catalog Vocabulary (DCAT), so data catalogs, research tools, and agents can discover the dataset metadata in a standard machine-readable form.
+
+## Related housing-subscription resource
+
+- [AptToSell 2026 청약·분양 데이터센터](https://apttosell.com/housing-subscription-data/) — 청약가점, 예치금, 입주자모집공고 확인 기준을 정리한 관련 공개 데이터 문서입니다.
+
+## Publisher identity
+
+- ORCID: https://orcid.org/0009-0006-9445-4768
+- About.me: https://about.me/eunk
+- Gravatar: https://gravatar.com/vegadus2
+- GitHub: https://github.com/cheer710815-hub
+
