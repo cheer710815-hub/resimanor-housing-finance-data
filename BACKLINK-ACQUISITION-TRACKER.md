@@ -1,6 +1,6 @@
 # Backlink Acquisition Tracker
 
-Updated: 2026-09-28
+Updated: 2026-09-29
 
 This tracker records only legitimate editorial, institutional, open-data, and open-source adoption opportunities for AptToSell and Resimanor.
 
@@ -34,6 +34,26 @@ Assets:
 - AptToSell private-housing deposit data
 Goal:
 Static reference dataset for subscription guide / RAG / fixtures.
+
+
+### dougdevitre/access-to-housing
+Type: Housing-data source adoption / international reference
+Status: ACTIVE
+Issues:
+- AptToSell: https://github.com/dougdevitre/access-to-housing/issues/7
+- Resimanor: https://github.com/dougdevitre/access-to-housing/issues/8
+Submitted:
+- AptToSell: 2026-09-27
+- Resimanor: 2026-09-29
+Assets:
+- AptToSell housing subscription score/deposit reference data
+- Resimanor stress DSR housing-finance reference data
+Why it matters:
+- The project accepts data-source suggestions for housing access and global/institutional market context.
+- Both submissions use the canonical site landing pages, with GitHub repositories and DOI archives as supporting sources.
+Next step:
+- Wait for maintainer review; do not bump unless feedback is requested.
+Priority: HIGH
 
 ## PREPARED
 
@@ -506,6 +526,7 @@ Opened:
 2026-09-27
 Changes:
 - Added core/Finance/Resimanor-Korea-Stress-DSR-2026.yml
+- Added core/Finance/AptToSell-Korea-Housing-Subscription-2026.yml on 2026-09-29
 - Homepage points directly to the public GitHub dataset repository
 - Included direct CSV/JSON sources, methodology, source policy, FSC reference, CC BY 4.0, and Zenodo DOI
 Why it matters:
@@ -526,6 +547,7 @@ Opened:
 2026-09-27
 Changes:
 - Added Resimanor South Korea Housing Finance Data under Finance & Economics
+- Added AptToSell South Korea Housing Subscription Data to the same Finance & Economics section on 2026-09-29
 - Linked directly to the public GitHub data repository
 - Description highlights CSV/JSON, methodology, and official-source references
 Why it matters:
