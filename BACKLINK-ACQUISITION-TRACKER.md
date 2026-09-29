@@ -90,6 +90,24 @@ Next step:
 - Wait for maintainer response; prepare a schema-matched sample file only if requested.
 Priority: HIGH
 
+
+### sallim-app/korea-realty
+Type: Korean real-estate MCP reference-data adoption
+Status: ACTIVE
+Issue:
+https://github.com/sallim-app/korea-realty/issues/1
+Submitted:
+2026-09-29
+Assets:
+- AptToSell housing subscription score/deposit reference data
+- Resimanor stress DSR housing-finance reference data
+Why it matters:
+- The project directly covers subscription, transaction data, loan limits, DSR and policy rules.
+- The proposal positions both datasets only as documentation/regression-test/cross-check fixtures, not replacements for live official data or internal policy logic.
+Next step:
+- Wait for maintainer response; prepare test-fixture or documentation PR only if requested.
+Priority: VERY HIGH
+
 ## PREPARED
 
 ### Awesome Public Datasets
