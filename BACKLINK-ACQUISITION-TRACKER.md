@@ -108,6 +108,23 @@ Next step:
 - Wait for maintainer response; prepare test-fixture or documentation PR only if requested.
 Priority: VERY HIGH
 
+
+### verisworks-ai/naejipgak-mcp
+Type: Korean housing-subscription MCP bundled-rule/reference-data adoption
+Status: ACTIVE
+Issue:
+https://github.com/verisworks-ai/naejipgak-mcp/issues/1
+Submitted:
+2026-09-29
+Asset:
+- AptToSell housing subscription score/deposit reference data
+Why it matters:
+- The project runs deterministic Korean apartment-subscription eligibility checks with bundled rule JSON and optional KOSIS evidence.
+- AptToSell was positioned as a bundled-rule cross-check, sample fixture, regression-test expected-value source, and documentation reference rather than a replacement for live notices or KOSIS.
+Next step:
+- Wait for maintainer response; prepare a project-schema-matched JSON fixture PR only if requested.
+Priority: VERY HIGH
+
 ## PREPARED
 
 ### Awesome Public Datasets
