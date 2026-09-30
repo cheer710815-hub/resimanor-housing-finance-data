@@ -29,16 +29,8 @@
       "path": "https://resimanor.com/housing-finance-dsr-data/"
     },
     {
-      "title": "Zenodo DOI",
+      "title": "Canonical Zenodo DOI",
       "path": "https://doi.org/10.5281/zenodo.22840870"
-    },
-    {
-      "title": "Figshare DOI",
-      "path": "https://doi.org/10.6084/m9.figshare.33948214"
-    },
-    {
-      "title": "Harvard Dataverse DOI",
-      "path": "https://doi.org/10.7910/DVN/Y4J5LD"
     }
   ],
   "contributors": [
@@ -56,7 +48,13 @@
     "kaggle": "https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026",
     "gitlab_repository": "https://gitlab.com/housing-data-korea-group/resimanor-housing-finance-data",
     "gitbook_documentation": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/",
-    "dagshub_repository": "https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data"
+    "dagshub_repository": "https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data",
+    "canonical_doi": "https://doi.org/10.5281/zenodo.22840870",
+    "legacy_doi_mirrors": [
+      "https://doi.org/10.6084/m9.figshare.33948214",
+      "https://doi.org/10.7910/DVN/Y4J5LD",
+      "https://doi.org/10.17632/xssjnmrhh4.1"
+    ]
   },
   "resources": [
     {
