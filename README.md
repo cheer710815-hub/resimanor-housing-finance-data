@@ -12,6 +12,7 @@ South Korea's 2026 Stress DSR housing-finance reference data, including income-b
 - **Zenodo DOI:** https://doi.org/10.5281/zenodo.22840870
 - **Figshare DOI:** https://doi.org/10.6084/m9.figshare.33948214
 - **Harvard Dataverse DOI:** https://doi.org/10.7910/DVN/Y4J5LD
+- **Mendeley Data DOI:** https://doi.org/10.17632/xssjnmrhh4.1
 - **License:** CC BY 4.0
 
 For current methodology, machine-readable files, updates, and citation information, use the canonical data center and GitHub repository above.
@@ -29,6 +30,8 @@ For current methodology, machine-readable files, updates, and citation informati
 - Zenodo Community: https://zenodo.org/communities/resimanor-housing-finance-data/
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/Y4J5LD
+- Mendeley Data DOI: https://doi.org/10.17632/xssjnmrhh4.1
+- Mendeley Data record: https://data.mendeley.com/datasets/xssjnmrhh4/1
 - Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
 - Kaggle dataset: https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026
 
