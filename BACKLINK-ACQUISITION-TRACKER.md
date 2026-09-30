@@ -995,9 +995,11 @@ Priority: MEDIUM
 - **Version:** V1.0
 - **Archive:** Inter-university Consortium for Political and Social Research (ICPSR)
 - **License:** CC BY 4.0
-- **Status:** Submitted successfully; awaiting ICPSR staff review and publication confirmation
-- **DOI / public study URL:** Pending
-- **Next action:** After ICPSR publishes the study, add the public study URL and DOI to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
+- **Status:** WITHDRAW / DO NOT PUBLISH AS IDENTICAL COPY
+- **Reason:** ICPSR assigns a DOI to every published study. Publishing this exact dataset would create another DOI for the same research object, conflicting with the canonical-DOI policy adopted after RepOD curator feedback.
+- **Canonical DOI:** https://doi.org/10.5281/zenodo.22840870
+- **Action:** Withdraw/cancel the deposit before publication if the dashboard allows. If withdrawal is not available, ask ICPSR staff to close the submitted deposit without publication.
+- **Do not add:** Any ICPSR DOI for this identical package to README.md, CITATION.cff, datapackage.json, or canonical citation metadata.
 
 
 ## GESIS Archiving BASIS submission
@@ -1007,9 +1009,11 @@ Priority: MEDIUM
 - **Archive:** GESIS Archiving BASIS
 - **License:** CC BY 4.0
 - **Availability:** Free access (without registration)
-- **Status:** Under review — Review by curator
-- **DOI / public dataset URL:** Pending
-- **Next action:** After publication, add the GESIS public record URL and DOI to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
+- **Status:** WITHDRAW / DO NOT PUBLISH AS IDENTICAL COPY
+- **Reason:** GESIS states that every dataset published through GESIS automatically receives a DOI via da|ra. Publishing this exact dataset would create another DOI for the same research object.
+- **Canonical DOI:** https://doi.org/10.5281/zenodo.22840870
+- **Action:** Withdraw/cancel the Archiving BASIS submission before publication if possible. If the interface provides no withdrawal control, request closure without publication through the submission workflow/support channel.
+- **Do not add:** Any GESIS DOI for this identical package to canonical citation metadata.
 
 
 ## RepOD submission
