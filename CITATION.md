@@ -12,9 +12,11 @@ Resimanor 주택금융 데이터를 인용할 때는 가능한 경우 **원문 �
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22840869
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/Y4J5LD
+- Mendeley Data DOI: https://doi.org/10.17632/xssjnmrhh4.1
 
 ## Related public records
 
+- Mendeley Data: https://data.mendeley.com/datasets/xssjnmrhh4/1
 - GitHub: https://github.com/cheer710815-hub/resimanor-housing-finance-data
 - GitBook documentation: https://housing-data-korea.gitbook.io/housing-data-korea-docs/
 - Hugging Face: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
