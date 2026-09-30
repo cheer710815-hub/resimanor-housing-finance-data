@@ -998,3 +998,15 @@ Priority: MEDIUM
 - **Status:** Submitted successfully; awaiting ICPSR staff review and publication confirmation
 - **DOI / public study URL:** Pending
 - **Next action:** After ICPSR publishes the study, add the public study URL and DOI to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
+
+
+## GESIS Archiving BASIS submission
+
+- **Submitted:** 2026-09-30
+- **Study title:** South Korea 2026 Stress DSR Mortgage Limits and Existing Credit Debt Impact Data
+- **Archive:** GESIS Archiving BASIS
+- **License:** CC BY 4.0
+- **Availability:** Free access (without registration)
+- **Status:** Under review — Review by curator
+- **DOI / public dataset URL:** Pending
+- **Next action:** After publication, add the GESIS public record URL and DOI to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
