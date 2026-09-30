@@ -9,10 +9,7 @@ South Korea's 2026 Stress DSR housing-finance reference data, including income-b
 - **Canonical data center:** https://resimanor.com/housing-finance-dsr-data/
 - **Canonical GitHub repository:** https://github.com/cheer710815-hub/resimanor-housing-finance-data
 - **Reference release:** 2026-09-18
-- **Zenodo DOI:** https://doi.org/10.5281/zenodo.22840870
-- **Figshare DOI:** https://doi.org/10.6084/m9.figshare.33948214
-- **Harvard Dataverse DOI:** https://doi.org/10.7910/DVN/Y4J5LD
-- **Mendeley Data DOI:** https://doi.org/10.17632/xssjnmrhh4.1
+- **Canonical DOI (Zenodo):** https://doi.org/10.5281/zenodo.22840870
 - **License:** CC BY 4.0
 
 For current methodology, machine-readable files, updates, and citation information, use the canonical data center and GitHub repository above.
@@ -25,15 +22,21 @@ For current methodology, machine-readable files, updates, and citation informati
 
 - [2026 스트레스 DSR 주택담보대출 데이터](https://resimanor.com/housing-finance-dsr-data/)
 - 기준 공개본: 2026-09-18
-- Zenodo DOI: https://doi.org/10.5281/zenodo.22840870
+- Canonical DOI (Zenodo): https://doi.org/10.5281/zenodo.22840870
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22840869
 - Zenodo Community: https://zenodo.org/communities/resimanor-housing-finance-data/
-- Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
-- Harvard Dataverse DOI: https://doi.org/10.7910/DVN/Y4J5LD
-- Mendeley Data DOI: https://doi.org/10.17632/xssjnmrhh4.1
-- Mendeley Data record: https://data.mendeley.com/datasets/xssjnmrhh4/1
 - Hugging Face dataset: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
 - Kaggle dataset: https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026
+
+## Legacy DOI mirrors
+
+The exact dataset was also deposited in several DOI-minting repositories before the canonical-DOI policy was adopted. These records are retained as legacy mirrors only and should not be used as the preferred citation.
+
+- Figshare: https://doi.org/10.6084/m9.figshare.33948214
+- Harvard Dataverse: https://doi.org/10.7910/DVN/Y4J5LD
+- Mendeley Data: https://doi.org/10.17632/xssjnmrhh4.1
+
+**Preferred citation DOI:** https://doi.org/10.5281/zenodo.22840870
 
 이 저장소는 위 원문 데이터 페이지의 계산 기준, 출처 정책과 재사용 정보를 보조하기 위한 공개 저장소입니다. 최신 설명과 수정 사항은 canonical data source를 우선합니다.
 
