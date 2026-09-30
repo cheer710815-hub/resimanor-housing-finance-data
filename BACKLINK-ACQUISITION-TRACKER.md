@@ -1018,7 +1018,14 @@ Priority: MEDIUM
 - **Study title:** South Korea 2026 Stress DSR Mortgage Limits and Existing Credit Debt Impact Data
 - **Repository:** RepOD (Repository for Open Data)
 - **License:** CC BY 4.0
-- **Status:** Submitted for Review / In Review / Unpublished
+- **Status:** DO NOT PUBLISH / DUPLICATE-DOI CONFLICT
 - **Reserved DOI:** https://doi.org/10.18150/EWFE8K
-- **Related dataset:** Zenodo DOI 10.5281/zenodo.22840870 (identical dataset)
-- **Next action:** After publication, verify the DOI resolves publicly and then add the published RepOD record to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
+- **Reviewer feedback:** RepOD curator advised against publication because the same dataset is already registered in Zenodo; publishing the identical dataset again would create two identical records with different DOI identifiers.
+- **Canonical DOI:** https://doi.org/10.5281/zenodo.22840870
+- **Decision:** Keep Zenodo as the canonical DOI record for this exact dataset. Do not publish an identical full copy in RepOD.
+- **Next action:** If RepOD offers a withdraw/cancel-review control, withdraw the submission; otherwise allow the curator to reject/close it. Do not add the RepOD DOI to README.md, CITATION.md, CITATION.cff, datapackage.json, or external distribution records.
+
+### Repository duplication rule added 2026-09-30
+- Do not submit the exact same dataset package to additional DOI-minting repositories solely for backlinks or extra identifiers.
+- Prefer dataset catalogs, search indexes, institutional resource pages, and citation/adoption surfaces that point to the canonical dataset record.
+- Use another DOI repository only for a genuinely distinct dataset, version, derivative, or separately scoped research object with clear provenance and relationships.
