@@ -986,3 +986,15 @@ Constraint:
 Next step:
 - Capture the final GitLab project URL from the GitLab import-history/project page before treating it as a live public backlink surface.
 Priority: MEDIUM
+
+
+## ICPSR submission
+
+- **Submitted:** 2026-09-30
+- **Study title:** South Korea 2026 Stress DSR Mortgage Limits and Existing Credit Debt Impact Data
+- **Version:** V1.0
+- **Archive:** Inter-university Consortium for Political and Social Research (ICPSR)
+- **License:** CC BY 4.0
+- **Status:** Submitted successfully; awaiting ICPSR staff review and publication confirmation
+- **DOI / public study URL:** Pending
+- **Next action:** After ICPSR publishes the study, add the public study URL and DOI to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
