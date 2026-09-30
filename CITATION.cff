@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite the canonical Resimanor data page and the archived dataset."
+message: "If you use this dataset, cite the canonical Resimanor data page and the canonical Zenodo DOI. Legacy mirror DOIs should not be used as the preferred citation."
 title: "2026 Korea Stress DSR Mortgage Limit Examples"
 type: dataset
 version: "1.0"
@@ -12,13 +12,4 @@ repository-code: "https://github.com/cheer710815-hub/resimanor-housing-finance-d
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22840870"
-    description: "Zenodo version 1.0"
-  - type: doi
-    value: "10.6084/m9.figshare.33948214"
-    description: "Figshare public dataset"
-  - type: doi
-    value: "10.7910/DVN/Y4J5LD"
-    description: "Harvard Dataverse version 1.0"
-  - type: doi
-    value: "10.17632/xssjnmrhh4.1"
-    description: "Mendeley Data version 1"
+    description: "Canonical Zenodo DOI for version 1.0"
