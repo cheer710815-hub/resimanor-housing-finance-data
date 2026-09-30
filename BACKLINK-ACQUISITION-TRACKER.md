@@ -1010,3 +1010,15 @@ Priority: MEDIUM
 - **Status:** Under review — Review by curator
 - **DOI / public dataset URL:** Pending
 - **Next action:** After publication, add the GESIS public record URL and DOI to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
+
+
+## RepOD submission
+
+- **Submitted:** 2026-09-30
+- **Study title:** South Korea 2026 Stress DSR Mortgage Limits and Existing Credit Debt Impact Data
+- **Repository:** RepOD (Repository for Open Data)
+- **License:** CC BY 4.0
+- **Status:** Submitted for Review / In Review / Unpublished
+- **Reserved DOI:** https://doi.org/10.18150/EWFE8K
+- **Related dataset:** Zenodo DOI 10.5281/zenodo.22840870 (identical dataset)
+- **Next action:** After publication, verify the DOI resolves publicly and then add the published RepOD record to README.md, CITATION.md, CITATION.cff, datapackage.json, and external distribution records.
