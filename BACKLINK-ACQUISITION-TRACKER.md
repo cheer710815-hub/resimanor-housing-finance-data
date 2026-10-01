@@ -1033,3 +1033,21 @@ Priority: MEDIUM
 - Do not submit the exact same dataset package to additional DOI-minting repositories solely for backlinks or extra identifiers.
 - Prefer dataset catalogs, search indexes, institutional resource pages, and citation/adoption surfaces that point to the canonical dataset record.
 - Use another DOI repository only for a genuinely distinct dataset, version, derivative, or separately scoped research object with clear provenance and relationships.
+
+
+## RePEc archive
+
+- **Accepted by RePEc:** 2026-09-30
+- **Archive code:** gyv
+- **Archive handle:** RePEc:gyv
+- **Series:** Resimanor Housing Finance Research Notes
+- **Series handle:** RePEc:gyv:resfin
+- **Archive directory:** https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/
+- **Archive template:** gyvarch.rdf
+- **Series template:** gyvseri.rdf
+- **First paper template:** resfin/gyv0001.rdf
+- **First research note:** South Korea 2026 Stress DSR Mortgage Limits: A Reproducible Reference Note
+- **Underlying canonical dataset DOI:** https://doi.org/10.5281/zenodo.22840870
+- **Hosting:** GitHub Pages, with index.html files in the archive and series directories for RePEc mirroring.
+- **Status:** Metadata and hosting prepared; Pages deployment in progress as of 2026-10-01.
+- **Next action:** After the Pages URL is confirmed accessible, send the archive-directory URL to Christopher Baum/RePEc for mirroring.
