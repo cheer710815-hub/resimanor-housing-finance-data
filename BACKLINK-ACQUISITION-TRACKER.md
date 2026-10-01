@@ -1049,5 +1049,6 @@ Priority: MEDIUM
 - **First research note:** South Korea 2026 Stress DSR Mortgage Limits: A Reproducible Reference Note
 - **Underlying canonical dataset DOI:** https://doi.org/10.5281/zenodo.22840870
 - **Hosting:** GitHub Pages, with index.html files in the archive and series directories for RePEc mirroring.
-- **Status:** Metadata and hosting prepared; Pages deployment in progress as of 2026-10-01.
-- **Next action:** After the Pages URL is confirmed accessible, send the archive-directory URL to Christopher Baum/RePEc for mirroring.
+- **Status:** SUBMITTED TO REPEC FOR MIRRORING — GitHub Pages deployment completed successfully and the archive-directory URL was sent to Christopher Baum/RePEc on 2026-10-01.
+- **Submission thread:** Replied in the original RePEc archive-handle email thread.
+- **Next action:** Wait for RePEc mirroring/indexing confirmation; then verify the series/item in IDEAS/RePEc and add the public RePEc record URL.
