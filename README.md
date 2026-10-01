@@ -53,6 +53,16 @@ The exact dataset was also deposited in several DOI-minting repositories before 
 - [2026 하반기 스트레스 DSR 미디어 브리프](./MEDIA-BRIEF-2026-H2-STRESS-DSR.md)
 - [기사·리포트용 비교 CSV](./media_stress_dsr_h2_2026.csv)
 
+
+## Research indexing
+
+- RePEc archive: https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/
+- Archive handle: `RePEc:gyv`
+- Series handle: `RePEc:gyv:resfin`
+- Series: Resimanor Housing Finance Research Notes
+
+The RePEc archive directory contains the archive template, series template, and paper templates used for research-indexing and mirroring. The public archive URL has been submitted to the RePEc archive maintainer for inclusion.
+
 ## Public documentation
 
 - [DagsHub public repository](https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data)
