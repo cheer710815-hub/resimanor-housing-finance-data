@@ -35,7 +35,7 @@
         }
       ],
       "dct:issued": "2026-09-18",
-      "dct:modified": "2026-09-28",
+      "dct:modified": "2026-10-04",
       "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/",
       "dct:identifier": "https://doi.org/10.5281/zenodo.22840870"
     },
@@ -54,13 +54,13 @@
         }
       ],
       "dct:issued": "2026-09-18",
-      "dct:modified": "2026-09-28",
+      "dct:modified": "2026-10-04",
       "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/"
     }
   ],
   "foaf:homepage": "https://resimanor.com/housing-finance-dsr-data/",
-  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/",
+  "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/resimanor-housing-finance/",
   "dct:issued": "2026-09-18",
-  "dct:modified": "2026-09-28",
+  "dct:modified": "2026-10-04",
   "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/"
 }
