@@ -4,7 +4,7 @@
   "title": "2026 Korea Housing Finance and Stress DSR Data",
   "description": "Public reference data for Korean mortgage limits, stress DSR, housing purchase cash requirements, repayment examples and housing finance calculations maintained by Resimanor.",
   "homepage": "https://resimanor.com/housing-finance-dsr-data/",
-  "version": "1.0",
+  "version": "1.1",
   "created": "2026-09-18",
   "licenses": [
     {
@@ -47,14 +47,16 @@
     "huggingface": "https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026",
     "kaggle": "https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026",
     "gitlab_repository": "https://gitlab.com/housing-data-korea-group/resimanor-housing-finance-data",
-    "gitbook_documentation": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/",
+    "gitbook_documentation": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/resimanor-housing-finance/",
     "dagshub_repository": "https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data",
     "canonical_doi": "https://doi.org/10.5281/zenodo.22840870",
     "legacy_doi_mirrors": [
       "https://doi.org/10.6084/m9.figshare.33948214",
       "https://doi.org/10.7910/DVN/Y4J5LD",
       "https://doi.org/10.17632/xssjnmrhh4.1"
-    ]
+    ],
+    "repec_archive": "https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/",
+    "orcid": "https://orcid.org/0009-0006-9445-4768"
   },
   "resources": [
     {
