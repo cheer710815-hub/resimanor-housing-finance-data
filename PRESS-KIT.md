@@ -6,6 +6,7 @@
 
 - 2026 주택금융·DSR 데이터센터: https://resimanor.com/housing-finance-dsr-data/
 - 자료 이용·인용 정책: https://resimanor.com/citation-policy/
+- Canonical DOI: https://doi.org/10.5281/zenodo.22840870
 
 ## What can be cited
 
@@ -39,6 +40,10 @@ Resimanor, "2026 스트레스 DSR 주택담보대출 데이터", https://resiman
 - GitBook: https://housing-data-korea.gitbook.io/housing-data-korea-docs/
 - GitLab: https://gitlab.com/housing-data-korea-group/resimanor-housing-finance-data
 - DagsHub: https://dagshub.com/cheer710815-hub/resimanor-housing-finance-data
+- Hugging Face: https://huggingface.co/datasets/eunguneun/korea-stress-dsr-mortgage-limit-2026
+- Kaggle: https://www.kaggle.com/datasets/resimanor/korea-stress-dsr-mortgage-limit-2026
+- RePEc archive: https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/
+- GitBook: https://housing-data-korea.gitbook.io/housing-data-korea-docs/resimanor-housing-finance/
 
 ## Suggested institutional link labels
 
