@@ -632,8 +632,12 @@ Submission result:
 - Dataset is searchable immediately on SchemaFinder.
 Persistent identifier:
 https://doi.org/10.6084/m9.figshare.34064439
+Public dataset page:
+https://schemafinder.com/dataset/c-1791120376-dsjx89
+Verified:
+2026-10-04
 Next step:
-- Capture the final public SchemaFinder dataset URL from the "View dataset" page.
+- Monitor only for future indexing/visibility changes; no resubmission needed.
 Priority: VERY HIGH
 
 ## EXCLUDED / DO NOT USE
