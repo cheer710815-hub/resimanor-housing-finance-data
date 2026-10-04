@@ -580,7 +580,7 @@ Priority: HIGH
 
 ### connu/awesome-datasets — South Korea real-estate-and-housing
 Type: Curated public dataset catalog
-Status: PREPARED_MANUAL_ISSUE
+Status: SUBMITTED_UNDER_REVIEW
 Verified:
 2026-10-04
 Target:
@@ -593,12 +593,19 @@ Finding:
 - South Korea is not yet present in the catalog country list, so acceptance would also add a new country to the Real Estate & Housing topic.
 Prepared submission:
 https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/external-submissions/connu-awesome-datasets-issue.md
-Connector result:
-- Automated issue creation attempted 2026-10-04.
-- GitHub returned 403 Resource not accessible by integration.
+Submission:
+- Submitted manually on 2026-10-04.
+- Issue: https://github.com/connu/awesome-datasets/issues/2
+- Title: [dataset] South Korea Apartment Subscription Competition and Follow-up Supply 2026
+- Canonical URL used: https://apttosell.com/%EC%B2%AD%EC%95%BD-%EA%B2%BD%EC%9F%81%EB%A5%A0/
+- Topic: real-estate-and-housing
+- Country: kr
+- License: CC BY 4.0
+- Access: Direct download, no account
 Next step:
-- Open a manual GitHub issue using the prepared title/body.
-- If maintainer confirms fit, prepare schema JSON + KR country entry + generated outputs in a PR.
+- Wait for maintainer review.
+- Do not add follow-up comments unless clarification is requested.
+- If accepted, prepare schema JSON + KR country entry + generated outputs in a PR.
 Priority: VERY HIGH
 
 ## EXCLUDED / DO NOT USE
