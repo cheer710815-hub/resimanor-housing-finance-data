@@ -6,3 +6,12 @@ Maintainer-Name: Eun Kim
 Maintainer-Email: cheer710815@gmail.com
 Type: ReDIF-Paper
 Handle: RePEc:gyv:resfin
+
+Template-Type: ReDIF-Series 1.0
+Name: AptToSell Housing Subscription Research Notes
+Provider-Name: AptToSell
+Provider-Homepage: https://apttosell.com/
+Maintainer-Name: Eun Kim
+Maintainer-Email: cheer710815@gmail.com
+Type: ReDIF-Paper
+Handle: RePEc:gyv:aptsub
