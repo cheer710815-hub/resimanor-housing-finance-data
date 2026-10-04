@@ -608,6 +608,34 @@ Next step:
 - If accepted, prepare schema JSON + KR country entry + generated outputs in a PR.
 Priority: VERY HIGH
 
+
+
+### SchemaFinder — AptToSell 2026 competition/follow-up dataset
+Type: Public dataset search/index + API/MCP discovery
+Status: LIVE
+Submitted:
+2026-10-04
+Asset:
+- Korea Apartment Subscription Competition and Follow-up Supply Analysis, 2026 Jan–Sep
+Canonical URL:
+https://apttosell.com/%EC%B2%AD%EC%95%BD-%EA%B2%BD%EC%9F%81%EB%A5%A0/
+Coverage:
+- 196 apartment presale projects
+- Competition-rate coverage for 193 projects
+- 18 documented columns
+License:
+CC BY 4.0
+Access:
+Open
+Submission result:
+- SchemaFinder confirmation displayed: "Submission live"
+- Dataset is searchable immediately on SchemaFinder.
+Persistent identifier:
+https://doi.org/10.6084/m9.figshare.34064439
+Next step:
+- Capture the final public SchemaFinder dataset URL from the "View dataset" page.
+Priority: VERY HIGH
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
