@@ -640,6 +640,31 @@ Next step:
 - Monitor only for future indexing/visibility changes; no resubmission needed.
 Priority: VERY HIGH
 
+
+
+### 공공데이터포털 활용사례 — AptToSell 2026 경쟁률·후속공급 분석
+Type: Korean government public-data utilization case / institutional discovery
+Status: PREPARED_MANUAL_SUBMISSION
+Verified:
+2026-10-04
+Target:
+https://www.data.go.kr/data/15098547/openapi.do
+Source dataset:
+한국부동산원_청약홈 분양정보 조회 서비스
+Why it matters:
+- The official Data.go.kr dataset page exposes a dedicated 활용사례 (use-case) function.
+- Data.go.kr separately maintains and republishes recent utilization-case metadata, including websites and apps built with public data.
+- This places the AptToSell analysis in an official public-data usage context rather than a generic backlink directory.
+Asset:
+https://apttosell.com/%EC%B2%AD%EC%95%BD-%EA%B2%BD%EC%9F%81%EB%A5%A0/
+Prepared submission:
+https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/external-submissions/data-go-kr-utilization-case-2026.md
+Next step:
+- Log in to Data.go.kr.
+- Open the 한국부동산원 청약홈 분양정보 조회 서비스 page and choose 활용사례.
+- Submit as a website/public-data analysis use case using the prepared text.
+Priority: VERY HIGH
+
 ## EXCLUDED / DO NOT USE
 
 - Mass email outreach
