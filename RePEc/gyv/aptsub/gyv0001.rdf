@@ -1,0 +1,15 @@
+Template-Type: ReDIF-Paper 1.0
+Author-Name: Eun Kim
+Author-Name-First: Eun
+Author-Name-Last: Kim
+Author-Workplace-Name: AptToSell
+Title: South Korea 2026 Apartment Subscription Competition and Follow-up Supply: Project-Level Evidence
+Abstract: This research note links South Korean apartment presale announcements from January through September 2026 with first-priority subscription competition rates, presale-price information, and later residual, unsold, or optional-supply announcements. The final cohort contains 196 projects, with competition-rate coverage for 193 projects. Among 44 projects with first-priority competition rates of at least 10 to 1, 19 later recorded follow-up supply, corresponding to a simple observed rate of 43.2 percent. Restricting the denominator to projects with at least 60 days of observation yields 13 follow-up events among 36 eligible projects, or 36.1 percent. Follow-up supply is an observed subsequent supply announcement and should not be interpreted as a contract-failure or non-contract rate. The note is accompanied by project-level CSV data, summary tables, a data dictionary, and methodology.
+Creation-Date: 2026-10-04
+Number: 1
+Classification-JEL: R21, R31, C81
+Keywords: South Korea, apartment, housing subscription, presale, competition rate, follow-up supply, residual supply
+Note: Project-level data and methodology are publicly available from AptToSell. Figshare DOI: 10.6084/m9.figshare.34064439
+Handle: RePEc:gyv:aptsub:1
+File-URL: https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/
+File-Format: text/html
