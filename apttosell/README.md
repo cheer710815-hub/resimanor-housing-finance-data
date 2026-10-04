@@ -11,9 +11,24 @@ AptToSell의 청약·분양 데이터 문서 공간입니다. 주택공급 관�
 * **Zenodo DOI:** https://doi.org/10.5281/zenodo.22842058
 * **Figshare DOI:** https://doi.org/10.6084/m9.figshare.33948556
 * **Harvard Dataverse DOI:** https://doi.org/10.7910/DVN/TSALWZ
+* **2026 경쟁률·후속공급 분석 DOI:** https://doi.org/10.6084/m9.figshare.34064439
 * **License:** CC BY 4.0
 
 This GitBook space is the documentation layer within Housing Data Korea Docs. For versioned machine-readable files, methodology, source metadata, and updates, use the canonical GitHub repository above.
+
+## Featured derived dataset
+
+* [2026 아파트 청약 경쟁률과 후속공급 분석](https://apttosell.com/%ec%b2%ad%ec%95%bd-%ea%b2%bd%ec%9f%81%eb%a5%a0/)
+* Project-level cohort: **196 projects**
+* Competition-rate coverage: **193 projects**
+* First-priority competition ≥10:1: **44 projects**
+* Follow-up supply observed among them: **19 projects (43.2%)**
+* 60-day observed rate: **36.1%**
+* Figshare DOI: https://doi.org/10.6084/m9.figshare.34064439
+* Hugging Face: https://huggingface.co/datasets/eunguneun/korea-apartment-subscription-followup-supply-2026
+* [Detailed documentation](FOLLOWUP-ANALYSIS-2026.md)
+
+> 후속공급 발생은 미계약률 또는 계약 실패율을 의미하지 않습니다.
 
 ## Canonical pages
 
