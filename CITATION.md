@@ -26,3 +26,14 @@ Resimanor 주택금융 데이터를 인용할 때는 가능한 경우 **원문 �
 ## Reuse policy
 
 재사용 범위와 출처 표시 원칙은 [Resimanor 자료 이용·인용 정책](https://resimanor.com/citation-policy/)을 확인해 주세요. 저장소의 라이선스 표기는 CC BY 4.0입니다.
+
+
+## Research pilot citation
+
+> Kim, Eun. (2026). *South Korea Housing Recruitment Notice Correction History 2026 — Pilot* (Version 0.1-pilot). Resimanor GitHub repository.
+
+- Pilot documentation: https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/recruitment-notice-corrections-2026
+- Public-ready pilot CSV: https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/datasets/recruitment-notice-corrections-2026/correction-events-public-pilot-2026-10-05.csv
+- Snapshot date: 2026-10-05
+- DOI: not assigned because this is a bounded, non-exhaustive pilot
+- License for Resimanor-created metadata/derived fields: CC BY 4.0
