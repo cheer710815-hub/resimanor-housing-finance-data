@@ -34,6 +34,7 @@ Later residual-unit, first-come sales, reduced-deposit, cashback, or revised fin
 - **Zenodo Version 1.0 DOI:** https://doi.org/10.5281/zenodo.23157055
 - **Zenodo all-versions DOI:** https://doi.org/10.5281/zenodo.23157054
 - **Canonical AptToSell page:** https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/
+- **English AptToSell dataset page:** https://apttosell.com/korea-apartment-pre-move-in-funding-dataset-2026/
 - **Dataset repository:** https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/initial-contract-cash-2026
 - **Public CSV:** https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/initial-contract-cash-2026/apttosell-initial-cash-publication-ready-2026-10-05.csv
 - **Frictionless metadata:** https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/initial-contract-cash-2026/datapackage.json
