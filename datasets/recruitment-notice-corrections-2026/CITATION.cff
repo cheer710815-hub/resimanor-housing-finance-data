@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this pilot dataset, cite the repository and pilot title. This is not a DOI release."
+title: "South Korea Housing Recruitment Notice Correction History 2026 — Pilot"
+type: dataset
+authors:
+  - family-names: Kim
+    given-names: Eun
+    orcid: "https://orcid.org/0009-0006-9445-4768"
+    affiliation: "Resimanor"
+version: "0.1-pilot"
+date-released: "2026-10-05"
+license: "CC-BY-4.0"
+url: "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/recruitment-notice-corrections-2026"
+repository-code: "https://github.com/cheer710815-hub/resimanor-housing-finance-data"
