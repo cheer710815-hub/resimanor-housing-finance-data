@@ -4,17 +4,17 @@ AptToSell 데이터를 인용할 때는 가능한 경우 **원문 데이터 페�
 
 ## Recommended citation
 
-> AptToSell, "2026 청약가점 84점 데이터표", https://apttosell.com/cheongyak-score-data/
+> AptToSell, "2026 청약가점 84점 데이터표", https://apttosell.com/cheongyak-score-data/. DOI: https://doi.org/10.5281/zenodo.22842058
 
-## Persistent identifiers
+## Canonical identifiers
 
 - Zenodo version DOI: https://doi.org/10.5281/zenodo.22842058
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22842057
+
+## Archival mirrors and related public records
+
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948556
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/TSALWZ
-
-## Related public records
-
 - GitHub: https://github.com/cheer710815-hub/apttosell-subscription-data
 - Hugging Face: https://huggingface.co/datasets/eunguneun/korea-housing-subscription-score-2026
 - Kaggle: https://www.kaggle.com/datasets/resimanor/korea-housing-subscription-score-2026
