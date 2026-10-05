@@ -4,13 +4,16 @@
 
 | Field | Meaning |
 |---|---|
-| house_manage_no | ApplyHome housing management number |
-| pblanc_no | Recruitment notice number where available |
+| source_system | Official source system, e.g. ApplyHome or LH청약플러스 |
+| original_record_id | Official source identifier for the original notice where available |
+| correction_record_id | Official source identifier for the correction notice where available |
+| house_manage_no | ApplyHome housing management number where available |
+| pblanc_no | ApplyHome recruitment notice number where available |
 | project_name | Project / housing name |
 | region | Province or metropolitan region |
 | original_announcement_date | Initial recruitment notice publication date |
-| correction_date | Official correction publication/effective date |
-| correction_sequence | 1, 2, 3... within the project |
+| correction_date | Official correction publication date |
+| correction_sequence | 1, 2, 3... within the project/source series |
 | change_category | High-level category of the correction |
 | field_name | Specific field or item changed |
 | old_value | Verified value before correction |
@@ -33,6 +36,7 @@
 - application_contract_date
 - project_information
 - contact_information
+- specification
 - other
 
 ## Public-release rule
