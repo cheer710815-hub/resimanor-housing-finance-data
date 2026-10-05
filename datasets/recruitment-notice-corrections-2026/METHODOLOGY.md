@@ -91,3 +91,8 @@ Draft files must not be cited as a final dataset.
 ## 9. License
 
 Planned license for Resimanor-created metadata and derived fields: CC BY 4.0, subject to final source and rights review.
+
+
+## 10. Publication-date completeness rule
+
+A correction row may have fully verified before/after values but still remain outside the conservative public subset when the official correction publication date cannot be independently established from the public source. In that case, use `partial_evidence`, leave `correction_date` blank, and explain the missing element in `evidence_note`.
