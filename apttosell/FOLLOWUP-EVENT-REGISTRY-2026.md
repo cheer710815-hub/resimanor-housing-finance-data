@@ -70,10 +70,10 @@ The first-pass event discovery queue is now fully screened.
 
 - First-event rows: **103**
 - Evidence-reviewed: **103 / 103**
-- Numeric follow-up notice IDs recovered: **95**
+- Numeric first follow-up notice IDs recovered: **103 / 103**
 - `PRIMARY_VERIFIED`: **1**
-- `ID_CORROBORATED_SECONDARY`: **94**
-- `SECONDARY_CORROBORATED`: **8**
+- `ID_CORROBORATED_SECONDARY`: **102**
+- `SECONDARY_CORROBORATED`: **0**
 - Remaining discovery TODO: **0**
 
 This milestone means the discovery/reconciliation pass is complete. It does not mean all events have direct official-source verification.
@@ -82,3 +82,17 @@ The next layer is **primary-source promotion**: locating the original ApplyHome/
 
 - Crosswalk: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv
 - Progress: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFICATION-PROGRESS.md
+
+
+## Primary-promotion access audit
+
+All remaining **102 non-primary** first-event rows have now been audited for promotion readiness.
+
+- Numeric first-event notice ID: **102 / 102**
+- Constructed official ApplyHome detail URL candidate: **102 / 102**
+- Direct ApplyHome detail access in the current web environment: **0 / 102**
+- Already direct-primary verified: **1**
+
+The official ApplyHome endpoint is not accessible through the current web tool, so these rows remain `ID_CORROBORATED_SECONDARY` rather than being overstated as primary-verified.
+
+The discovery problem is now closed: **103 / 103 first-event notice IDs are known**. The remaining work is purely official-artifact access and source-grade promotion.
