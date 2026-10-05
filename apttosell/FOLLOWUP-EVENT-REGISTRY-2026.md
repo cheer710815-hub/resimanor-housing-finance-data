@@ -71,8 +71,8 @@ The first-pass event discovery queue is now fully screened.
 - First-event rows: **103**
 - Evidence-reviewed: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **3**
-- `ID_CORROBORATED_SECONDARY`: **100**
+- `PRIMARY_VERIFIED`: **5**
+- `ID_CORROBORATED_SECONDARY`: **98**
 - `SECONDARY_CORROBORATED`: **0**
 - Remaining discovery TODO: **0**
 
@@ -110,4 +110,15 @@ A separate conservative CSV contains only these direct-primary rows:
 
 https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv
 
-The remaining 100 events retain corroborated status until an official artifact can be directly inspected.
+The remaining 98 events retain corroborated status until an official artifact can be directly inspected.
+
+
+### First-event ID correction from an official artifact
+
+**드파인 아르티아** was promoted after direct inspection of the official SK DEFINE no-priority recruitment notice PDF.
+
+- Correct first-event notice ID: `2026910214`
+- Notice date: 2026-08-07
+- Residual supply: 15 units
+
+The previously recovered `2026910233` was confirmed to be a later second no-priority notice and is retained only as later-event history.
