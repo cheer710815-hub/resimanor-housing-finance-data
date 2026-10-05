@@ -2,14 +2,23 @@
 
 AptToSell 데이터를 인용할 때는 가능한 경우 **원문 데이터 페이지와 보존 DOI를 함께 표시**해 주세요.
 
-## Recommended citation
+## Housing subscription score dataset
 
 > AptToSell, "2026 청약가점 84점 데이터표", https://apttosell.com/cheongyak-score-data/. DOI: https://doi.org/10.5281/zenodo.22842058
 
-## Canonical identifiers
-
 - Zenodo version DOI: https://doi.org/10.5281/zenodo.22842058
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22842057
+
+## Korea Apartment Pre-Move-In Funding Dataset 2026
+
+> Kim, Eun. (2026). *Korea Apartment Pre-Move-In Funding Dataset 2026* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23157055
+
+- Canonical analysis: https://apttosell.com/%ec%95%84%ed%8c%8c%ed%8a%b8-%ec%9e%85%ec%a3%bc-%ec%a0%84-%ed%95%84%ec%9a%94%ec%9e%90%ea%b8%88/
+- English dataset page: https://apttosell.com/korea-apartment-pre-move-in-funding-dataset-2026/
+- Zenodo Version 1.0 DOI: https://doi.org/10.5281/zenodo.23157055
+- Zenodo all-versions DOI: https://doi.org/10.5281/zenodo.23157054
+- GitHub package: https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/initial-contract-cash-2026
+- License: CC BY 4.0
 
 ## Archival mirrors and related public records
 
