@@ -27,6 +27,8 @@ A verified payment-schedule correction is also included for **인천가정2 B2�
 
 The seed file now also includes two verified specification-change events from **인천계양 A6블록 공공분양주택**. The official LH correction notice explicitly provides both the original and changed bathroom-option labels for the affected housing types.
 
+Two additional **남양주왕숙2 A-3BL 공공분양주택** correction rows are retained as `partial_evidence`. The official LH correction page explicitly shows the before/after income threshold (9,906,236 → 9,906,263) and the service-area label change, but the parsed public page does not expose a correction publication date. They remain outside the conservative public-ready subset until that date is independently verified.
+
 A fourth candidate from **영천문외 센트럴타운 공공분양주택** is retained as `partial_evidence`: the official correction page explicitly states that stamp-duty cost-sharing content was added and required documents were revised, but the full before/after wording has not yet been reconstructed. It is therefore excluded from the conservative public-ready subset.
 
 ## Planned unit of observation
