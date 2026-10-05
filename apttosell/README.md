@@ -60,7 +60,7 @@ This identity layer is intended as a cross-dataset join key and does not alter p
 * Stable project-ID matches: **103/103**
 * Evidence-review queue: **103/103 screened**
 * Numeric first follow-up notice IDs recovered: **103/103**
-* Primary-verified events: **5**
+* Primary-verified events: **6**
 * DOI: not assigned
 * [Detailed documentation](FOLLOWUP-EVENT-REGISTRY-2026.md)
 
@@ -122,7 +122,7 @@ The Follow-Up Event Registry has completed notice-ID discovery for **103/103** f
 
 ### Primary-verified event subset
 
-The Follow-Up Event Registry now has a conservative **5-event direct-primary subset** based on official project-hosted recruitment notice artifacts. The remaining 98 events are not promoted beyond corroborated status without direct official-artifact inspection.
+The Follow-Up Event Registry now has a conservative **6-event direct-primary subset** based on official project-hosted recruitment notice artifacts. The remaining 97 events are not promoted beyond corroborated status without direct official-artifact inspection.
 
 
 The current primary subset also includes **드파인 아르티아**, where the official SK DEFINE notice corrected the first-event ID from a later secondary-recovered notice to `2026910214`.
