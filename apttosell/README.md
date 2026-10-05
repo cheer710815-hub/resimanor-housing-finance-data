@@ -60,7 +60,7 @@ This identity layer is intended as a cross-dataset join key and does not alter p
 * Stable project-ID matches: **103/103**
 * Evidence-review queue: **103/103 screened**
 * Numeric first follow-up notice IDs recovered: **103/103**
-* Primary-verified events: **1**
+* Primary-verified events: **3**
 * DOI: not assigned
 * [Detailed documentation](FOLLOWUP-EVENT-REGISTRY-2026.md)
 
@@ -118,3 +118,8 @@ https://github.com/cheer710815-hub/apttosell-subscription-data
 ### Primary-promotion access blocker
 
 The Follow-Up Event Registry has completed notice-ID discovery for **103/103** first events. One event is direct-primary verified; the remaining 102 have corroborated numeric notice IDs but still require direct official-artifact inspection before promotion.
+
+
+### Primary-verified event subset
+
+The Follow-Up Event Registry now has a conservative **3-event direct-primary subset** based on official project-hosted recruitment notice artifacts. The remaining 100 events are not promoted beyond corroborated status without direct official-artifact inspection.
