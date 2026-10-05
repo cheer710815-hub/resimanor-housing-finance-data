@@ -71,8 +71,8 @@ The first-pass event discovery queue is now fully screened.
 - First-event rows: **103**
 - Evidence-reviewed: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **5**
-- `ID_CORROBORATED_SECONDARY`: **98**
+- `PRIMARY_VERIFIED`: **6**
+- `ID_CORROBORATED_SECONDARY`: **97**
 - `SECONDARY_CORROBORATED`: **0**
 - Remaining discovery TODO: **0**
 
@@ -110,7 +110,7 @@ A separate conservative CSV contains only these direct-primary rows:
 
 https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv
 
-The remaining 98 events retain corroborated status until an official artifact can be directly inspected.
+The remaining 97 events retain corroborated status until an official artifact can be directly inspected.
 
 
 ### First-event ID correction from an official artifact
@@ -122,3 +122,6 @@ The remaining 98 events retain corroborated status until an official artifact ca
 - Residual supply: 15 units
 
 The previously recovered `2026910233` was confirmed to be a later second no-priority notice and is retained only as later-event history.
+
+
+- **쌍용 더 플래티넘 온수역** — official project-hosted no-priority notice PDF, notice ID `2026910070`, notice date 2026-03-25, 3 residual units.
