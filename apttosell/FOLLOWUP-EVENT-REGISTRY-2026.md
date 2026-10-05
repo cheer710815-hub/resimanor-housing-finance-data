@@ -71,8 +71,8 @@ The first-pass event discovery queue is now fully screened.
 - First-event rows: **103**
 - Evidence-reviewed: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **1**
-- `ID_CORROBORATED_SECONDARY`: **102**
+- `PRIMARY_VERIFIED`: **3**
+- `ID_CORROBORATED_SECONDARY`: **100**
 - `SECONDARY_CORROBORATED`: **0**
 - Remaining discovery TODO: **0**
 
@@ -96,3 +96,18 @@ All remaining **102 non-primary** first-event rows have now been audited for pro
 The official ApplyHome endpoint is not accessible through the current web tool, so these rows remain `ID_CORROBORATED_SECONDARY` rather than being overstated as primary-verified.
 
 The discovery problem is now closed: **103 / 103 first-event notice IDs are known**. The remaining work is purely official-artifact access and source-grade promotion.
+
+
+## Direct-official-artifact promotions
+
+The first primary-promotion pass has produced **3** directly supported events.
+
+- **포레나더샵 인천시청역** — official project-hosted no-priority notice PDF
+- **아크로 리버스카이** — official ACRO project-hosted no-priority notice PDF, notice ID `2026910194`
+- **청주 푸르지오 씨엘리체** — official PRUGIO project-hosted no-priority notice PDF, notice ID `2026910133`
+
+A separate conservative CSV contains only these direct-primary rows:
+
+https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv
+
+The remaining 100 events retain corroborated status until an official artifact can be directly inspected.
