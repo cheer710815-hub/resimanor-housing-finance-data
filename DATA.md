@@ -43,3 +43,16 @@
 ## Important note
 
 이 데이터는 동일한 가정에서 제도 효과를 비교하기 위한 계산 예시입니다. 실제 금융기관의 대출 승인한도는 LTV, 인정소득, 기존 부채, 주택가격, 규제지역, 금리유형, 만기와 금융기관 내부 심사에 따라 달라질 수 있습니다.
+
+
+## 입주자모집공고 정정 이력 파일럿
+
+2026-10-05 기준 공식 정정공고의 변경 전/후 값을 이벤트 단위로 보존한 연구 파일럿입니다.
+
+- [파일럿 문서](./datasets/recruitment-notice-corrections-2026/README.md)
+- [공개 가능 6개 검증 이벤트 CSV](./datasets/recruitment-notice-corrections-2026/correction-events-public-pilot-2026-10-05.csv)
+- [전체 작업 seed](./datasets/recruitment-notice-corrections-2026/correction-events-seed-2026-10-05.csv)
+- [방법론](./datasets/recruitment-notice-corrections-2026/METHODOLOGY.md)
+- [품질검사 기준](./datasets/recruitment-notice-corrections-2026/QUALITY-CHECKS.md)
+
+이 파일럿은 전국 2026년 정정공고 전체를 대표한다고 주장하지 않으며, DOI를 부여하지 않은 방법론 검증용 스냅샷입니다.
