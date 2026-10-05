@@ -45,6 +45,17 @@ See [DATA-DICTIONARY.md](./DATA-DICTIONARY.md).
 
 A correction is recorded only when a before/after state can be supported by official evidence or a preserved official record. A later promotional condition, residual-unit sales condition, or first-come sales condition is **not** treated as a correction to the original recruitment notice unless the official notice itself was corrected.
 
+## Pilot snapshot (2026-10-05)
+
+- Public-ready verified events: **6**
+- Partial-evidence events retained for review: **3**
+- Public-ready projects represented: **3**
+- Public pilot CSV: [correction-events-public-pilot-2026-10-05.csv](./correction-events-public-pilot-2026-10-05.csv)
+- Full working seed: [correction-events-seed-2026-10-05.csv](./correction-events-seed-2026-10-05.csv)
+- Pilot summary: [PILOT-SUMMARY.md](./PILOT-SUMMARY.md)
+
+This pilot is intentionally not assigned a DOI because the 2026 national denominator and coverage are not yet fixed.
+
 ## Planned outputs
 
 - correction-event CSV
