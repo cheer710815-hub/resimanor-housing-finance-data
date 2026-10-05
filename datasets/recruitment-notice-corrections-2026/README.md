@@ -8,13 +8,20 @@ The goal is to preserve **what changed, when it changed, and which official noti
 
 ## Official source
 
-Primary source:
+Primary source families:
 
 - Korea Real Estate Board / ApplyHome housing recruitment information
 - Public Data Portal service: **한국부동산원_청약홈 분양정보 조회 서비스**
 - API family: `ApplyhomeInfoDetailSvc`
+- Korea Land & Housing Corporation / **LH청약플러스** official recruitment and correction notices
 
-The public service includes APT recruitment information and related supply categories. This project will use official notice pages or official public-data responses as the primary evidence layer.
+ApplyHome remains the main national reference layer. LH청약플러스 is also used when the original and corrected public-housing notices are both available from LH and the before/after change can be verified directly.
+
+## First verified seed records
+
+The first verified event rows were collected from the official LH correction notice for **양주회천 A-26BL 공공분양주택**. The correction notice explicitly shows before/after text for the model-house viewing period, a lighting-specification line, and a household-income table label.
+
+See `correction-events-seed-2026-10-05.csv`.
 
 ## Planned unit of observation
 
