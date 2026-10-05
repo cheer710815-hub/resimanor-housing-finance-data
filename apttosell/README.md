@@ -54,6 +54,16 @@ This GitBook space is the documentation layer within Housing Data Korea Docs. Fo
 
 This identity layer is intended as a cross-dataset join key and does not alter previously frozen DOI releases.
 
+### 2026 Follow-Up Event Registry — Pilot
+
+* First-event rows: **103**
+* Stable project-ID matches: **103/103**
+* Primary-source verification queue: **103 rows**
+* DOI: not assigned
+* [Detailed documentation](FOLLOWUP-EVENT-REGISTRY-2026.md)
+
+This layer extends the existing competition/follow-up analysis into event chronology without changing the published DOI dataset.
+
 ## Canonical pages
 
 * [2026 청약·분양 데이터센터](https://apttosell.com/housing-subscription-data/)
