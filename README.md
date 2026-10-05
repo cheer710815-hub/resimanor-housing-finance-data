@@ -169,3 +169,15 @@ This file describes the repository's public datasets and distributions using the
 - Gravatar: https://gravatar.com/vegadus2
 - GitHub: https://github.com/cheer710815-hub
 
+
+
+## Research pilot: recruitment notice correction history
+
+- [South Korea Housing Recruitment Notice Correction History 2026 — Pilot](./datasets/recruitment-notice-corrections-2026/README.md)
+- Version: **0.1-pilot**
+- Snapshot: **2026-10-05**
+- Public-ready events: **6**
+- Public-ready projects: **3**
+- DOI: **not assigned — pilot coverage is intentionally bounded and non-exhaustive**
+
+This pilot preserves before/after values from official correction notices as event-level change history instead of overwriting the original recruitment-notice state.
