@@ -1,0 +1,53 @@
+{
+  "profile": "data-package",
+  "name": "south-korea-housing-recruitment-notice-corrections-2026-pilot",
+  "title": "South Korea Housing Recruitment Notice Correction History 2026 — Pilot",
+  "description": "Pilot event-level dataset preserving verified before/after changes in official South Korean housing recruitment correction notices. Snapshot 2026-10-05.",
+  "version": "0.1-pilot",
+  "homepage": "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/recruitment-notice-corrections-2026",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Eun Kim",
+      "role": "author",
+      "path": "https://orcid.org/0009-0006-9445-4768"
+    }
+  ],
+  "keywords": [
+    "South Korea",
+    "housing recruitment notice",
+    "correction notice",
+    "public housing",
+    "apartment",
+    "change history",
+    "LH"
+  ],
+  "sources": [
+    {
+      "title": "LH청약플러스 official recruitment and correction notices",
+      "path": "https://apply.lh.or.kr/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "public-ready-pilot",
+      "title": "Conservative public-ready pilot — 6 verified correction events",
+      "path": "correction-events-public-pilot-2026-10-05.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "working-seed",
+      "title": "Working seed with verified and partial-evidence events",
+      "path": "correction-events-seed-2026-10-05.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    }
+  ]
+}
