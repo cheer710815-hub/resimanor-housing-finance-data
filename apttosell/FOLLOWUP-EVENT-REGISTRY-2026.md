@@ -62,3 +62,23 @@ Each row should eventually capture official notice ID, subtype, source URL/artif
 No separate DOI is assigned to this event-level pilot.
 
 The current Figshare DOI remains the citation target for the published competition/follow-up analysis. A new event-level DOI should wait until a clearly bounded notice-level cohort is primary-source verified.
+
+
+## Evidence-review completion
+
+The first-pass event discovery queue is now fully screened.
+
+- First-event rows: **103**
+- Evidence-reviewed: **103 / 103**
+- Numeric follow-up notice IDs recovered: **95**
+- `PRIMARY_VERIFIED`: **1**
+- `ID_CORROBORATED_SECONDARY`: **94**
+- `SECONDARY_CORROBORATED`: **8**
+- Remaining discovery TODO: **0**
+
+This milestone means the discovery/reconciliation pass is complete. It does not mean all events have direct official-source verification.
+
+The next layer is **primary-source promotion**: locating the original ApplyHome/LH or official project notice artifact and promoting only directly supported rows.
+
+- Crosswalk: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/FOLLOWUP-NOTICE-ID-CROSSWALK-v0.1.csv
+- Progress: https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFICATION-PROGRESS.md
