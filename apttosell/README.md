@@ -44,6 +44,16 @@ This GitBook space is the documentation layer within Housing Data Korea Docs. Fo
 * Zenodo all-versions DOI: https://doi.org/10.5281/zenodo.23157054
 * [Detailed documentation](PRE-MOVE-IN-FUNDING-2026.md)
 
+### 2026 Verified Project Registry — Pilot
+
+* Working version: **0.4-pilot**
+* Stable project IDs assigned: **196**
+* Pre-move-in public subset crosswalk: **41/41 matched**
+* DOI: not assigned
+* [Detailed documentation](VERIFIED-PROJECT-REGISTRY-2026.md)
+
+This identity layer is intended as a cross-dataset join key and does not alter previously frozen DOI releases.
+
 ## Canonical pages
 
 * [2026 청약·분양 데이터센터](https://apttosell.com/housing-subscription-data/)
