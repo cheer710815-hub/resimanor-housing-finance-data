@@ -71,8 +71,8 @@ The first-pass event discovery queue is now fully screened.
 - First-event rows: **103**
 - Evidence-reviewed: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **6**
-- `ID_CORROBORATED_SECONDARY`: **97**
+- `PRIMARY_VERIFIED`: **10**
+- `ID_CORROBORATED_SECONDARY`: **93**
 - `SECONDARY_CORROBORATED`: **0**
 - Remaining discovery TODO: **0**
 
@@ -110,7 +110,7 @@ A separate conservative CSV contains only these direct-primary rows:
 
 https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv
 
-The remaining 97 events retain corroborated status until an official artifact can be directly inspected.
+The remaining 93 events retain corroborated status until an official artifact can be directly inspected.
 
 
 ### First-event ID correction from an official artifact
@@ -125,3 +125,15 @@ The previously recovered `2026910233` was confirmed to be a later second no-prio
 
 
 - **쌍용 더 플래티넘 온수역** — official project-hosted no-priority notice PDF, notice ID `2026910070`, notice date 2026-03-25, 3 residual units.
+
+
+### Official POSCO E&C Songdo Granterre cluster
+
+Four blocks were promoted from directly inspected official POSCO E&C project-hosted no-priority notice PDFs, all dated 2026-07-30:
+
+- G5-11: notice ID `2026910207`, 45 residual units
+- G5-3: notice ID `2026910204`, 22 residual units
+- G5-4: notice ID `2026910205`, 36 residual units
+- G5-5: notice ID `2026910206`, 12 residual units
+
+These four rows are included in the conservative primary-verified subset.
