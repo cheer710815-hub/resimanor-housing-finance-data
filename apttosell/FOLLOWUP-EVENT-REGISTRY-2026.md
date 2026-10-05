@@ -71,8 +71,8 @@ The first-pass event discovery queue is now fully screened.
 - First-event rows: **103**
 - Evidence-reviewed: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **10**
-- `ID_CORROBORATED_SECONDARY`: **93**
+- `PRIMARY_VERIFIED`: **11**
+- `ID_CORROBORATED_SECONDARY`: **92**
 - `SECONDARY_CORROBORATED`: **0**
 - Remaining discovery TODO: **0**
 
@@ -110,7 +110,7 @@ A separate conservative CSV contains only these direct-primary rows:
 
 https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv
 
-The remaining 93 events retain corroborated status until an official artifact can be directly inspected.
+The remaining 92 events retain corroborated status until an official artifact can be directly inspected.
 
 
 ### First-event ID correction from an official artifact
@@ -137,3 +137,5 @@ Four blocks were promoted from directly inspected official POSCO E&C project-hos
 - G5-5: notice ID `2026910206`, 12 residual units
 
 These four rows are included in the conservative primary-verified subset.
+
+- **의왕역 SK VIEW** — official SK VIEW project-hosted no-priority notice PDF, notice ID `2026910225`, notice date 2026-08-28, 17 residual units.
