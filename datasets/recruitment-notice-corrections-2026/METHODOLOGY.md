@@ -9,18 +9,20 @@ How often are 2026 apartment recruitment notices corrected after first publicati
 Initial target scope:
 
 - South Korea
-- APT housing recruitment notices
-- 2026 recruitment notices
+- APT / public-sale housing recruitment notices
+- 2026 correction events
 - correction events that can be supported by official evidence
+- ApplyHome and official public-housing provider notices where original/corrected states are traceable
 
 The first public release will be limited to records for which both the original state and corrected state can be verified.
 
 ## 3. Source hierarchy
 
 1. Official ApplyHome recruitment/correction notice
-2. Korea Real Estate Board public-data response
-3. Official project-owner or public-agency notice reproducing the correction
-4. Secondary source only as a pointer to locate the official evidence
+2. Official LH청약플러스 recruitment/correction notice
+3. Korea Real Estate Board public-data response
+4. Official project-owner or public-agency notice reproducing the correction
+5. Secondary source only as a pointer to locate the official evidence
 
 A secondary article alone is not sufficient to create a verified correction event.
 
