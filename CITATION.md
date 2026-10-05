@@ -4,18 +4,18 @@ Resimanor 주택금융 데이터를 인용할 때는 가능한 경우 **원문 �
 
 ## Recommended citation
 
-> Resimanor, "2026 스트레스 DSR 주택담보대출 데이터", https://resimanor.com/housing-finance-dsr-data/
+> Resimanor, "2026 스트레스 DSR 주택담보대출 데이터", https://resimanor.com/housing-finance-dsr-data/. DOI: https://doi.org/10.5281/zenodo.22840870
 
-## Persistent identifiers
+## Canonical identifiers
 
 - Zenodo version DOI: https://doi.org/10.5281/zenodo.22840870
 - Zenodo concept DOI: https://doi.org/10.5281/zenodo.22840869
+
+## Archival mirrors and related public records
+
 - Figshare DOI: https://doi.org/10.6084/m9.figshare.33948214
 - Harvard Dataverse DOI: https://doi.org/10.7910/DVN/Y4J5LD
 - Mendeley Data DOI: https://doi.org/10.17632/xssjnmrhh4.1
-
-## Related public records
-
 - Mendeley Data: https://data.mendeley.com/datasets/xssjnmrhh4/1
 - GitHub: https://github.com/cheer710815-hub/resimanor-housing-finance-data
 - GitBook documentation: https://housing-data-korea.gitbook.io/housing-data-korea-docs/
