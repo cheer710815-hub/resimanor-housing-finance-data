@@ -58,7 +58,9 @@ This identity layer is intended as a cross-dataset join key and does not alter p
 
 * First-event rows: **103**
 * Stable project-ID matches: **103/103**
-* Primary-source verification queue: **103 rows**
+* Evidence-review queue: **103/103 screened**
+* Numeric follow-up notice IDs recovered: **95**
+* Primary-verified events: **1**
 * DOI: not assigned
 * [Detailed documentation](FOLLOWUP-EVENT-REGISTRY-2026.md)
 
