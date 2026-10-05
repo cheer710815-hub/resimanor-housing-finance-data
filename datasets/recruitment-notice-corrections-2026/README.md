@@ -71,3 +71,15 @@ The intended release license for Resimanor-created metadata and derived change-h
 ## Source note
 
 The Korea Real Estate Board ApplyHome public-data service is available through the Korean Public Data Portal and provides official housing recruitment information for APT and related supply categories.
+
+
+## Pilot package metadata
+
+- Version: **0.1-pilot**
+- [Data Package metadata](./datapackage.json)
+- [Citation metadata](./CITATION.cff)
+- [Release notes](./RELEASE-NOTES.md)
+- [License and source-rights note](./LICENSE-NOTE.md)
+- [Screening register](./SCREENING-REGISTER.md)
+
+The pilot package is frozen as a methodological snapshot. New verified events should be collected in a later snapshot rather than silently rewriting the 2026-10-05 pilot CSV.
