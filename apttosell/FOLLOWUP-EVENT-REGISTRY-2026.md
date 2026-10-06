@@ -71,8 +71,8 @@ The first-pass event discovery queue is now fully screened.
 - First-event rows: **103**
 - Evidence-reviewed: **103 / 103**
 - Numeric first follow-up notice IDs recovered: **103 / 103**
-- `PRIMARY_VERIFIED`: **11**
-- `ID_CORROBORATED_SECONDARY`: **92**
+- `PRIMARY_VERIFIED`: **13**
+- `ID_CORROBORATED_SECONDARY`: **90**
 - `SECONDARY_CORROBORATED`: **0**
 - Remaining discovery TODO: **0**
 
@@ -110,7 +110,7 @@ A separate conservative CSV contains only these direct-primary rows:
 
 https://github.com/cheer710815-hub/apttosell-subscription-data/blob/main/datasets/followup-event-registry-2026/PRIMARY-VERIFIED-SUBSET-v0.1.csv
 
-The remaining 92 events retain corroborated status until an official artifact can be directly inspected.
+The remaining 90 events retain corroborated status until an official artifact can be directly inspected.
 
 
 ### First-event ID correction from an official artifact
@@ -139,3 +139,5 @@ Four blocks were promoted from directly inspected official POSCO E&C project-hos
 These four rows are included in the conservative primary-verified subset.
 
 - **의왕역 SK VIEW** — official SK VIEW project-hosted no-priority notice PDF, notice ID `2026910225`, notice date 2026-08-28, 17 residual units.
+
+- **천안 아이파크 시티 6단지 / 5단지** — official project-hosted first no-priority notice PDFs, IDs `2026910074` / `2026910073`, residual units 385 / 334.
