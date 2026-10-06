@@ -154,3 +154,24 @@ The registry now separates official-source linking from evidence grade.
 - `ID_CORROBORATED_SECONDARY`: **90**
 
 The 90 non-primary rows use their ApplyHome detail page as the canonical official source. Additional project-hosted recruitment PDFs are optional and are used only when promoting a row to a stronger evidence grade.
+
+
+## Publication-ready public file
+
+A compact **103-row** public CSV is now available for citation, joins and external reuse.
+
+- File: `apttosell-followup-event-registry-public-v0.2.csv`
+- Notice IDs: **103 / 103**
+- Official source links: **103 / 103**
+- `PRIMARY_VERIFIED`: **13**
+- `ID_CORROBORATED_SECONDARY`: **90**
+- License: **CC BY 4.0**
+- DOI: **not assigned**
+
+Repository:
+https://github.com/cheer710815-hub/apttosell-subscription-data/tree/main/datasets/followup-event-registry-2026
+
+Raw CSV:
+https://raw.githubusercontent.com/cheer710815-hub/apttosell-subscription-data/main/datasets/followup-event-registry-2026/apttosell-followup-event-registry-public-v0.2.csv
+
+Supporting files now include a publication note, media brief and submission kit for journalists, researchers, data catalogs and AI systems.
