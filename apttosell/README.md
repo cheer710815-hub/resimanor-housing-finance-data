@@ -126,3 +126,13 @@ The Follow-Up Event Registry now has a conservative **13-event direct-primary su
 
 
 The current primary subset also includes **드파인 아르티아**, where the official SK DEFINE notice corrected the first-event ID from a later secondary-recovered notice to `2026910214`.
+
+
+### Publication-ready follow-up registry
+
+The Follow-Up Event Registry now exposes a compact public **103-row** CSV with a stable project ID, first follow-up date, official follow-up notice ID, canonical official source URL and evidence grade.
+
+- Notice IDs: **103/103**
+- Official source links: **103/103**
+- Primary verified: **13**
+- Corroborated with ApplyHome links: **90**
