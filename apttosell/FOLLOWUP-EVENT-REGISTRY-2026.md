@@ -141,3 +141,16 @@ These four rows are included in the conservative primary-verified subset.
 - **의왕역 SK VIEW** — official SK VIEW project-hosted no-priority notice PDF, notice ID `2026910225`, notice date 2026-08-28, 17 residual units.
 
 - **천안 아이파크 시티 6단지 / 5단지** — official project-hosted first no-priority notice PDFs, IDs `2026910074` / `2026910073`, residual units 385 / 334.
+
+
+## Canonical ApplyHome source links
+
+The registry now separates official-source linking from evidence grade.
+
+- First-event rows: **103**
+- Numeric notice IDs: **103 / 103**
+- Official ApplyHome source links: **103 / 103**
+- `PRIMARY_VERIFIED`: **13**
+- `ID_CORROBORATED_SECONDARY`: **90**
+
+The 90 non-primary rows use their ApplyHome detail page as the canonical official source. Additional project-hosted recruitment PDFs are optional and are used only when promoting a row to a stronger evidence grade.
