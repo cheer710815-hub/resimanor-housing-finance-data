@@ -181,3 +181,18 @@ This file describes the repository's public datasets and distributions using the
 - DOI: **not assigned — pilot coverage is intentionally bounded and non-exhaustive**
 
 This pilot preserves before/after values from official correction notices as event-level change history instead of overwriting the original recruitment-notice state.
+
+## Dataset — 2026 H2 DSR mortgage-limit scenarios
+
+- [2026 H2 Korea Mortgage DSR Limit Scenario Dataset](./datasets/dsr-mortgage-limit-2026-h2/README.md)
+- Version: **1.0**
+- Release date: **2026-10-07**
+- Scenario rows: **160**
+- License: **CC BY 4.0**
+- DOI: **pending Zenodo release**
+- [CSV](./datasets/dsr-mortgage-limit-2026-h2/resimanor_dsr_mortgage_limit_scenarios_2026_h2_v1.csv)
+- [Methodology](./datasets/dsr-mortgage-limit-2026-h2/METHODOLOGY.md)
+- [Data dictionary](./datasets/dsr-mortgage-limit-2026-h2/DATA_DICTIONARY.md)
+- [Media / research summary](./datasets/dsr-mortgage-limit-2026-h2/MEDIA_RESEARCH_SUMMARY.md)
+
+The dataset reports **DSR-based theoretical calculated limits**, not actual bank approval amounts. The 0.75% non-metropolitan/non-regulated value is a controlled analytical reference scenario and must not be interpreted as a universal fixed official stress rate.
