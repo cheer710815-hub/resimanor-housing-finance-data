@@ -4,7 +4,7 @@
   "title": "2026 Korea Housing Finance and Stress DSR Data",
   "description": "Public reference data for Korean mortgage limits, stress DSR, housing purchase cash requirements, repayment examples and housing finance calculations maintained by Resimanor.",
   "homepage": "https://resimanor.com/housing-finance-dsr-data/",
-  "version": "1.1",
+  "version": "1.2",
   "created": "2026-09-18",
   "licenses": [
     {
@@ -79,6 +79,13 @@
       "format": "json",
       "mediatype": "application/json",
       "title": "2026 Korea stress DSR mortgage-limit examples - JSON"
+    },
+    {
+      "name": "dsr_mortgage_limit_scenarios_2026_h2_v1",
+      "path": "datasets/dsr-mortgage-limit-2026-h2/resimanor_dsr_mortgage_limit_scenarios_2026_h2_v1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region"
     }
   ]
 }
