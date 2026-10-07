@@ -56,11 +56,29 @@
       "dct:issued": "2026-09-18",
       "dct:modified": "2026-10-04",
       "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/dsr-mortgage-limit-2026-h2",
+      "dct:title": "2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region",
+      "dct:description": "A controlled 160-scenario dataset estimating DSR-based theoretical additional mortgage limits by annual income, existing monthly-equivalent DSR debt-service burden, mortgage rate, and regional stress-rate scenario.",
+      "dct:spatial": "South Korea",
+      "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+      "dct:issued": "2026-10-07",
+      "dct:modified": "2026-10-07",
+      "dcat:landingPage": "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/dsr-mortgage-limit-2026-h2",
+      "dcat:distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "dct:format": "text/csv",
+          "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/datasets/dsr-mortgage-limit-2026-h2/resimanor_dsr_mortgage_limit_scenarios_2026_h2_v1.csv"
+        }
+      ]
     }
   ],
   "foaf:homepage": "https://resimanor.com/housing-finance-dsr-data/",
   "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/resimanor-housing-finance/",
   "dct:issued": "2026-09-18",
-  "dct:modified": "2026-10-04",
+  "dct:modified": "2026-10-07",
   "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/"
 }
