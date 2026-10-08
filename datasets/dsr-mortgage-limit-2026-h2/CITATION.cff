@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this specific Zenodo release when using the 160-scenario dataset."
+title: "2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region"
+type: dataset
+version: "1.0"
+date-released: 2026-10-08
+license: CC-BY-4.0
+authors:
+  - name: "Resimanor"
+url: "https://doi.org/10.5281/zenodo.23231673"
+repository-code: "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/dsr-mortgage-limit-2026-h2"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23231673"
+    description: "Version 1.0 Zenodo DOI"
