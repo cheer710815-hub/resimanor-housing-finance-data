@@ -56,7 +56,9 @@
       "https://doi.org/10.17632/xssjnmrhh4.1"
     ],
     "repec_archive": "https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/",
-    "orcid": "https://orcid.org/0009-0006-9445-4768"
+    "orcid": "https://orcid.org/0009-0006-9445-4768",
+    "dsr_2026_h2_version_doi": "https://doi.org/10.5281/zenodo.23231673",
+    "dsr_2026_h2_concept_doi": "https://doi.org/10.5281/zenodo.23231672"
   },
   "resources": [
     {
@@ -85,7 +87,10 @@
       "path": "datasets/dsr-mortgage-limit-2026-h2/resimanor_dsr_mortgage_limit_scenarios_2026_h2_v1.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "title": "2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region"
+      "title": "2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region",
+      "doi": "10.5281/zenodo.23231673",
+      "homepage": "https://doi.org/10.5281/zenodo.23231673",
+      "version": "1.0"
     }
   ]
 }
