@@ -8,6 +8,29 @@
 - 자료 이용·인용 정책: https://resimanor.com/citation-policy/
 - Canonical DOI: https://doi.org/10.5281/zenodo.22840870
 
+## New release — 2026 H2 DSR mortgage-limit scenario dataset (160 rows)
+
+This is a **separate dataset** from the older reference release cited above. Do not substitute its DOI for the older dataset's DOI.
+
+- Dataset: *2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region*
+- Author: Resimanor
+- Version: 1.0; published 2026-10-08
+- Version-specific DOI: https://doi.org/10.5281/zenodo.23231673
+- All-versions DOI: https://doi.org/10.5281/zenodo.23231672
+- CSV and documentation: https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/dsr-mortgage-limit-2026-h2
+- Structural validation: https://github.com/cheer710815-hub/resimanor-housing-finance-data/blob/main/datasets/dsr-mortgage-limit-2026-h2/VALIDATION_REPORT.md
+- License: CC BY 4.0
+
+### Ready-to-use citation
+
+Resimanor (2026). *2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region* (Version 1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23231673
+
+### Research or news angle
+
+Under the specified scenario assumptions, KRW 80 million annual income with KRW 1 million of existing monthly-equivalent DSR debt-service burden leaves the same DSR-based calculated mortgage limit (approximately KRW 250.51 million) as KRW 50 million annual income with no existing debt-service burden. Both use an assumed 4.0% contractual mortgage rate, 3.0% stress rate, 30-year equal-payment term and 40% DSR ceiling.
+
+These are **illustrative DSR-based calculated limits**, not actual lending approvals. The 0.75% regional stress-rate scenario is an analytical reference assumption, not a universal official rate. The structural validation report does not independently certify all calculations or regulatory assumptions.
+
 ## What can be cited
 
 - 연소득별 스트레스 DSR 주택담보대출 한도 비교
