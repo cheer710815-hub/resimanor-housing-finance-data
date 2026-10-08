@@ -31,6 +31,7 @@ The higher-income borrower can therefore have the same remaining DSR capacity wh
 - METHODOLOGY.md
 - DATA_DICTIONARY.md
 - RELEASE_NOTES.md
+- VALIDATION_REPORT.md (structural checks of the 160 published scenarios)
 - MEDIA_RESEARCH_SUMMARY.md
 - LICENSE.md
 
