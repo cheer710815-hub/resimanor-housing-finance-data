@@ -65,20 +65,21 @@
       "dct:spatial": "South Korea",
       "dct:license": "https://creativecommons.org/licenses/by/4.0/",
       "dct:issued": "2026-10-07",
-      "dct:modified": "2026-10-07",
-      "dcat:landingPage": "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/datasets/dsr-mortgage-limit-2026-h2",
+      "dct:modified": "2026-10-08",
+      "dcat:landingPage": "https://doi.org/10.5281/zenodo.23231673",
       "dcat:distribution": [
         {
           "@type": "dcat:Distribution",
           "dct:format": "text/csv",
           "dcat:downloadURL": "https://raw.githubusercontent.com/cheer710815-hub/resimanor-housing-finance-data/main/datasets/dsr-mortgage-limit-2026-h2/resimanor_dsr_mortgage_limit_scenarios_2026_h2_v1.csv"
         }
-      ]
+      ],
+      "dct:identifier": "https://doi.org/10.5281/zenodo.23231673"
     }
   ],
   "foaf:homepage": "https://resimanor.com/housing-finance-dsr-data/",
   "foaf:page": "https://housing-data-korea.gitbook.io/housing-data-korea-docs/resimanor-housing-finance/",
   "dct:issued": "2026-09-18",
-  "dct:modified": "2026-10-07",
+  "dct:modified": "2026-10-08",
   "dcat:landingPage": "https://resimanor.com/housing-finance-dsr-data/"
 }
