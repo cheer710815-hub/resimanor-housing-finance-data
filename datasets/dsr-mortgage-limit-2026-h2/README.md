@@ -36,3 +36,9 @@ The higher-income borrower can therefore have the same remaining DSR capacity wh
 
 ## License
 CC BY 4.0 for Resimanor's original dataset and documentation. Third-party regulations and source materials retain their own terms.
+
+## Zenodo citation
+- Version 1.0 DOI: https://doi.org/10.5281/zenodo.23231673
+- All-versions DOI: https://doi.org/10.5281/zenodo.23231672
+- Published: 2026-10-08
+- Suggested citation: Resimanor (2026). *2026 H2 Korea Mortgage DSR Limit Scenario Dataset by Income, Existing Debt and Region* (Version 1.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23231673
