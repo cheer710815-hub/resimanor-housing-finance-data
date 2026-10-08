@@ -189,7 +189,9 @@ This pilot preserves before/after values from official correction notices as eve
 - Release date: **2026-10-07**
 - Scenario rows: **160**
 - License: **CC BY 4.0**
-- DOI: **pending Zenodo release**
+- Version 1.0 DOI: **https://doi.org/10.5281/zenodo.23231673**
+- All-versions DOI: **https://doi.org/10.5281/zenodo.23231672**
+- Zenodo publication date: **2026-10-08**
 - [CSV](./datasets/dsr-mortgage-limit-2026-h2/resimanor_dsr_mortgage_limit_scenarios_2026_h2_v1.csv)
 - [Methodology](./datasets/dsr-mortgage-limit-2026-h2/METHODOLOGY.md)
 - [Data dictionary](./datasets/dsr-mortgage-limit-2026-h2/DATA_DICTIONARY.md)
