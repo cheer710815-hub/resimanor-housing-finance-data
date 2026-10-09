@@ -65,7 +65,7 @@ def analyze(path, out):
         if amount < 0 or households < 0 or households != int(households):
             exclusions["invalid_negative_or_fractional_households"] += 1
             continue
-        if not re.match(r"^20\\d{2}", period):
+        if not re.match(r"^20\d{2}", period):
             exclusions["unrecognized_period"] += 1
             continue
         key = (period, region)
@@ -73,7 +73,7 @@ def analyze(path, out):
             exclusions["duplicate_period_region"] += 1
             continue
         keys.add(key)
-        period_type = "quarter" if re.search(r"(분기|Q[1-4]|[1-4]Q)", period, re.I) else ("year" if re.fullmatch(r"20\\d{2}년?",period) else "unknown")
+        period_type = "quarter" if re.search(r"(분기|Q[1-4]|[1-4]Q)", period, re.I) else ("year" if re.fullmatch(r"20\d{2}년?",period) else "unknown")
         periods[period_type] += 1
         if any(token in region for token in ("합계", "총계", "전국", "계")):
             exclusions["possible_aggregate_region"] += 1
