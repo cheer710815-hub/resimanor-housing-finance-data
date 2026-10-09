@@ -34,6 +34,24 @@ Status: **Prepared only — not submitted or approved** (2026-10-08).
 
 A controlled 160-row scenario dataset comparing theoretical DSR-based new mortgage limits under 2026 H2 South Korean assumptions. It combines four income levels, five monthly-equivalent existing DSR debt-service levels, four contractual mortgage rates and two regional stress-rate analytical scenarios, with a 40% bank DSR ceiling and 30-year equal-payment mortgage term. These are illustrative calculated limits, not observed borrower data or actual bank approvals. The 0.75% regional stress-rate scenario is a controlled analytical reference, not a universally applicable official rate. The release includes a CSV, methodology, data dictionary, structural validation report and Zenodo DOI.
 
+## Official registration checks (verified 2026-10-09)
+
+DataON's official user guide confirms:
+
+- Registration starts at **연구데이터 등록 → 제출**, followed by a collection selection, metadata, disclosure/license, and file/source URL.
+- The source URL field can be used when direct file attachment is not feasible.
+- Mandatory metadata include a primary language, title, description, keywords, and relevant classification; creator/contact details should be entered accurately by the authenticated registrant.
+- File-upload naming guidance recommends short, descriptive names (up to 25 characters), without spaces or special characters. **Use the source URL option for the canonical versioned CSV filename** unless a compliant upload copy is intentionally prepared.
+- Submitted records have separate states: 작성대기, 임시저장, 승인대기, 반려됨; only approved records appear as public submissions.
+- DataON may issue its own DOI upon approval. **Never overwrite or mislabel the existing Zenodo DOI as a DataON-issued DOI.**
+- A DataON record ID, DOI, or approval status must not be recorded until independently verified in the authenticated account.
+
+Official sources:
+- https://dataon.gitbook.io/dataon-user-guide/registration/how_to_register
+- https://dataon.gitbook.io/dataon-user-guide/registration/data_management
+
+**Execution status (2026-10-09):** official process verified and metadata prepared; no authenticated DataON submission or approval has been performed.
+
 ## Before requesting approval
 
 1. Check whether the selected collection accepts independently produced public scenario datasets.
