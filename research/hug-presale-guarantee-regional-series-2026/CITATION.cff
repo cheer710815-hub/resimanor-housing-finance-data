@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this regional presale guarantee dataset and the original HUG source."
+title: "HUG Regional Presale Guarantee Issuance, South Korea, 2009–2026 Q2: Source-Preserving Tables"
+type: dataset
+authors:
+  - name: "Resimanor"
+    affiliation: "Resimanor housing finance data project"
+repository-code: "https://github.com/cheer710815-hub/resimanor-housing-finance-data"
+url: "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/research/hug-presale-guarantee-regional-series-2026"
+version: "1.0"
+date-released: "2026-10-09"
+license: "CC-BY-4.0"
+abstract: >-
+  Source-preserving transformation of HUG regional presale guarantee issuance statistics.
+  Includes 818 rows, yearly and quarterly summaries, and source quality flags.
+  Original source: Korea Housing & Urban Guarantee Corporation (HUG),
+  https://www.data.go.kr/data/15002513/fileData.do.
+  Guarantee issuance values are not apartment transaction or sale prices.
+keywords:
+  - South Korea
+  - housing guarantee
+  - presale guarantee
+  - HUG
+  - regional housing
