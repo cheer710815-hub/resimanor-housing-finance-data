@@ -1,32 +1,25 @@
-# HUG regional presale guarantee project — verification gate
+# HUG regional presale guarantee data — status (2026-10-09)
 
-Last verified: 2026-10-09 (Asia/Seoul)
-Status: **BLOCKED ON OFFICIAL CSV ACQUISITION — DO NOT CLAIM DATASET COMPLETE**
+## Source received, 818 rows validated
+- User supplied original `주택도시보증공사_분양보증 발급현황_20260630.csv`.
+- CP949 source: **818 records / 4 columns**.
+- Year/region duplication: none; missing cells: none.
+- Original values preserved, with flags for negative amounts (13 rows), negative household counts (3 rows), zero-household cases (21 rows).
+- 2023 Q4 `전라` 1 row not mapped to standard 17 provinces; excluded from standard regional aggregate but preserved as original.
+- Some quarterly periods have fewer than 17 regional entries; omitted entries were not assigned zero values.
+- CSV-derived output, anomaly report, methodology and reproducible build code generated within the current conversation and made available as a ZIP download to the user.
 
-## Completed
-- Confirmed official public-data listing: https://www.data.go.kr/data/15002513/fileData.do
-- Catalog title: 주택도시보증공사_분양보증 발급현황_20260630
-- Catalog reports 818 records; actual file rows have NOT been validated.
-- Research protocol, provisional data dictionary, acquisition log and validation script published in this folder.
-- Fixed regex year detection and false region exclusion issues in script.
+## GitHub publishing status
+- Methodology/plans/source documentation and the factual verification summary are available in this repository.
+- **The full 818-row processed CSV and ZIP have not yet been uploaded to GitHub.** Do not claim they are hosted here.
+- Full results: `VERIFIED_RESULTS_2026-10-09.md`.
+- The earlier `analyze_hug.py` is an initial draft; use the tested `build.py` bundled with the finished dataset for production, after review.
 
-## Not completed — do not represent as done
-- Source CSV file bytes and SHA-256
-- Executing parser on actual HUG source file
-- Verifying record totals / region subtotals and temporal periods
-- Quantitative findings, plots and interpretation
-- Validated, distributable versioned CSV dataset
-- DOI deposition and journal/media outreach
-- Resimanor publication
+## Pending external actions
+1. Upload the validated derived CSV / reproducible build script to a public repository (or durable archive) and verify their checksums.
+2. Attach repository versioned release and license.
+3. Register DOI through a suitable repository if approved.
+4. Draft WordPress post with source and cross-links; **do not publish without explicit approval.**
 
-## Immediate unblock
-From the official portal, download its CSV into a local file and supply it to the analysis environment.
-Run: `python analyze_hug.py ORIGINAL.csv --out output`
-Review `VALIDATION_REPORT.json`; its `publication_ready: false` is intentional until manual source spot checks are complete.
-Do not aggregate periods or publish empirical claims before period / regional-total reconciliation.
-
-## Integrity notes
-- The source catalog's 818 refers to reported rows, not ingested records.
-- HUG guarantee issuance amount per household is **not** new-apartment sale price.
-- Partial-year 2026 must be compared with equivalent partial years only.
-- No placeholder data, invented samples, or fabricated DOI should appear in releases.
+## Interpretation
+The guarantee issuance amount is not a transaction price or a contract completion count. No causal conclusions; do not annualize 2026 H1. The '전라' row remains unresolved.
