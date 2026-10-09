@@ -1,0 +1,6 @@
+metric,unit,period,year_2025_h1,year_2026_h1,absolute_change,pct_change,coverage,source_url,notes
+MOLIT presale housing units,homes,January-June,67965,109186,41221,60.65,nationwide,https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092274,Official joint-housing presale statistic not HUG guarantee population
+MOLIT capital area presale housing units,homes,January-June,40986,63586,22600,55.14,capital region,https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092274,Capital region subset of nationwide presale data
+HUG issued guarantee amount reported,100m KRW,January-June,202579,431426,228847,112.96,reported standard-region rows,https://www.data.go.kr/data/15002513/fileData.do,Source coverage differs by period missing jurisdictions not imputed
+HUG household units in issuance,households,January-June,45023,90160,45137,100.25,reported standard-region rows,https://www.data.go.kr/data/15002513/fileData.do,Not the same measure as MOLIT presale homes
+HUG matched region-quarter issued amount,100m KRW,January-June,202601,426340,223739,110.43,29 matched region-quarter records,https://github.com/cheer710815-hub/resimanor-housing-finance-data/blob/main/research/hug-presale-guarantee-regional-series-2026/hug_2025_2026_h1_matched_region_quarter.csv,Restricted balanced panel only 29 matching keys
