@@ -1,27 +1,33 @@
-# HUG 분양보증 발급현황: 공개 데이터 상태 (2026-10-09)
+# HUG regional presale guarantee — current publication status (2026-10-09)
 
-## 실제 공개된 다운로드
-- [연간·반기 집계 CSV](./hug_presale_guarantee_period_summary.csv) — 18기간 (2009~2025 연간 17개 + 2026년 Q1-Q2)
-- [검증 결과 보고](./VERIFIED_RESULTS_2026-10-09.md)
-- [연구 방법](./RESEARCH_PLAN.md)
-- [데이터사전](./DATA_DICTIONARY.md)
-- [원본 수집 기록](./SOURCE_ACQUISITION.md)
+## Public archival record
+- Zenodo version 1.0 DOI: **https://doi.org/10.5281/zenodo.23262918**
+- Zenodo record: https://zenodo.org/records/23262918
+- Date: 2026-10-09
+- Creator: Eun Kim; ORCID: https://orcid.org/0009-0006-9445-4768
+- Copyright: Copyright (C) 2026 Resimanor
+- License: CC BY 4.0 for Resimanor-authored transformations/docs; official HUG source attribution remains required.
+- DOI and published metadata confirmed from user-provided Zenodo publication screenshot.
+- Archive uploaded: `HUG_Resimanor_DOI_deposit_v1.0.zip` (13 contained files).
+- Independent DOI resolver fetch is not established by the present tooling; the published Zenodo UI explicitly shows the DOI.
 
-## 원본과 검증
-- 공식 원본 CSV 818행 4열, 사용자 제공 파일로 로컬에서 검증됨.
-- 검증 보고서의 서로 다른 원본 `연도` 라벨 수: **49개**. 이전 작업 안내에 적힌 '48개 기간'은 오류입니다.
-- 연간·반기 요약표: 18개 관측기간(2009~2025 연간, 2026 상반기).
-- 데이터 품질 플래그: 음수 보증실적 13행, 음수 세대수 3행, 세대수 0인 21행, 지역 ‘전라’ 1행.
-- 집계표는 표준 17개 시도에 명확히 해당하는 값만 포함. 지역 누락은 0으로 대체하지 않음.
+## Public dataset files
+- [818-row cleaned regional CSV](./hug_presale_guarantee_clean_2009_2026q2.csv)
+- [Period summary](./hug_presale_guarantee_period_summary.csv)
+- [Quarter summary](./hug_presale_guarantee_quarter_summary.csv)
+- [Quality flags](./hug_presale_guarantee_quality_flags.csv)
+- [Data dictionary](./DATA_DICTIONARY_VERIFIED.md)
+- [Methodology](./METHODOLOGY_VERIFIED.md)
+- [Citation instructions](./CITATION_DATASET.md)
+- [Dataset citation metadata](./CITATION.cff)
 
-## 반드시 유의
-- HUG 보증실적은 분양가격, 분양계약, 매매거래 통계와 동일하지 않음.
-- 지역 누락과 음수값으로 연도별 단순 비교에 제약이 있음.
-- 2026 Q1-Q2는 연간이 아니라 반기 실적.
-- 지역별 전체 818행 정리 CSV와 검증 ZIP은 **아직 GitHub 공개파일로 업로드되지 않았음**. 로컬 파일만 마련된 상태.
-- 이 프로젝트에 대해 DOI는 발행하지 않았음. Resimanor 원고도 공개하지 않았음.
+## Scope and caveats
+- The 29-row matching-region/quarter H1 comparison panel is GitHub-only supplemental analysis, **not a constituent CSV in the Zenodo v1.0 ZIP**.
+- Negative source values are preserved; 2023 Q4 '전라' ambiguous region is not silently allocated.
+- Missing geographic observations are not zero; 2026 data are H1 only.
+- Issuance figures are not house sale prices or completed contracts.
 
-## 인용
-주택도시보증공사(HUG) 「분양보증 발급현황(2026-06-30 기준)」, 원본 https://www.data.go.kr/data/15002513/fileData.do, Resimanor 재구성 연간/반기 요약 (2026-10-09), GitHub URL 참조.
-
-파생 요약표와 작성 문서는 CC BY 4.0 조건으로 재사용 가능하며, 원본은 공공데이터포털 이용조건 우선.
+## Website status
+- Resimanor analytical WordPress post remains **unpublished and not saved as a draft in WP**, due to WP Agent domain account restriction.
+- Review article with confirmed DOI: [ARTICLE_DRAFT_REVIEW.md](./ARTICLE_DRAFT_REVIEW.md).
+- Next focus: actual publication access resolution and genuine journalist/institutional outreach; do not create duplicate DOI deposits.
