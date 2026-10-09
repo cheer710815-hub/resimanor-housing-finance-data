@@ -1,25 +1,23 @@
-# HUG regional presale guarantee data — status (2026-10-09)
+# HUG regional presale guarantee — release status (2026-10-09)
 
-## Source received, 818 rows validated
-- User supplied original `주택도시보증공사_분양보증 발급현황_20260630.csv`.
-- CP949 source: **818 records / 4 columns**.
-- Year/region duplication: none; missing cells: none.
-- Original values preserved, with flags for negative amounts (13 rows), negative household counts (3 rows), zero-household cases (21 rows).
-- 2023 Q4 `전라` 1 row not mapped to standard 17 provinces; excluded from standard regional aggregate but preserved as original.
-- Some quarterly periods have fewer than 17 regional entries; omitted entries were not assigned zero values.
-- CSV-derived output, anomaly report, methodology and reproducible build code generated within the current conversation and made available as a ZIP download to the user.
+## Public, verified files
+- [818-row cleaned source-preserving CSV](./hug_presale_guarantee_clean_2009_2026q2.csv): 819 lines including header, verified by read-back.
+- [Quality flags CSV](./hug_presale_guarantee_quality_flags.csv): 32 lines including header, verified by read-back.
+- [Quarter summary CSV](./hug_presale_guarantee_quarter_summary.csv): 43 lines including header, verified by read-back.
+- [Year / H1 summary CSV](./hug_presale_guarantee_period_summary.csv): 18 time periods, published previously.
+- [Verified methodology](./METHODOLOGY_VERIFIED.md), [verified data dictionary](./DATA_DICTIONARY_VERIFIED.md), [dataset README](./README_DATASET.md).
+- [Analysis results and limitations](./VERIFIED_RESULTS_2026-10-09.md).
 
-## GitHub publishing status
-- Methodology/plans/source documentation and the factual verification summary are available in this repository.
-- **The full 818-row processed CSV and ZIP have not yet been uploaded to GitHub.** Do not claim they are hosted here.
-- Full results: `VERIFIED_RESULTS_2026-10-09.md`.
-- The earlier `analyze_hug.py` is an initial draft; use the tested `build.py` bundled with the finished dataset for production, after review.
+## Validation gates
+The original provided source has 818 records and 4 columns (2009–2026 Q2), 49 distinct period labels, 18 region labels. Original values are retained, including negative issuance amount (13 rows), negative household counts (3), zero households (21), and the ambiguous '전라' geographic label (1). Subtotals for 17 clearly mapped jurisdictions exclude the unresolved '전라' record, not redistribute it. Missing regional observations are not set to zero.
 
-## Pending external actions
-1. Upload the validated derived CSV / reproducible build script to a public repository (or durable archive) and verify their checksums.
-2. Attach repository versioned release and license.
-3. Register DOI through a suitable repository if approved.
-4. Draft WordPress post with source and cross-links; **do not publish without explicit approval.**
+**Do not treat guarantee issuance as actual apartment sale prices or actual contracts.** Annual / half-year figures must not be directly compared as equal duration.
 
-## Interpretation
-The guarantee issuance amount is not a transaction price or a contract completion count. No causal conclusions; do not annualize 2026 H1. The '전라' row remains unresolved.
+## Publication state
+- CSV data and methodology: **published on GitHub**.
+- Original full official CSV: not uploaded; original source remains available from HUG's public catalog.
+- Independent DOI: **not issued**.
+- Resimanor WordPress article: **not published**.
+- Metadata may be used as a preliminary citation with the repository permanent version reference. Add DOI only after the deposit is successful and verified.
+
+Official source: https://www.data.go.kr/data/15002513/fileData.do
