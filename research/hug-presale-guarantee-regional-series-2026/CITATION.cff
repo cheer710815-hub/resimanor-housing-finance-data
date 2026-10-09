@@ -1,10 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite this regional presale guarantee dataset and the original HUG source."
+message: "Please cite this Zenodo dataset DOI and the original HUG data source."
 title: "HUG Regional Presale Guarantee Issuance, South Korea, 2009–2026 Q2: Source-Preserving Tables"
 type: dataset
 authors:
-  - name: "Resimanor"
-    affiliation: "Resimanor housing finance data project"
+  - family-names: "Kim"
+    given-names: "Eun"
+    affiliation: "Resimanor | Independent Researcher"
+    orcid: "https://orcid.org/0009-0006-9445-4768"
 repository-code: "https://github.com/cheer710815-hub/resimanor-housing-finance-data"
 url: "https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/research/hug-presale-guarantee-regional-series-2026"
 version: "1.0"
@@ -22,3 +24,8 @@ keywords:
   - presale guarantee
   - HUG
   - regional housing
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23262918"
+    description: "Zenodo DOI for dataset version 1.0"
