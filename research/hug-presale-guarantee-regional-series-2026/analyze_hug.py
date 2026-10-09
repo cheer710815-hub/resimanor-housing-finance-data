@@ -9,7 +9,7 @@ import csv
 import hashlib
 import json
 import re
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 FIELDS = ("연도", "지역", "보증실적(억원)", "세대수")
@@ -75,7 +75,7 @@ def analyze(path, out):
         keys.add(key)
         period_type = "quarter" if re.search(r"(분기|Q[1-4]|[1-4]Q)", period, re.I) else ("year" if re.fullmatch(r"20\d{2}년?",period) else "unknown")
         periods[period_type] += 1
-        if any(token in region for token in ("합계", "총계", "전국", "계")):
+        if region in ("합계", "총계", "전국", "계", "전체", "소계"):
             exclusions["possible_aggregate_region"] += 1
             continue
         clean = dict(period=period, region=region, guarantee_amount_100m_krw=amount, households=int(households),
