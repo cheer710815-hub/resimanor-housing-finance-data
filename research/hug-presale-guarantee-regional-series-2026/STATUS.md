@@ -1,23 +1,33 @@
-# HUG regional presale guarantee — release status (2026-10-09)
+# HUG regional presale guarantee — current publication status (2026-10-09)
 
-## Public, verified files
-- [818-row cleaned source-preserving CSV](./hug_presale_guarantee_clean_2009_2026q2.csv): 819 lines including header, verified by read-back.
-- [Quality flags CSV](./hug_presale_guarantee_quality_flags.csv): 32 lines including header, verified by read-back.
-- [Quarter summary CSV](./hug_presale_guarantee_quarter_summary.csv): 43 lines including header, verified by read-back.
-- [Year / H1 summary CSV](./hug_presale_guarantee_period_summary.csv): 18 time periods, published previously.
-- [Verified methodology](./METHODOLOGY_VERIFIED.md), [verified data dictionary](./DATA_DICTIONARY_VERIFIED.md), [dataset README](./README_DATASET.md).
-- [Analysis results and limitations](./VERIFIED_RESULTS_2026-10-09.md).
+## Public archival record
+- Zenodo version 1.0 DOI: **https://doi.org/10.5281/zenodo.23262918**
+- Zenodo record: https://zenodo.org/records/23262918
+- Date: 2026-10-09
+- Creator: Eun Kim; ORCID: https://orcid.org/0009-0006-9445-4768
+- Copyright: Copyright (C) 2026 Resimanor
+- License: CC BY 4.0 for Resimanor-authored transformations/docs; official HUG source attribution remains required.
+- DOI and published metadata confirmed from user-provided Zenodo publication screenshot.
+- Archive uploaded: `HUG_Resimanor_DOI_deposit_v1.0.zip` (13 contained files).
+- Independent DOI resolver fetch is not established by the present tooling; the published Zenodo UI explicitly shows the DOI.
 
-## Validation gates
-The original provided source has 818 records and 4 columns (2009–2026 Q2), 49 distinct period labels, 18 region labels. Original values are retained, including negative issuance amount (13 rows), negative household counts (3), zero households (21), and the ambiguous '전라' geographic label (1). Subtotals for 17 clearly mapped jurisdictions exclude the unresolved '전라' record, not redistribute it. Missing regional observations are not set to zero.
+## Public dataset files
+- [818-row cleaned regional CSV](./hug_presale_guarantee_clean_2009_2026q2.csv)
+- [Period summary](./hug_presale_guarantee_period_summary.csv)
+- [Quarter summary](./hug_presale_guarantee_quarter_summary.csv)
+- [Quality flags](./hug_presale_guarantee_quality_flags.csv)
+- [Data dictionary](./DATA_DICTIONARY_VERIFIED.md)
+- [Methodology](./METHODOLOGY_VERIFIED.md)
+- [Citation instructions](./CITATION_DATASET.md)
+- [Dataset citation metadata](./CITATION.cff)
 
-**Do not treat guarantee issuance as actual apartment sale prices or actual contracts.** Annual / half-year figures must not be directly compared as equal duration.
+## Scope and caveats
+- The 29-row matching-region/quarter H1 comparison panel is GitHub-only supplemental analysis, **not a constituent CSV in the Zenodo v1.0 ZIP**.
+- Negative source values are preserved; 2023 Q4 '전라' ambiguous region is not silently allocated.
+- Missing geographic observations are not zero; 2026 data are H1 only.
+- Issuance figures are not house sale prices or completed contracts.
 
-## Publication state
-- CSV data and methodology: **published on GitHub**.
-- Original full official CSV: not uploaded; original source remains available from HUG's public catalog.
-- Independent DOI: **not issued**.
-- Resimanor WordPress article: **not published**.
-- Metadata may be used as a preliminary citation with the repository permanent version reference. Add DOI only after the deposit is successful and verified.
-
-Official source: https://www.data.go.kr/data/15002513/fileData.do
+## Website status
+- Resimanor analytical WordPress post remains **unpublished and not saved as a draft in WP**, due to WP Agent domain account restriction.
+- Review article with confirmed DOI: [ARTICLE_DRAFT_REVIEW.md](./ARTICLE_DRAFT_REVIEW.md).
+- Next focus: actual publication access resolution and genuine journalist/institutional outreach; do not create duplicate DOI deposits.
