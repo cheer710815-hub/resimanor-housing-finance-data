@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using these metadata."
+title: "자동차 할부금과 주택담보대출 DSR 한도 비교: 64개 가상 시나리오"
+type: dataset
+authors:
+  - family-names: "Kim"
+    given-names: "Eun"
+    affiliation: "Resimanor"
+date-released: 2026-10-09
+version: "1.0"
+license: CC-BY-4.0
+abstract: "Illustrative mortgage DSR capacity scenarios by annual income, monthly car installment, and assumed mortgage rate; not actual lender underwriting."
