@@ -1,0 +1,32 @@
+source_row,period,year,quarter,period_type,region_original,region_standard,guarantee_amount_100m_krw,households,amount_per_household_100m_krw,quality_flags
+7,2009,2009,,year,광주,광주,-1153,-276,,negative_amount|negative_households
+10,2009,2009,,year,세종,세종,0,0,,zero_households
+27,2010,2010,,year,세종,세종,0,0,,zero_households
+44,2011,2011,,year,세종,세종,0,0,,zero_households
+197,2017 1분기,2017,1,quarter,세종,세종,0,0,,zero_households
+200,2017 1분기,2017,1,quarter,충남,충남,-176,138,,negative_amount
+264,2018 1분기,2018,1,quarter,울산,울산,-178,14,,negative_amount
+298,2018 3분기,2018,3,quarter,울산,울산,0,0,,zero_households
+333,2019 1분기,2019,1,quarter,세종,세종,0,0,,zero_households
+349,2019 2분기,2019,2,quarter,울산,울산,0,0,,zero_households
+367,2019 3분기,2019,3,quarter,세종,세종,0,0,,zero_households
+375,2019 3분기,2019,3,quarter,제주,제주,0,0,,zero_households
+384,2019 4분기,2019,4,quarter,세종,세종,0,0,,zero_households
+392,2019 4분기,2019,4,quarter,제주,제주,0,0,,zero_households
+399,2020 1분기,2020,1,quarter,대전,대전,0,0,,zero_households
+401,2020 1분기,2020,1,quarter,세종,세종,0,0,,zero_households
+407,2020 1분기,2020,1,quarter,경북,경북,0,0,,zero_households
+548,2022 2분기,2022,2,quarter,부산,부산,-512,-1171,,negative_amount|negative_households
+567,2022 3분기,2022,3,quarter,세종,세종,0,0,,zero_households
+598,2023 1분기,2023,1,quarter,대전,대전,0,0,,zero_households
+601,2023 1분기,2023,1,quarter,세종,세종,-3,0,,negative_amount|zero_households
+615,2023 2분기,2023,2,quarter,대전,대전,0,0,,zero_households
+618,2023 2분기,2023,2,quarter,세종,세종,-3,0,,negative_amount|zero_households
+635,2023 3분기,2023,3,quarter,세종,세종,-2,5,,negative_amount
+655,2023 4분기,2023,4,quarter,전라,,10689,3509,3.04616700,unmapped_region
+689,2024 2분기,2024,2,quarter,제주,제주,-18,0,,negative_amount|zero_households
+711,2024 4분기,2024,4,quarter,경남,경남,-31,16,,negative_amount
+733,2025 1분기,2025,1,quarter,세종,세종,-22,0,,negative_amount|zero_households
+774,2025 4분기,2025,4,quarter,광주,광주,-272,-93,,negative_amount|negative_households
+791,2026 1분기,2026,1,quarter,광주,광주,-3545,157,,negative_amount
+807,2026 2분기,2026,2,quarter,광주,광주,-2279,545,,negative_amount
