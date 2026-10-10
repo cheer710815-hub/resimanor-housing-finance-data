@@ -1052,3 +1052,29 @@ Priority: MEDIUM
 - **Status:** SUBMITTED TO REPEC FOR MIRRORING — GitHub Pages deployment completed successfully and the archive-directory URL was sent to Christopher Baum/RePEc on 2026-10-01.
 - **Submission thread:** Replied in the original RePEc archive-handle email thread.
 - **Next action:** Wait for RePEc mirroring/indexing confirmation; then verify the series/item in IDEAS/RePEc and add the public RePEc record URL.
+
+
+### RePEc Research Note 2 — HUG presale guarantee regional series
+Type: RePEc / IDEAS economics research note
+Status: SUBMITTED_MIRROR_PENDING
+Prepared and published to archive: 2026-10-10
+Series:
+RePEc:gyv:resfin
+Handle:
+RePEc:gyv:resfin:2
+Title:
+South Korea Presale Guarantee Issuance, 2009-2026H1: A Regional Time-Series Data Note
+Public research-note page:
+https://cheer710815-hub.github.io/resimanor-housing-finance-data/research-notes/2026-hug-presale-guarantee-regional-series/
+ReDIF template:
+https://cheer710815-hub.github.io/resimanor-housing-finance-data/RePEc/gyv/resfin/gyv0002.rdf
+Canonical dataset DOI:
+https://doi.org/10.5281/zenodo.23262918
+Dedupe finding:
+- Distinct from Resimanor Research Note No. 1 on 2026 Stress DSR mortgage limits.
+- Reuses the already-published HUG dataset DOI; no duplicate DOI deposit was created.
+- The note is a research/data-quality interpretation layer, not a repackaged copy of the first note.
+Next step:
+- Wait for the next RePEc mirror cycle.
+- Verify appearance on IDEAS/EconPapers before marking LIVE.
+Priority: VERY HIGH
