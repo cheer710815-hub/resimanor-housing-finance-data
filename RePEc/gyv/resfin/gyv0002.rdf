@@ -1,0 +1,15 @@
+Template-Type: ReDIF-Paper 1.0
+Author-Name: Eun Kim
+Author-Name-First: Eun
+Author-Name-Last: Kim
+Author-Workplace-Name: Resimanor
+Title: South Korea Presale Guarantee Issuance, 2009-2026H1: A Regional Time-Series Data Note
+Abstract: This research note documents a reconstructed regional time series of South Korea Housing and Urban Guarantee Corporation (HUG) presale-guarantee issuance records covering 2009 through the first half of 2026. The verified source contains 818 observations. The note preserves negative source values and missing regional observations rather than silently replacing them, and separately flags an ambiguous 2023 Q4 region label. For clearly classified standard regions, annual guarantee-issuance totals are 1,033,193 hundred-million won in 2023, 748,890 in 2024, and 602,194 in 2025; 2026 covers only the first two quarters and totals 431,426. These figures are guarantee issuance records, not apartment transaction values, completed contract amounts, or average presale prices. The note is intended as a reproducible housing-finance and data-quality reference rather than a causal market analysis.
+Creation-Date: 2026-10-10
+Number: 2
+Classification-JEL: G28, R31, R38, C81
+Keywords: South Korea, HUG, presale guarantee, housing finance, regional housing market, data quality, time series
+Note: Underlying reconstructed dataset and documentation are archived at Zenodo. Canonical dataset DOI: 10.5281/zenodo.23262918
+Handle: RePEc:gyv:resfin:2
+File-URL: https://cheer710815-hub.github.io/resimanor-housing-finance-data/research-notes/2026-hug-presale-guarantee-regional-series/
+File-Format: text/html
