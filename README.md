@@ -198,3 +198,16 @@ This pilot preserves before/after values from official correction notices as eve
 - [Media / research summary](./datasets/dsr-mortgage-limit-2026-h2/MEDIA_RESEARCH_SUMMARY.md)
 
 The dataset reports **DSR-based theoretical calculated limits**, not actual bank approval amounts. The 0.75% non-metropolitan/non-regulated value is a controlled analytical reference scenario and must not be interpreted as a universal fixed official stress rate.
+
+
+## Dataset — Car installment impact on modeled mortgage DSR (64 scenarios)
+
+- [Dataset documentation](./datasets/auto-installment-mortgage-dsr-2026/README.md)
+- [CSV (64 scenarios)](./datasets/auto-installment-mortgage-dsr-2026/resimanor_auto_installment_mortgage_dsr_scenarios_2026_v1.csv)
+- [Validation notes](./datasets/auto-installment-mortgage-dsr-2026/VALIDATION.md)
+- [Citation metadata](./datasets/auto-installment-mortgage-dsr-2026/CITATION.cff)
+- Version: **1.0** | Published: **2026-10-10** | License: **CC BY 4.0**
+- Version DOI: **https://doi.org/10.5281/zenodo.23274478**
+- All-versions DOI: **https://doi.org/10.5281/zenodo.23274477**
+
+**Modeling caveat:** Monthly car installments are deducted in full as an illustrative DSR obligation. This assumption is not a statement of actual regulatory treatment or lender underwriting; stress DSR, LTV, other debts, and bank-specific criteria are excluded.
