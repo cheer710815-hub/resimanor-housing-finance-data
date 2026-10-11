@@ -1,0 +1,17 @@
+region,hug_matched_quarters,hug_2025_100m_krw,hug_2026_100m_krw,hug_change_100m_krw,molit_presale_2025_units,molit_presale_2026_units,molit_change_units,hug_direction,molit_direction,direction_agreement
+강원,2,2555,5939,3384,805,1373,568,increase,increase,yes
+경기,2,73155,127992,54837,29596,39289,9693,increase,increase,yes
+경남,2,9157,21249,12092,3788,6357,2569,increase,increase,yes
+경북,2,7654,27509,19855,2055,4448,2393,increase,increase,yes
+광주,2,2110,-5824,-7934,1146,356,-790,decrease,decrease,yes
+대구,2,14329,690,-13639,2644,905,-1739,decrease,decrease,yes
+대전,1,4547,18296,13749,2118,4012,1894,increase,increase,excluded_partial
+부산,2,15167,35132,19965,5080,7488,2408,increase,increase,yes
+서울,2,26229,74653,48424,6558,13773,7215,increase,increase,yes
+울산,2,4549,4400,-149,1206,701,-505,decrease,decrease,yes
+인천,2,17578,38408,20830,4832,10524,5692,increase,increase,yes
+전남,1,1496,8115,6619,294,4179,3885,increase,increase,excluded_partial
+전북,2,4988,2217,-2771,2503,1578,-925,decrease,decrease,yes
+제주,1,117,3520,3403,65,753,688,increase,increase,excluded_partial
+충남,2,13757,57349,43592,3001,10609,7608,increase,increase,yes
+충북,2,5213,6695,1482,1576,2841,1265,increase,increase,yes
