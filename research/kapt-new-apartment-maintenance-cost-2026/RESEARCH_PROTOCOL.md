@@ -1,9 +1,23 @@
 # K-apt New-Apartment Maintenance Cost Stabilization — Research Protocol (2026)
 
-**Status: data acquisition and pilot, NOT a completed empirical dataset.**  
+**Status: exploratory 15-complex research report published; expanded empirical dataset work remains ongoing.**  
 **Publisher:** Resimanor  
 **Source:** Korea Ministry of Land, Infrastructure and Transport / K-apt (https://www.k-apt.go.kr/)  
 **Independent research question:** How do publicly reported monthly management costs change during the first 24 months after apartment completion, and how does the trajectory differ by complex size?
+
+## Published pilot report — 15 complexes, 24 months (2026-10-15)
+**Peer-reviewed status:** Not peer reviewed. **Publication type:** Exploratory research report (NOT a full public raw-data release).
+
+- **Zenodo v1 record:** https://zenodo.org/records/23393936
+- **Report DOI:** https://doi.org/10.5281/zenodo.23393936
+- **Title:** Early-stage apartment maintenance-cost trajectories in South Korea: a 15-complex, 24-month observational pilot (2023–2026)
+- **Author:** Eun Kim (Resimanor), ORCID 0009-0006-9445-4768.
+- **Data processed:** 15 apartment complexes × 24 observed months × 17 K-apt common cost API categories = 6,120 category/month responses. The report PDF is hosted on Zenodo; raw government API response files are **not** deposited with the report.
+- **Methods and limitations:** Separate cost subcomponents, do not add overlapping API fields to infer total maintenance costs. Some early months record zeros; sensitivity analyses exclude affected endpoint periods. Complex selection is not nationally representative. No causal stabilization claims.
+- **Current research stage:** 15-complex observational pilot report **published**; expanded-cohort, field-license, unit-of-measure, and reproducible raw-data release research remain open.
+- **No duplicate DOI:** This report DOI is the existing N02 canonical publication. Future extensions should cite this work and use clearly versioned updates rather than independent duplicate records.
+
+This publication update supersedes the earlier statement below that there were no validated observations, while preserving the initial protocol for transparency.
 
 ## Why this is distinct
 This research tracks post-occupancy monthly costs using K-apt complex/month panels. It is not a continuation of existing mortgage DSR, housing-subscription, HUG presale-guarantee or subscription-competition studies. Avoid recycling their DOI records.
@@ -42,4 +56,4 @@ One apartment complex ID × one reporting month. Require a verified complex iden
 - Track each release, review and approval result in the central work register.
 
 ## Publication integrity
-This protocol contains **no fabricated observations or statistical findings**. It is an initial registered research plan; the dataset is not yet ready for a DOI, academic citation or press release.
+This protocol contains the original registered research plan. A separate **exploratory report** based on collected K-apt API observations was published on Zenodo on 2026-10-15, DOI **10.5281/zenodo.23393936**. That DOI refers to the report PDF, **not** a publicly released, independently verified raw dataset or a nationally representative analysis.
