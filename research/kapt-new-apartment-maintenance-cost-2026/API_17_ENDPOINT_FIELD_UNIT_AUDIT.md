@@ -65,3 +65,9 @@ These field names are **observed in archived data**, not descriptions or units c
 4. Only then label endpoint as `VERIFIED_UNIT` and authorize derived per-household or KRW/m² metrics. Record exact source URLs and timestamp; refrain from publicly claiming field/unit verification based only on regional display.
 
 **Publication policy:** Existing v1 and v2 Zenodo reports remain as published. This document does not claim the 17 response units have been fully validated; do not create a new duplicate DOI from this audit ledger.
+
+## Official portal follow-up — 2026-10-17
+
+Verified against the [government API service entry](https://www.data.go.kr/data/15057937/openapi.do): the provider is the Ministry of Land, Infrastructure and Transport; the transport format is **JSON**, and the listing identifies the permitted use as **이용허락범위 제한 없음** (no use-scope restriction). The public service page provides an **Open API specification guide**, but its rendered listing **does not include** a field-by-field definition, unit, or denominator for the 35 candidate value keys. Therefore this page **cannot support a claim that the 17 API endpoints' amounts are all KRW/m²**. No numeric normalization is authorized by this inspection alone.
+
+**Evidence status:** provider/format/use-scope verified; raw field names observed in archived response; each amount's official unit/area denominator **unverified**. The public page's permission notice does not independently establish the rights of ancillary K-apt website content or third-party datasets.
