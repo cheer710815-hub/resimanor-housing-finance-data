@@ -1,6 +1,6 @@
 # K-apt New-Apartment Maintenance Cost Stabilization — Research Protocol (2026)
 
-**Status: exploratory 15-complex research report published; expanded empirical dataset work remains ongoing.**  
+**Status: exploratory 15-complex v1 and expanded 20-complex v2 reports published; raw-data verification and expanded-cohort research remain ongoing.**  
 **Publisher:** Resimanor  
 **Source:** Korea Ministry of Land, Infrastructure and Transport / K-apt (https://www.k-apt.go.kr/)  
 **Independent research question:** How do publicly reported monthly management costs change during the first 24 months after apartment completion, and how does the trajectory differ by complex size?
@@ -15,9 +15,24 @@
 - **Data processed:** 15 apartment complexes × 24 observed months × 17 K-apt common cost API categories = 6,120 category/month responses. The report PDF is hosted on Zenodo; raw government API response files are **not** deposited with the report.
 - **Methods and limitations:** Separate cost subcomponents, do not add overlapping API fields to infer total maintenance costs. Some early months record zeros; sensitivity analyses exclude affected endpoint periods. Complex selection is not nationally representative. No causal stabilization claims.
 - **Current research stage:** 15-complex observational pilot report **published**; expanded-cohort, field-license, unit-of-measure, and reproducible raw-data release research remain open.
-- **No duplicate DOI:** This report DOI is the existing N02 canonical publication. Future extensions should cite this work and use clearly versioned updates rather than independent duplicate records.
+- **No duplicate DOI:** The v1 and v2 report DOIs belong to the **same** Zenodo version chain. Cite the version used; do not mirror these as separate independent studies.
 
 This publication update supersedes the earlier statement below that there were no validated observations, while preserving the initial protocol for transparency.
+
+## Published expanded report — 20 complexes, 24 months (2026-10-17)
+**Version:** 2.0 of the same Zenodo research record, NOT an independent duplicate deposit. **Peer review:** Not peer reviewed.
+
+- **Zenodo v2 (latest):** https://zenodo.org/records/23432629
+- **v2 DOI:** https://doi.org/10.5281/zenodo.23432629
+- **v1 predecessor:** https://zenodo.org/records/23393936 (DOI 10.5281/zenodo.23393936; retained unchanged)
+- **Title:** Early-stage apartment maintenance-cost trajectories in South Korea: Expanded 20-complex, 24-month observational analysis (2023–2026)
+- **Scope:** 20 complexes × 24 months × 17 cost API categories (8,160 category/month API responses). PDF report published; not a public raw K-apt API data deposit.
+- **Reported first-three versus last-three month median percentage changes:** pay +0.27%, cleaning +3.18%, security +2.00% across 20 complexes.
+- **Strict nonzero and complete-data sensitivity sample:** 16 complexes; pay −8.00%, cleaning +0.30%, security −0.76%. Missing amounts must not be interpreted as zero.
+- **Verification scope:** New 5 complexes rechecked against their raw API exports; earlier 15 complexes reanalyzed from existing processed monthly data, **not** independently revalidated against each original API response in this iteration.
+- **Limits:** Nonrandom, nonrepresentative sample; overlapping API expense categories and zero/missing reporting; no inference of a national total cost or causal stabilization.
+
+For citations of the 20-complex result, use **v2 DOI 10.5281/zenodo.23432629**. Cite v1 only for the historical 15-complex pilot.
 
 ## Why this is distinct
 This research tracks post-occupancy monthly costs using K-apt complex/month panels. It is not a continuation of existing mortgage DSR, housing-subscription, HUG presale-guarantee or subscription-competition studies. Avoid recycling their DOI records.
