@@ -71,3 +71,20 @@ These field names are **observed in archived data**, not descriptions or units c
 Verified against the [government API service entry](https://www.data.go.kr/data/15057937/openapi.do): the provider is the Ministry of Land, Infrastructure and Transport; the transport format is **JSON**, and the listing identifies the permitted use as **이용허락범위 제한 없음** (no use-scope restriction). The public service page provides an **Open API specification guide**, but its rendered listing **does not include** a field-by-field definition, unit, or denominator for the 35 candidate value keys. Therefore this page **cannot support a claim that the 17 API endpoints' amounts are all KRW/m²**. No numeric normalization is authorized by this inspection alone.
 
 **Evidence status:** provider/format/use-scope verified; raw field names observed in archived response; each amount's official unit/area denominator **unverified**. The public page's permission notice does not independently establish the rights of ancillary K-apt website content or third-party datasets.
+
+
+## Direct public page inspection and agency clarification questions — 2026-10-17
+
+Directly inspected public service page [data.go.kr/data/15057937/openapi.do](https://www.data.go.kr/data/15057937/openapi.do). It identifies the Ministry's `주택건설운영과` as managing department, the API as REST/JSON, and a generic **Open API specification guide**. The publicly extracted page gives **no machine-readable response-element table for the N02 35 cost keys**. A guide on how to view Swagger is not evidence of individual response field units. The project therefore does **not** claim all 17 endpoints were unit-validated.
+
+### Questions to submit to the responsible provider
+
+1. For each of the 17 `AptCmnuseManageCostServiceV3` methods, provide output `response.body.item` field names, Korean display names, and **exact unit** for each monetary element, including `pay`, `cleanCost`, `guardCost`, and `lrefCost1`–`lrefCost4`.
+2. Are each field's values **monthly KRW total**, **KRW/m²**, **KRW/household**, or some other measure? If area-standardized: **which K-apt area definition** is the denominator (residential exclusive area vs management area vs another area), and is rounding applied?
+3. Are salary, retirement and insurance amounts all *subcomponents* of labor cost; and are `lrefCost1`–`lrefCost4` all nested below repairs/maintenance? State which API values overlap and are **non-additive**.
+4. For a numeric value of `0`, what can be inferred about reporting vs no incurred cost? What does `null` mean, and are unreported months or correction statuses distinguished?
+5. Can historical 2023–2025 monthly amounts be revised after originally published? If so how can users retrieve amendment date or snapshots?
+6. Is reuse of the raw API JSON as a redistributed scholarly derived dataset permitted under this API listing's **이용허락범위 제한 없음**, and are any separate attribution/source terms required?
+
+**Until written field-level answers or downloadable specification are secured, all 35 field units stay `UNVERIFIED`.** Report them by API labels; do not calculate new household-/area-adjusted management costs. Future findings will document the date, exact answered fields, and provider evidence URL.
+
