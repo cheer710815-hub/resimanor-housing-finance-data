@@ -33,6 +33,20 @@ The following list identifies endpoints used by the N02 collector and their cate
 | 16 | `getHsmpDisasterPreventionCostInfoV3` | 재해예방비 | 수선유지비 하위 항목 | **Not independently mapped** | **Unverified for this endpoint** |
 | 17 | `getHsmpConsignManageFeeInfoV3` | 위탁관리수수료 | 공용관리비 별도 항목 | **Not independently mapped** | **Unverified for this endpoint** |
 
+
+## Archived JSON field-name inspection (2026-10-17)
+
+A locally archived `cost_raw_long(5).csv` for **A10023388** contains **408 response rows** from **17 operations × 24 months**. Parsing `result_json` confirms **35 distinct candidate numeric value keys** across these methods (excluding `kaptCode`, `kaptName`):
+
+- Labor: `pay`, `sundryCost`, `bonus`, `pension`, `accidentPremium`, `employPremium`, `nationalPension`, `healthPremium`, `welfareBenefit`.
+- Tax/communications: `electCost`, `telCost`, `postageCost`, `taxrestCost`.
+- Vehicle: `fuelCost`, `refairCost`, `carInsurance`, `carEtc`.
+- Other expense: `careItemCost`, `accountingCost`, `hiddenCost`.
+- Office: `officeSupply`, `bookSupply`, `transportCost`.
+- One field per remaining twelve methods: `cleanCost`, `clothesCost`, `manageCost`, `lrefCost4`, `disinfCost`, `eduCost`, `elevCost`, `lrefCost2`, `guardCost`, `hnetwCost`, `lrefCost1`, `lrefCost3`.
+
+These field names are **observed in archived data**, not descriptions or units certified by official Swagger. In particular the spelling `refairCost` is retained exactly as in source response; do not normalize or invent an alternative. No claim of a common unit or ability to sum the fields follows from this observation.
+
 ## Confirmed versus unresolved
 
 **Confirmed by official K-apt page:** Area-standardized public *regional* common-maintenance statistics display in **KRW/m²** using residential exclusive floor area; they exclude personal utilities and long-term repair fund charges. **Not confirmed:** Whether each endpoint's raw `response.body.item` field is monthly KRW, KRW/m², another area basis, or a mixture. Do not divide numeric values by `kaptMarea` until validated against field definition. The basic-info field `kaptMarea` is **not automatically identical** to the residential exclusive area denominator displayed in regional statistics.
