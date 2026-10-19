@@ -50,6 +50,17 @@ Region labels and approval dates must be time-aligned; preserve historical locat
 3. Results are exploratory and may not be generalized to nationwide apartment maintenance-cost change.
 4. Government-source revision-date alignment, official field definitions and rights, full editorial cross-check and the research coordinator's explicit approval are prerequisites to issuing a new Zenodo version. The existing N02 v2 DOI is retained without modification.
 
+
+## Final editorial integrity checks (2026-10-19)
+
+**Quality assurance versus financial meaning.** The 24,480-record count establishes completeness of the *archived API response grid*, not independently confirmed accuracy of the billed amounts. The 1,295 nulls are **JSON monetary-field cells across 35 candidate fields**, not 1,295 failed API requests, missing months, or complexes. Comparisons are complete-case/positive-only at each individual cost field; reporting their positive median alone would obscure the 10 / 10 / 13 exclusions in `pay`, `cleanCost`, and `guardCost` respectively.
+
+**Uncertainty interpretation.** The 20,000-resample percentile intervals condition on the already selected, eligible complexes. They omit uncertainty arising from purposive cohort selection, missing or zero-valued records, regional/time heterogeneity, source reporting corrections and unknown units. Zero falling inside an interval is descriptive evidence of instability under this reweighting, **not** a formal acceptance of a null hypothesis or proof that real costs were unchanged.
+
+**Terminology constraint.** Until the official API schema is supplied, identify outputs as changes in the `pay`, `cleanCost`, and `guardCost` *response-field values*; do not call them a complete management fee, a national increase, or an inflation-adjusted per-area cost. No official technical response has yet confirmed those terms.
+
+**Current release gate:** HOLD — await verified provider schema/units/denominators, then update field definitions and conduct line-by-line source review before the owner's approval. Do not publish Zenodo v3 from this draft merely because the structural QA and bootstrap runs passed.
+
 ## Source audit references
 
 - [60-source reproduction](./V3_60_SOURCE_REPRODUCTION_20261019.md)
