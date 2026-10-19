@@ -70,7 +70,7 @@ def audit(files):
                     if str(method).split("/")[-1] != target:
                         continue
                     key = (code, field, str(month))
-                    if key in groups[code, field]:
+                    if str(month) in groups[code, field]:
                         issues.append([str(f), f"line {line}: duplicate {key}"])
                     groups[code, field][str(month)] = amount(item.get(field))
     results = []
