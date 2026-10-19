@@ -57,6 +57,13 @@ class EndpointRegressionTests(unittest.TestCase):
         self.assertEqual(self.locate(rows,"guardCost")[3],"zero_or_nonpositive")
         self.assertEqual(self.locate(rows,"pay")[3],"eligible")
 
+    def test_nonfinite_amounts_are_invalid(self):
+        for value in ("NaN", "inf", "-inf"):
+            self.build({("pay",0):value})
+            rows, problems=audit([self.csvfile])
+            self.assertEqual(problems, [])
+            self.assertEqual(self.locate(rows,"pay")[3],"null_or_nonnumeric")
+
     def test_duplicate_is_reported(self):
         self.build(duplicate=True)
         _,problems=audit([self.csvfile])
