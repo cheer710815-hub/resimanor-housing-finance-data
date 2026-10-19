@@ -5,7 +5,7 @@ Example: python recompute_strict_endpoints.py cohort_results --out n02_recheck
 Python standard library only. Read-only with respect to raw inputs.
 Does NOT determine official units, area denominator, or national estimates.
 """
-import argparse, csv, json, pathlib, collections, statistics
+import argparse, csv, json, pathlib, collections, statistics, math
 FIELDS = {"pay": "getHsmpLaborCostInfoV3",
           "cleanCost": "getHsmpCleaningCostInfoV3",
           "guardCost": "getHsmpGuardCostInfoV3"}
@@ -44,7 +44,8 @@ def amount(x):
     if x is None or isinstance(x, bool):
         return None
     try:
-        return float(str(x).replace(",", "").strip())
+        value = float(str(x).replace(",", "").strip())
+        return value if math.isfinite(value) else None
     except (ValueError, TypeError):
         return None
 
