@@ -57,6 +57,19 @@ For the original20, each field excludes 4 / 20 complexes (20.0%). In the additio
 
 Region labels and approval dates must be time-aligned; preserve historical location designations and distinguish them from current display labels. K-apt updates can also change recent-month displayed statistics after the archived collection time; this study does not establish whether any specific archived row was subsequently revised.
 
+
+### Identical-complex sensitivity: 45 common eligible complexes (2026-10-20)
+
+Because the three primary medians were calculated from different field-specific eligibility sets, we additionally restricted all three to the **same 45 complexes** with positive first/last three-month values for every field.
+
+| Source field | Initial field-specific median (n) | Common 45-complex median | Difference |
+|---|---:|---:|---:|
+| `pay` | +1.93% (50) | +1.90% | -0.02 percentage points |
+| `cleanCost` | +2.24% (50) | **-2.09%** | **-4.34 percentage points** |
+| `guardCost` | +1.86% (47) | +1.17% | -0.69 percentage points |
+
+**Important:** the `cleanCost` median **changes sign** when restricting to the same 45 eligible complexes. It would be misleading to describe its upward trend as robust to sample composition. This is a field-eligibility sensitivity result, not a statistical population estimate; it does not establish a national cost trend or correct unverified government source units. See [matched sample source audit](./V3_COMMON_45_COMPLEX_SENSITIVITY_20261020.md).
+
 ## Limits and release hold
 
 1. The 35 observed API amount fields' **official monetary units, denominators and aggregation hierarchy remain insufficiently documented**. The public-data service desk confirmed forwarding the technical request to the Ministry on 2026-10-19 but provided no technical field definitions. Do not label the source numeric values as monthly KRW totals, KRW/m² or household costs; never add overlapping 17 API methods as if they were independent total expenses.
