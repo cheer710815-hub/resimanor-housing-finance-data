@@ -61,3 +61,10 @@ South Korea; K-apt; apartment maintenance; data provenance; nonprobability sampl
 
 Direct reads of the current Zenodo v2 record `https://zenodo.org/records/23432629`, Zenodo REST API `https://zenodo.org/api/records/23432629`, DOI resolver `https://doi.org/10.5281/zenodo.23432629`, and DataCite DOI API were **not accessible in the current web runtime**. A connected Gmail search for Zenodo confirmation messages from October 2026 returned no matching emails. Consequently **no independent verification of creators, licenses, registered files, grants or version metadata was possible from these attempted sources**. This is an access limitation, not evidence that the Zenodo record has been deleted or its metadata changed. Keep the corresponding reviewer checklist items unchecked; do not extrapolate a creator name or license from the GitHub repo.
 
+
+## Archived author-identity candidate recovered (2026-10-20)
+
+An actual locally archived preparatory package, `N02_Zenodo_기존저자정보_적용본.zip`, contains `ZENODO_METADATA.md` for the **older 15-complex N02 preparatory report**. This draft explicitly lists **Eun Kim (김은정)**, affiliation **Resimanor**, and proposed ORCID **0009-0006-9445-4768**. A separately archived copy in `N02_zenodo_final_review/ZENODO_METADATA.md` repeats this candidate attribution. It proposes report-only **CC BY 4.0**, expressly excluding third-party K-apt raw data and requiring a final rights check. Both records explicitly say **LOCAL DRAFT ONLY / not submitted**, and thus **do not establish the actual creators or license on the subsequently published Zenodo v2 record**.
+
+**Metadata handling rule:** retain these as historically documented *candidate* authorship/ORCID/affiliation details for v3 review. Do not mark author identity, account authorization or v2 license verified until the published record is inspected or the coordinator approves the actual v3 metadata. Keep all published-v2 metadata gates open. The previous "no independent verification" status remains correct for v2, even though a provenance-bearing earlier preparatory document is now available.
+
