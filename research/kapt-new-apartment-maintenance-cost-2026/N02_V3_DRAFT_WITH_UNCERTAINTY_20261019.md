@@ -39,7 +39,21 @@ All three resampling intervals include zero. **These intervals quantify within-o
 
 The added 40 were purposively distributed eight each across five size strata, improving sample size balance but not geographic or temporal representativeness. Among all 60, the corresponding stratum counts are 10/20/10/10/10. Two mixed-use complexes were removed in the apartment-only sensitivity analysis; the three median signs remained positive, without resolving compositional confounding.
 
-For the added40, eligible counts for `pay`, `cleanCost`, `guardCost` are 34/34/31, with six exclusions involving null for each field and three additional zero-related exclusions for security. The older20 contribute 16 valid complexes per field. Small region-by-component cells should not be presented as population ranking: for the apartment-only regional breakdown, 37 of 48 region-field combinations have fewer than five valid complexes.
+For the added40, eligible counts for `pay`, `cleanCost`, and `guardCost` are 34/34/31, with six exclusions involving null for each field and three additional zero-related exclusions for security. The older20 contribute 16 valid complexes per field.
+
+### Field-specific exclusions and potential selection bias (audit 2026-10-20)
+
+The strict six-positive-endpoint rule excludes different complexes for different response fields. The 60-complex data yield the following eligibility breakdown:
+
+| Source response field | Eligible complexes | Null/nonnumeric endpoint exclusion | Zero/nonpositive endpoint exclusion | Excluded complexes (rate) |
+|---|---:|---:|---:|---:|
+| `pay` | 50 | 8 | 2 | 10 / 60 (16.7%) |
+| `cleanCost` | 50 | 8 | 2 | 10 / 60 (16.7%) |
+| `guardCost` | 47 | 8 | 5 | 13 / 60 (21.7%) |
+
+Across all three outcomes, the **33 excluded complex-field observations** belong to **15 unique complexes**, of which **9 are ineligible for all three fields** and **6 are ineligible for only one field**; none are excluded for exactly two fields. Thus the three reported field-level medians do **not** necessarily summarize identical sets of complexes.
+
+For the original20, each field excludes 4 / 20 complexes (20.0%). In the additional40, `pay` and `cleanCost` each exclude 6 / 40 (15.0%), whereas `guardCost` excludes 9 / 40 (22.5%). The differing eligibility rates and overlapping exclusions raise a **possible selection-bias limitation**, but neither its direction nor magnitude can be inferred without valid endpoint values for excluded complexes. Missing or zero values must not be imputed as actual absence of incurred costs; no missing-at-random assumption is supported by this dataset. Small region-by-component cells should not be presented as population ranking: for the apartment-only regional breakdown, 37 of 48 region-field combinations have fewer than five valid complexes.
 
 Region labels and approval dates must be time-aligned; preserve historical location designations and distinguish them from current display labels. K-apt updates can also change recent-month displayed statistics after the archived collection time; this study does not establish whether any specific archived row was subsequently revised.
 
@@ -69,3 +83,4 @@ Region labels and approval dates must be time-aligned; preserve historical locat
 - [Exploratory bootstrap audit](./V3_BOOTSTRAP_SENSITIVITY_20261019.md)
 - [Response field unit audit](./API_17_ENDPOINT_FIELD_UNIT_AUDIT.md)
 - [Field eligibility correction](./V3_REGION_AND_ELIGIBILITY_CORRECTION_20261019.md)
+- [60-complex exclusion and overlap audit](./V3_60_FIELD_EXCLUSION_OVERLAP_20261020.md)
