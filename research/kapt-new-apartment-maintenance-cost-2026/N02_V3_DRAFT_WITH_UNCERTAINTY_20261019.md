@@ -80,6 +80,19 @@ The full 50 `cleanCost`-valid complexes split into 27 positive and 23 negative c
 
 **Additional composition robustness check (2026-10-20).** All 32 inclusion subsets of the five excluded-but-cleaning-eligible complexes were evaluated. The matched median is -2.09% with none reintroduced, -0.79% with any one, +0.52% with any two, +1.22% with any three, +1.92% with any four, and +2.24% with all five. Conversely, the 50 single-complex-deletion estimates from the full cleaning-eligible group all remain positive (+1.92% to +2.57%). The observed sign flip is therefore not attributable to a single influential complex; it is driven by the eligibility-defined group composition. [Incremental 32-subset audit](./V3_CLEANCOST_COMPOSITION_INCREMENTAL_20261020.md).
 
+
+### Bootstrap comparison on the matched 45-complex cohort (2026-10-20)
+
+A separate deterministic 20,000-resample bootstrap audit repeats the calculation on the all-three-valid 45-complex group, and contrasts it with the 50/50/47 field-specific eligible groups using the same resampling algorithm (seed 20261020):
+
+| Field | Field-specific median and bootstrap interval | Common45 median and bootstrap interval |
+|---|---|---|
+| `pay` | +1.93% [-2.99%, +3.93%] (n=50) | +1.90% [-2.94%, +2.93%] |
+| `cleanCost` | +2.24% [-4.31%, +4.70%] (n=50) | **-2.09% [-5.36%, +3.71%]** |
+| `guardCost` | +1.86% [-3.17%, +3.93%] (n=47) | +1.17% [-3.17%, +3.39%] |
+
+Both cleaning intervals include zero. The median sign reversal is therefore a significant **descriptive composition sensitivity**, *not a demonstrated population-level increase or decrease or formal statistical significance*. The earlier bootstrap used a different seed, so finite-simulation percentile boundaries vary slightly. See [matched bootstrap comparison](./V3_MATCHED45_BOOTSTRAP_COMPARISON_20261020.md).
+
 ## Limits and release hold
 
 1. The 35 observed API amount fields' **official monetary units, denominators and aggregation hierarchy remain insufficiently documented**. The public-data service desk confirmed forwarding the technical request to the Ministry on 2026-10-19 but provided no technical field definitions. Do not label the source numeric values as monthly KRW totals, KRW/m² or household costs; never add overlapping 17 API methods as if they were independent total expenses.
