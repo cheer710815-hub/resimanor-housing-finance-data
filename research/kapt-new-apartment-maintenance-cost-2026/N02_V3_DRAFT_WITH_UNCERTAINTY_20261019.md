@@ -77,6 +77,9 @@ The original field-eligible `cleanCost` group contains 50 complexes. Exactly fiv
 
 The full 50 `cleanCost`-valid complexes split into 27 positive and 23 negative changes (median +2.242365%). The 45 matched complexes split into 22 positive and 23 negative changes (median -2.094951%). Accordingly, the median sign reversal can be explained directly by five excluded positive-change cases and the shifted median order statistic. This is a **composition effect** and does not establish which sample is representative or the cause of the underlying changes. Audit reference: [five-complex composition check](./V3_CLEANCOST_FIVE_COMPLEX_EXCLUSION_20261020.md).
 
+
+**Additional composition robustness check (2026-10-20).** All 32 inclusion subsets of the five excluded-but-cleaning-eligible complexes were evaluated. The matched median is -2.09% with none reintroduced, -0.79% with any one, +0.52% with any two, +1.22% with any three, +1.92% with any four, and +2.24% with all five. Conversely, the 50 single-complex-deletion estimates from the full cleaning-eligible group all remain positive (+1.92% to +2.57%). The observed sign flip is therefore not attributable to a single influential complex; it is driven by the eligibility-defined group composition. [Incremental 32-subset audit](./V3_CLEANCOST_COMPOSITION_INCREMENTAL_20261020.md).
+
 ## Limits and release hold
 
 1. The 35 observed API amount fields' **official monetary units, denominators and aggregation hierarchy remain insufficiently documented**. The public-data service desk confirmed forwarding the technical request to the Ministry on 2026-10-19 but provided no technical field definitions. Do not label the source numeric values as monthly KRW totals, KRW/m² or household costs; never add overlapping 17 API methods as if they were independent total expenses.
