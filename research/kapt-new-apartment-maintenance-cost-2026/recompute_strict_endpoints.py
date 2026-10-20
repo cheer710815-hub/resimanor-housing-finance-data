@@ -49,6 +49,20 @@ def amount(x):
     except (ValueError, TypeError):
         return None
 
+def consecutive_months(dates):
+    """Require 24 distinct, strictly consecutive valid YYYYMM calendar months."""
+    if len(dates) != 24:
+        return False
+    indices = []
+    for date in dates:
+        if len(date) != 6 or not date.isdigit():
+            return False
+        year, month = int(date[:4]), int(date[4:])
+        if year < 1900 or not 1 <= month <= 12:
+            return False
+        indices.append(year * 12 + month)
+    return all(b - a == 1 for a, b in zip(indices, indices[1:]))
+
 def audit(files):
     groups, issues = collections.defaultdict(dict), []
     for f in files:
@@ -82,6 +96,8 @@ def audit(files):
         reason, change = "eligible", None
         if len(dates) != 24:
             reason = "month_count_not_24"
+        elif not consecutive_months(dates):
+            reason = "nonconsecutive_or_invalid_month"
         elif any(x is None for x in first + last):
             reason = "null_or_nonnumeric"
         elif any(x <= 0 for x in first + last):
