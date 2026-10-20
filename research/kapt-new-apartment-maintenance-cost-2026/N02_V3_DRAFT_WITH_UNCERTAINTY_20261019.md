@@ -70,6 +70,13 @@ Because the three primary medians were calculated from different field-specific 
 
 **Important:** the `cleanCost` median **changes sign** when restricting to the same 45 eligible complexes. It would be misleading to describe its upward trend as robust to sample composition. This is a field-eligibility sensitivity result, not a statistical population estimate; it does not establish a national cost trend or correct unverified government source units. See [matched sample source audit](./V3_COMMON_45_COMPLEX_SENSITIVITY_20261020.md).
 
+
+#### Why does `cleanCost` reverse sign in the common sample? (2026-10-20)
+
+The original field-eligible `cleanCost` group contains 50 complexes. Exactly five complexes are valid for `cleanCost` but fail at least one **other** field's eligibility rule and therefore leave the three-field matched sample: A10022707 (+32.93%), A10022793 (+6.86%), A10022821 (+16.84%), A10023233 (+14.72%), and A10023329 (+67.99%). All five have positive `cleanCost` change. Four fail the `guardCost` positive-endpoint rule; A10023329 fails the `pay` positive-endpoint rule. These are field-eligibility exclusions, **not missing `cleanCost` amounts**.
+
+The full 50 `cleanCost`-valid complexes split into 27 positive and 23 negative changes (median +2.242365%). The 45 matched complexes split into 22 positive and 23 negative changes (median -2.094951%). Accordingly, the median sign reversal can be explained directly by five excluded positive-change cases and the shifted median order statistic. This is a **composition effect** and does not establish which sample is representative or the cause of the underlying changes. Audit reference: [five-complex composition check](./V3_CLEANCOST_FIVE_COMPLEX_EXCLUSION_20261020.md).
+
 ## Limits and release hold
 
 1. The 35 observed API amount fields' **official monetary units, denominators and aggregation hierarchy remain insufficiently documented**. The public-data service desk confirmed forwarding the technical request to the Ministry on 2026-10-19 but provided no technical field definitions. Do not label the source numeric values as monthly KRW totals, KRW/m² or household costs; never add overlapping 17 API methods as if they were independent total expenses.
