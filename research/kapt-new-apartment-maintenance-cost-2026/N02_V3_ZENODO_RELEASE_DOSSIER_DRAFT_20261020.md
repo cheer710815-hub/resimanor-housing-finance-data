@@ -68,3 +68,8 @@ An actual locally archived preparatory package, `N02_Zenodo_기존저자정보_�
 
 **Metadata handling rule:** retain these as historically documented *candidate* authorship/ORCID/affiliation details for v3 review. Do not mark author identity, account authorization or v2 license verified until the published record is inspected or the coordinator approves the actual v3 metadata. Keep all published-v2 metadata gates open. The previous "no independent verification" status remains correct for v2, even though a provenance-bearing earlier preparatory document is now available.
 
+
+## ORCID format check and published-record verification boundary (2026-10-20)
+
+The ORCID proposed by the archived 15-complex draft, `0009-0006-9445-4768`, passed the ISO 7064 Mod 11-2 ORCID check-digit algorithm (expected final digit **8**, observed **8**). This verifies only the identifier's **syntax and checksum**, not that its record exists, belongs to Eun Kim, or matches the published N02 v2 creator metadata. Repeated direct access to the Zenodo v2 REST API and DOI failed in the available web interface. Keep all *actual published-v2 metadata* fields as UNVERIFIED; do not auto-populate v3 creators/license from the local preliminary file until independently confirmed.
+
