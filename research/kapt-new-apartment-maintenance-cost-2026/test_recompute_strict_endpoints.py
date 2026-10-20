@@ -70,6 +70,34 @@ class EndpointRegressionTests(unittest.TestCase):
         self.assertEqual(len(problems),1)
         self.assertIn("duplicate",problems[0][1])
 
+    def test_gap_with_24_distinct_months_is_ineligible(self):
+        self.build(months=25)
+        with self.csvfile.open("r", encoding="utf-8", newline="") as f:
+            rows = list(csv.DictReader(f))
+        # Remove exactly one complete middle month, leaving 24 nonconsecutive months.
+        rows = [r for r in rows if r["searchDate"] != "202312"]
+        with self.csvfile.open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=["kaptCode","operation","searchDate","result_json"])
+            w.writeheader()
+            w.writerows(rows)
+        findings, problems = audit([self.csvfile])
+        self.assertEqual(problems, [])
+        self.assertTrue(all(r[3] == "nonconsecutive_or_invalid_month" for r in findings))
+
+    def test_invalid_calendar_month_is_ineligible(self):
+        self.build()
+        with self.csvfile.open("r", encoding="utf-8", newline="") as f:
+            rows = list(csv.DictReader(f))
+        for row in rows:
+            if row["searchDate"] == "202312":
+                row["searchDate"] = "202313"
+        with self.csvfile.open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=["kaptCode","operation","searchDate","result_json"])
+            w.writeheader()
+            w.writerows(rows)
+        findings, problems = audit([self.csvfile])
+        self.assertTrue(all(r[3] == "nonconsecutive_or_invalid_month" for r in findings))
+
     def test_short_observation_window_is_ineligible(self):
         self.build(months=23)
         rows,_=audit([self.csvfile])
