@@ -56,3 +56,8 @@ South Korea; K-apt; apartment maintenance; data provenance; nonprobability sampl
 ## Status and next gate
 
 **HOLD:** Official government response definitions and explicit final publication approval. Neither this dossier nor existing GitHub prepublication drafts authorize issuing a new DOI or editing published v2. Source analysis: [English v3 draft](./N02_V3_DRAFT_WITH_UNCERTAINTY_20261019.md), [Korean editorial review](./N02_V3_KOREAN_EDITORIAL_REVIEW_20261020.md), [field-unit verification matrix](./V3_35_FIELDS_PROVIDER_RESPONSE_MATRIX_20261019.md).
+
+## Zenodo v2 metadata verification attempted (2026-10-20)
+
+Direct reads of the current Zenodo v2 record `https://zenodo.org/records/23432629`, Zenodo REST API `https://zenodo.org/api/records/23432629`, DOI resolver `https://doi.org/10.5281/zenodo.23432629`, and DataCite DOI API were **not accessible in the current web runtime**. A connected Gmail search for Zenodo confirmation messages from October 2026 returned no matching emails. Consequently **no independent verification of creators, licenses, registered files, grants or version metadata was possible from these attempted sources**. This is an access limitation, not evidence that the Zenodo record has been deleted or its metadata changed. Keep the corresponding reviewer checklist items unchecked; do not extrapolate a creator name or license from the GitHub repo.
+
