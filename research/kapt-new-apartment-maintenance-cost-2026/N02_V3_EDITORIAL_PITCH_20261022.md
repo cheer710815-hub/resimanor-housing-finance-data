@@ -18,12 +18,21 @@
 
 *원시 API의 개별 금액 필드 단위와 과거 월별 면적 분모 검증이 완료되지 않았으므로 원/㎡ 환산 금액은 제시하지 않습니다. 비용 세부 항목을 합산해 전체 관리비로 취급하지 않습니다.*
 
+## Cross-project duplicate-prevention finding — 2026-10-22
+
+Central register cross-check (AptToSell/Resimanor shared Google Sheet):
+
+- **News1:** Existing row 138 (X18) shows the **N01** 980-transaction research pitch was already sent by email to the outlet on 2026-10-22; reply/publication unconfirmed. **Do not submit N02 now**, even though the dataset is distinct; await handling of that contact.
+- **NEWSIS:** Existing row 145 (X20-NEWSIS-20261022) holds an **N01** editorial draft with no form submission yet. **Prioritize the already-prepared N01 pitch**; do not create simultaneous competing N02 submissions.
+- Matching by recipient/outlet matters in addition to matching by DOI/dataset. No N02 submission was made.
+- Reassess alternative institutions with demonstrable relevance to apartment operations/management-cost research; avoid bulk cold outreach and do not count prepared links as backlinks.
+
 ## Public, currently verified editorial forms
 
 1. NEWSIS article tips: https://files.newsis.com/company/main.php?page=news_offer — category '경제'. Verify current form availability and review prior submissions before submitting.
 2. News1 tips: https://m-tv.news1.kr/footer/?report= — web submission form. Verify prior submissions before submitting.
 
-Neither has been contacted in this task, and editorial interest is unconfirmed. These are media tips rather than research repository deposits; no extra DOI should be minted.
+Neither has been contacted for N02 in this task. However both outlets already have N01 activity in the central register, so **N02 submission is currently on hold**. Editorial interest is unconfirmed. These are media tips rather than research repository deposits; no extra DOI should be minted.
 
 ## Research discovery pathway
 
