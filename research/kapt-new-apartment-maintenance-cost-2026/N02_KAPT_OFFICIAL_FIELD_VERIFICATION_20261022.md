@@ -42,10 +42,18 @@ K-apt 공개 API를 활용해 준공 초기 공동주택 관리비 세부 항목
 
 ## Verified primary inquiry route — 2026-10-22
 
-The actual **source API record** for this study is the Ministry of Land, Infrastructure and Transport's **공동주택관리비(공용관리비)정보제공서비스**: https://www.data.go.kr/data/15057937/openapi.do. Its public listing identifies provider **국토교통부**, managing division **주택건설운영과**, and offers the **데이터 개선요청 오류신고 및 문의** feature. The public listing does not display a managing-division telephone number.
+The actual **source API record** for this study is the Ministry of Land, Infrastructure and Transport's **공동주택관리비(공용관리비)정보제공서비스**: https://www.data.go.kr/data/15057937/openapi.do. Its public listing identifies provider **국토교통부**, managing division **주택건설운영과**, and offers the **데이터 개선요청 오류신고 및 문의** feature. The public catalog JSON-LD metadata explicitly lists a managing-division contact telephone **053-663-8263** (https://www.data.go.kr/catalog/15057937/openapi.json); confirm this is the appropriate API definitions inquiry point if using telephone rather than the record's online inquiry menu.
 
 **First-choice channel:** Open the exact API record above while logged into data.go.kr; choose its data-improvement/error/inquiry pathway for a **field dictionary and unit clarification**. Do not file the matter as a confirmed error unless official inconsistency has been demonstrated. If the form permits category selection, choose a question/inquiry rather than an error report.
 
 K-apt is operated by 한국부동산원, but the public API's formally named provider is 국토교통부. Direct the inquiry first through **the provider's own API record** instead of the separate REB quality-error channel, research-proposal desk, or publicity inbox.
 
 **Prepared only:** No form was submitted and no message was sent. Record the case/ticket ID and the actual provider's response in the central research register after submission.
+
+## Catalog metadata versus field dictionary — source audit 2026-10-22
+
+- The official JSON-LD public catalog endpoint https://www.data.go.kr/catalog/15057937/openapi.json confirms the exact API title `국토교통부_공동주택관리비(공용관리비)정보제공서비스`, ministry as provider, managing division `주택건설운영과`, and contact `053-663-8263`.
+- That metadata records service update date **2025-03-27** and licence **이용허락범위 제한 없음**. The catalog metadata does **not** specify the three API result fields' units, a historical month-specific area denominator, or correction semantics.
+- K-apt public management-cost display and REB weekly pre-disclosure of complex-area data (https://www.reb.or.kr/reb/ad/bs/beffatinfosport/view/selectBeffatinfoList.do?mi=9624) establish the existence of area information, **not** that today's area equals all 24 historical monthly denominators.
+- **Do not close** the official unit and historical denominator questions based on the metadata alone.
+- No data-go.kr message, phone call or ticket was submitted in this audit.
