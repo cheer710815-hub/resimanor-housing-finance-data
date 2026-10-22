@@ -64,3 +64,16 @@ K-apt is operated by 한국부동산원, but the public API's formally named pro
 - The detail page explicitly offers **데이터 개선요청 오류신고 및 문의** and identifies the provider as 국토교통부, 부서 주택건설운영과. Its rendered public detail view does not show the department phone number; a previously retrieved catalog value of 053-663-8263 should be revalidated with the provider before calling.
 - Public read-only access was insufficient to open an authenticated enquiry submission form or obtain a case/ticket number. **No enquiry has been submitted**.
 - Keep the substantive questions on `pay`, `cleanCost`, `guardCost` units, official monthly denominator, historic changes, reporting-month conventions and missing/zero/corrected amounts open until the ministry confirms them.
+
+## Newly verified K-apt official statistics unit — 2026-10-22
+
+K-apt's own thematic common-cost statistics page states: **발생 공용관리비 (단위: 원/㎡, 주거전용면적기준)**. It also says its statistics may change with complex-characteristic changes or management-cost corrections at later query dates. Source: https://www.k-apt.go.kr/apiinfo/index/apiIndexSearch.do (official K-apt public statistical page).
+
+**Important interpretation boundary:** This establishes the presentation unit of that K-apt *statistics screen*, NOT necessarily the raw-return unit of the API fields `pay`, `cleanCost`, `guardCost`, and NOT the recorded area denominator on each of the 24 historic months. Do not assert that an API amount is already won/㎡, or divide an API value by today's area, based only on this display.
+
+**Shortened provider questions:**
+1. Are `pay`, `cleanCost` and `guardCost` raw API results monthly KRW totals or already unit-normalized won/㎡ values? Please refer to the version-specific official field dictionary.
+2. What exact denominator does the K-apt official per-㎡ display use on each historical reporting month? Does it distinguish `privArea` from `kaptMarea` and retain month-specific area revisions?
+3. How does the API mark and retain missing, non-disclosed, 0-valued and revised monthly records, including their reference month and last corrected date?
+
+**Status:** Public documentation partially clarifies the statistics screen; individual API field definitions and historic denominators remain unanswered. No contact made or ticket issued.
