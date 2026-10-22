@@ -104,3 +104,11 @@ The included `REPRODUCE/n02_independent_recompute.py` was then executed locally 
 | Security | +1.8591552704096737% | 47 |
 
 These reproduce the published rounded values (+1.93%, +2.24%, +1.86%). This is **package-based analytical reproducibility**, not a new independent download of the government API source records, validation of official monetary units, validation of historical area denominators, proof of licensing rights for every raw file, or evidence of nationally representative trends or causality. Do not interpret these percentages as increases in total maintenance fees. Preserve the existing v3 DOI and version lineage; no replacement DOI is needed.
+
+## Official source licensing check — 2026-10-22
+
+- Official API catalog: https://www.data.go.kr/data/15057937/openapi.do (MOLIT, “공동주택관리비(공용관리비)정보제공서비스”).
+- On 2026-10-22 the catalog publicly displayed: **무료** (no fee), **이용허락범위 제한 없음** (no stated usage restrictions), REST/JSON, and a catalog modification date of 2026-08-06.
+- Scope of this check: the licensing statement **for this catalog entry only**. It does not independently resolve whether all packaged files have third-party rights, whether any separate terms apply, or whether every derived field's unit and historical area denominator is correctly specified.
+- The public HTML catalog page did not establish authoritative units for `pay`, `cleanCost`, and `guardCost`. Accordingly, retain the original-unit uncertainty disclosure; do **not** present absolute amounts as KRW/month or KRW/m²/month without authoritative field-level documentation.
+- Keep the published v3 analysis and DOI unchanged. No new DOI, raw-data redistribution, or categorical license assertion follows from this check alone.
