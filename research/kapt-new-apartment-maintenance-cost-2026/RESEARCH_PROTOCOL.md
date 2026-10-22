@@ -90,3 +90,17 @@ One apartment complex ID × one reporting month. Require a verified complex iden
 
 ## Publication integrity
 This protocol contains the original registered research plan. A separate **exploratory report** based on collected K-apt API observations was published on Zenodo on 2026-10-15, DOI **10.5281/zenodo.23393936**. That DOI refers to the report PDF, **not** a publicly released, independently verified raw dataset or a nationally representative analysis.
+
+## Independent reproduction confirmation — 2026-10-22
+
+The publicly released Zenodo v3 archive (`10.5281/zenodo.23553560`) was compared against the prepublication archive on the publisher's local Windows environment. The 315,715-byte files matched both the preflight SHA-256 (`0bfc9edc2e6f051c1bbbb496fe7b07730a12fcb177fb067478bcf8715ad80d08`) and the Zenodo MD5 (`add3f57b550f6e299ffb5c84dc2b4de6`). The ZIP CRC check passed and the archive contained 21 files.
+
+The included `REPRODUCE/n02_independent_recompute.py` was then executed locally with the packaged raw cohort ZIPs and reference endpoint table. Its reported results were 8,160 old-cohort records plus 16,320 new-cohort records (24,480 combined), 60 complexes, 180 endpoint comparisons, 180 matches, **zero mismatches**, and no reported issues. Reported median percentage changes (complex-level first-three vs last-three-month endpoint comparison) were:
+
+| Cost component | Recomputed median change | Eligible complexes |
+| --- | ---: | ---: |
+| Labor | +1.9256590517834016% | 50 |
+| Cleaning | +2.24236503693932% | 50 |
+| Security | +1.8591552704096737% | 47 |
+
+These reproduce the published rounded values (+1.93%, +2.24%, +1.86%). This is **package-based analytical reproducibility**, not a new independent download of the government API source records, validation of official monetary units, validation of historical area denominators, proof of licensing rights for every raw file, or evidence of nationally representative trends or causality. Do not interpret these percentages as increases in total maintenance fees. Preserve the existing v3 DOI and version lineage; no replacement DOI is needed.
