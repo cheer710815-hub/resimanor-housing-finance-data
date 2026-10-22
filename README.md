@@ -77,6 +77,15 @@ The RePEc archive directory contains the archive template, series template, and 
 
 외부 데이터 저장소에서 이 자료를 인용하거나 재사용할 때는 가능한 경우 위 원문 데이터 페이지와 인용 정책을 함께 확인해 주세요.
 
+## N02 research — New-apartment maintenance costs (60 complexes)
+
+- [Research protocol and version history](./research/kapt-new-apartment-maintenance-cost-2026/RESEARCH_PROTOCOL.md)
+- [Published 60-complex dataset (Zenodo v3)](https://doi.org/10.5281/zenodo.23553560)
+- [Resimanor analysis article](https://resimanor.com/new-apartment-maintenance-cost-24-month-analysis/)
+- All-versions DOI: https://doi.org/10.5281/zenodo.23393935
+
+The study compares months 1–3 and 22–24 of selected maintenance-cost components across 60 nonrandomly selected Korean apartment complexes. Reported median complex-level changes are labor +1.93% (n=50), cleaning +2.24% (n=50), and security +1.86% (n=47). These are **not** changes in total household maintenance fees or nationally representative estimates. Cite the v3 DOI for the 60-complex findings; earlier version DOIs refer to their historical cohorts.
+
 ## Related public datasets
 
 ### Korea Bogeumjari Loan Rates 2026
