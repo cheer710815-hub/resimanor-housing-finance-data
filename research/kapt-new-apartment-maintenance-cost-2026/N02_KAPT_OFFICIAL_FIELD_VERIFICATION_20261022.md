@@ -57,3 +57,10 @@ K-apt is operated by 한국부동산원, but the public API's formally named pro
 - K-apt public management-cost display and REB weekly pre-disclosure of complex-area data (https://www.reb.or.kr/reb/ad/bs/beffatinfosport/view/selectBeffatinfoList.do?mi=9624) establish the existence of area information, **not** that today's area equals all 24 historical monthly denominators.
 - **Do not close** the official unit and historical denominator questions based on the metadata alone.
 - No data-go.kr message, phone call or ticket was submitted in this audit.
+
+## Public live API page cross-check — 2026-10-22
+
+- The current public **API detail page** https://www.data.go.kr/data/15057937/openapi.do displays **수정일 2026-08-06**. This must be distinguished from the **2025-03-27 date found in a separate machine-readable catalog response**, which should **not** be labelled as the latest detail-page modification date.
+- The detail page explicitly offers **데이터 개선요청 오류신고 및 문의** and identifies the provider as 국토교통부, 부서 주택건설운영과. Its rendered public detail view does not show the department phone number; a previously retrieved catalog value of 053-663-8263 should be revalidated with the provider before calling.
+- Public read-only access was insufficient to open an authenticated enquiry submission form or obtain a case/ticket number. **No enquiry has been submitted**.
+- Keep the substantive questions on `pay`, `cleanCost`, `guardCost` units, official monthly denominator, historic changes, reporting-month conventions and missing/zero/corrected amounts open until the ministry confirms them.
