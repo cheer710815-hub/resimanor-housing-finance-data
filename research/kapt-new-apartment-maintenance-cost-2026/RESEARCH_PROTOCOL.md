@@ -1,6 +1,6 @@
 # K-apt New-Apartment Maintenance Cost Stabilization — Research Protocol (2026)
 
-**Status: exploratory 15-complex v1 and expanded 20-complex v2 reports published; raw-data verification and expanded-cohort research remain ongoing.**  
+**Status: v1 (15 complexes), v2 (20 complexes) and v3 (60 complexes) published in the same Zenodo version chain. Monetary field units and historical-area assumptions remain under review.**  
 **Publisher:** Resimanor  
 **Source:** Korea Ministry of Land, Infrastructure and Transport / K-apt (https://www.k-apt.go.kr/)  
 **Independent research question:** How do publicly reported monthly management costs change during the first 24 months after apartment completion, and how does the trajectory differ by complex size?
@@ -22,7 +22,7 @@ This publication update supersedes the earlier statement below that there were n
 ## Published expanded report — 20 complexes, 24 months (2026-10-17)
 **Version:** 2.0 of the same Zenodo research record, NOT an independent duplicate deposit. **Peer review:** Not peer reviewed.
 
-- **Zenodo v2 (latest):** https://zenodo.org/records/23432629
+- **Zenodo v2 (historical version):** https://zenodo.org/records/23432629
 - **v2 DOI:** https://doi.org/10.5281/zenodo.23432629
 - **v1 predecessor:** https://zenodo.org/records/23393936 (DOI 10.5281/zenodo.23393936; retained unchanged)
 - **Title:** Early-stage apartment maintenance-cost trajectories in South Korea: Expanded 20-complex, 24-month observational analysis (2023–2026)
@@ -33,6 +33,24 @@ This publication update supersedes the earlier statement below that there were n
 - **Limits:** Nonrandom, nonrepresentative sample; overlapping API expense categories and zero/missing reporting; no inference of a national total cost or causal stabilization.
 
 For citations of the 20-complex result, use **v2 DOI 10.5281/zenodo.23432629**. Cite v1 only for the historical 15-complex pilot.
+
+## Published dataset — 60 complexes, 24 months (2026-10-22)
+
+**Version:** v3, within the same Zenodo version chain (not a new independent research record). **Peer review:** Not peer reviewed.
+
+- **Zenodo v3:** https://zenodo.org/records/23553560
+- **Version DOI:** https://doi.org/10.5281/zenodo.23553560
+- **All-versions DOI:** https://doi.org/10.5281/zenodo.23393935
+- **Prior v2:** https://doi.org/10.5281/zenodo.23432629
+- **Title:** Changes in Apartment Maintenance Cost Components During the First 24 Months: A 60-Complex Study in South Korea
+- **Registered archive:** `N02_Zenodo_v3_UPDATED_CANDIDATE_20261021.zip` (315.7 kB shown on record). Independently downloading and verifying its bytes against the local archive remains pending.
+- **Scope:** 60 selected apartment complexes × 24 monthly observations × 17 API categories = 24,480 source-category requests.
+- **Method:** For each eligible complex, compare the first-three-month average with the last-three-month average; report the **median of complex-level percentage changes**, not changes in total apartment fees.
+- **Published strict-endpoint results:** pay/labor +1.93% (n=50), cleanCost/cleaning +2.24% (n=50), guardCost/security +1.86% (n=47).
+- **Limits:** Nonrandom sample, not nationally representative and not causal. Individual API cost fields' absolute monetary units have not been independently confirmed. `privArea` and `kaptMarea` are distinct; present-day denominators are not established as fixed over historic observation months. API cost components may overlap and must not be added together to estimate total fees.
+- **Source service:** https://www.data.go.kr/data/15057937/openapi.do
+
+For current 60-complex results, cite **v3 DOI 10.5281/zenodo.23553560**. Use v2 and v1 DOIs only when referring specifically to their historical versions. Do not create another DOI merely to mirror this same dataset.
 
 ## Why this is distinct
 This research tracks post-occupancy monthly costs using K-apt complex/month panels. It is not a continuation of existing mortgage DSR, housing-subscription, HUG presale-guarantee or subscription-competition studies. Avoid recycling their DOI records.
