@@ -57,3 +57,12 @@ This page is an **attribution and re-use guide**, not an additional dataset depo
 - Institutional libraries and journalism data resource directories: use their **public editorial submission forms**, if relevant; respect curation policies. No bulk cold email, paid link placement, or fabricated citations.
 
 **Last verified against:** Published Zenodo v3 screenshots and 60-complex independent statistical checks, 22 October 2026.
+
+## Discovery verification — 22 October 2026
+
+- Exact DOI `10.5281/zenodo.23553560` was searched on the public web with OpenAIRE and Google Dataset Search terms. **No N02-specific indexed entry was confirmed in those search results**. This is **not proof that it is absent from those indices**.
+- Opening the DOI-specific OpenAIRE EXPLORE result URL and the Zenodo v3 record in the automated web reader failed with an access error. User-supplied Zenodo v3 screenshots had already verified that the record itself is published.
+- **Google Scholar is not an appropriate index target for a Zenodo dataset**. Zenodo's official FAQ says Google Scholar does not index Zenodo; Google Dataset Search does index Zenodo datasets based on schema.org metadata, without guaranteeing immediate appearance of this individual record: https://support.zenodo.org/help/en-gb/18-general/61-is-zenodo-indexed-by-google-scholar
+- OpenAIRE describes its source harvesting as approximately weekly: https://www.openaire.eu/faqs . Allow for indexing delay; query the exact DOI in EXPLORE again rather than creating an additional deposit.
+- The OpenAIRE Link service is designed for genuine links among research results, ORCID and funding projects. It is **not** a generic backlink-submission tool; do not attach an unrelated funded project or create duplicate records: https://www.openaire.eu/claim-publication
+- Check again after a reasonable harvesting interval. Record the exact public record URL if found; only then mark indexing **confirmed** in the central tracker.
