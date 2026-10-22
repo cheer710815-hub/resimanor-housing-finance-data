@@ -112,3 +112,9 @@ These reproduce the published rounded values (+1.93%, +2.24%, +1.86%). This is *
 - Scope of this check: the licensing statement **for this catalog entry only**. It does not independently resolve whether all packaged files have third-party rights, whether any separate terms apply, or whether every derived field's unit and historical area denominator is correctly specified.
 - The public HTML catalog page did not establish authoritative units for `pay`, `cleanCost`, and `guardCost`. Accordingly, retain the original-unit uncertainty disclosure; do **not** present absolute amounts as KRW/month or KRW/m²/month without authoritative field-level documentation.
 - Keep the published v3 analysis and DOI unchanged. No new DOI, raw-data redistribution, or categorical license assertion follows from this check alone.
+
+## K-apt display-unit cross-check — 2026-10-22
+
+The official K-apt complex comparison interface (https://www.k-apt.go.kr/apiinfo/goApiSearchCompare_detail.do) visibly labels its displayed comparison values **원/㎡ (KRW per square meter)** and shows detailed common-cost categories. It also states that management-area standards entered by managers can differ from exclusive area and that display figures can differ from household bills.
+
+**Crucial distinction:** The **web interface's display unit does not itself establish the raw API's units** for `pay`, `cleanCost`, or `guardCost` in the service catalog at https://www.data.go.kr/data/15057937/openapi.do. The specific API response-field dictionary or authoritative API provider answer is still needed, as is validation of monthly historical area denominators. No back-conversion to total KRW or KRW/m² was authorized by this visual cross-check. Continue reporting only component-level relative changes with the established limitations.
