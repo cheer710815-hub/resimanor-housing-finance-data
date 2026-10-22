@@ -39,3 +39,13 @@ K-apt 공개 API를 활용해 준공 초기 공동주택 관리비 세부 항목
 - No duplicate N02 DOI; no institutional external submission or cold email without suitable channel and explicit approval.
 
 **Source checks:** REB K-apt system introduction, REB advance public information on K-apt area/cost datasets, and the official K-apt site, all accessed 2026-10-22.
+
+## Verified primary inquiry route — 2026-10-22
+
+The actual **source API record** for this study is the Ministry of Land, Infrastructure and Transport's **공동주택관리비(공용관리비)정보제공서비스**: https://www.data.go.kr/data/15057937/openapi.do. Its public listing identifies provider **국토교통부**, managing division **주택건설운영과**, and offers the **데이터 개선요청 오류신고 및 문의** feature. The public listing does not display a managing-division telephone number.
+
+**First-choice channel:** Open the exact API record above while logged into data.go.kr; choose its data-improvement/error/inquiry pathway for a **field dictionary and unit clarification**. Do not file the matter as a confirmed error unless official inconsistency has been demonstrated. If the form permits category selection, choose a question/inquiry rather than an error report.
+
+K-apt is operated by 한국부동산원, but the public API's formally named provider is 국토교통부. Direct the inquiry first through **the provider's own API record** instead of the separate REB quality-error channel, research-proposal desk, or publicity inbox.
+
+**Prepared only:** No form was submitted and no message was sent. Record the case/ticket ID and the actual provider's response in the central research register after submission.
