@@ -131,3 +131,7 @@ The official K-apt complex comparison interface (https://www.k-apt.go.kr/apiinfo
 - **Open limits:** source API raw-field monetary units, month-specific historic area denominators and Zenodo server-side byte hash remain unverified. Do not assert that the user-supplied copy has been proven byte-identical to the server-hosted archive.
 
 **Canonical v3:** https://doi.org/10.5281/zenodo.23553560. **Concept DOI:** https://doi.org/10.5281/zenodo.23393935. Older v1/v2 remain part of this same version chain.
+
+### Local MD5 prepared for official Zenodo fixity check (2026-10-23)
+
+For the user-provided 315,715-byte v3 ZIP, independently calculated **MD5 `add3f57b550f6e299ffb5c84dc2b4de6`** and SHA-256 `0bfc9edc2e6f051c1bbbb496fe7b07730a12fcb177fb067478bcf8715ad80d08`. Zenodo records file MD5 checksums. Direct Zenodo record API fetch failed (network access/DNS), so **server-side checksum equality is not yet verified**. Compare the official file checksum shown by Zenodo for record 23553560 against the MD5 above before closing the server-fixity audit; do not confuse the local checksum with a verified Zenodo-reported value.
