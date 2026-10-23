@@ -1,6 +1,6 @@
 # K-apt New-Apartment Maintenance Cost Stabilization — Research Protocol (2026)
 
-**Status: v1 (15 complexes), v2 (20 complexes) and v3 (60 complexes) published in the same Zenodo version chain. Monetary field units and historical-area assumptions remain under review.**  
+**Status: v1 (15 complexes), v2 (20 complexes) and v3 (60 complexes) published in one Zenodo version chain. Empirical comparison supports complex-wide KRW amounts for pay, cleanCost and guardCost in the inspected months; historic area denominators remain unverified.**  
 **Publisher:** Resimanor  
 **Source:** Korea Ministry of Land, Infrastructure and Transport / K-apt (https://www.k-apt.go.kr/)  
 **Independent research question:** How do publicly reported monthly management costs change during the first 24 months after apartment completion, and how does the trajectory differ by complex size?
@@ -43,11 +43,11 @@ For citations of the 20-complex result, use **v2 DOI 10.5281/zenodo.23432629**. 
 - **All-versions DOI:** https://doi.org/10.5281/zenodo.23393935
 - **Prior v2:** https://doi.org/10.5281/zenodo.23432629
 - **Title:** Changes in Apartment Maintenance Cost Components During the First 24 Months: A 60-Complex Study in South Korea
-- **Registered archive:** `N02_Zenodo_v3_UPDATED_CANDIDATE_20261021.zip` (315.7 kB shown on record). Independently downloading and verifying its bytes against the local archive remains pending.
+- **Registered archive:** `N02_Zenodo_v3_UPDATED_CANDIDATE_20261021.zip` (315,715 bytes); package CRC, manifest SHA-256 and independent 180/180 recomputation passed. The bundled filename and some status notes retain prepublication wording; see the published-package errata.
 - **Scope:** 60 selected apartment complexes × 24 monthly observations × 17 API categories = 24,480 source-category requests.
 - **Method:** For each eligible complex, compare the first-three-month average with the last-three-month average; report the **median of complex-level percentage changes**, not changes in total apartment fees.
 - **Published strict-endpoint results:** pay/labor +1.93% (n=50), cleanCost/cleaning +2.24% (n=50), guardCost/security +1.86% (n=47).
-- **Limits:** Nonrandom sample, not nationally representative and not causal. Individual API cost fields' absolute monetary units have not been independently confirmed. `privArea` and `kaptMarea` are distinct; present-day denominators are not established as fixed over historic observation months. API cost components may overlap and must not be added together to estimate total fees.
+- **Limits:** Nonrandom sample, not nationally representative and not causal. Six N02 field amounts matched published K-apt-derived complex-wide KRW amounts exactly (two months, one complex); this is empirical cross-checking, not the official API field dictionary. `pay` denotes salary, not total labor expenditure. `privArea` and `kaptMarea` are distinct; historic area denominators are unverified. Do not add overlapping API cost fields to estimate total fees.
 - **Source service:** https://www.data.go.kr/data/15057937/openapi.do
 
 For current 60-complex results, cite **v3 DOI 10.5281/zenodo.23553560**. Use v2 and v1 DOIs only when referring specifically to their historical versions. Do not create another DOI merely to mirror this same dataset.
@@ -171,3 +171,10 @@ Audit of the **published N02 v3 archive**, not a fresh live K-apt query:
 Additional inspection of the released file `ANALYSIS/N02_60complex_official_size_merged_20261020.csv` (180 category rows; deduplicated to 60 distinct complex codes) finds **57 of 60 complexes with recorded household counts (`kaptdaCnt`)**: 19 old20 sourced from the official V5 API 2026-10-20 and 38 new40 sourced from basic_info.json. Three remain **not verified**: old20 A10023362 (name blank in this merged CSV), new40 공주금흥LH행복1단지 A10023277 and 흑석자이 A10023350. Earlier observations of `hoCnt=0` in some new40 basic_info payloads must not be interpreted as actual zero-household buildings; in this merged analysis these are missing/unverified.
 
 **Critical distinction:** `kaptdaCnt` is the number of households, *not total floor/private area in m²*. No old20 area denominator is supplied merely by this merged-size table. The 60-complex KRW/m² analysis is therefore **not unblocked** by recovering household counts. This audit does not alter the released N02 v3 findings, eligible cohort medians, or DOI.
+
+## Current citation and document correction (2026-10-23)
+
+- **Version-specific citation:** https://doi.org/10.5281/zenodo.23553560 ; all-versions DOI https://doi.org/10.5281/zenodo.23393935.
+- **Publication documentation errata:** [PUBLISHED_V3_DOCUMENTATION_ERRATA_20261023.md](./PUBLISHED_V3_DOCUMENTATION_ERRATA_20261023.md). This corrects stale `CANDIDATE` wording without altering the immutable release.
+- **Field mapping for reuse:** `pay` = 급여 (salary component), `cleanCost` = 청소비, `guardCost` = 경비비. In the six audited N02 records these align with whole-complex KRW values, *not* KRW/m²; historic m² denominator remains a separate gate.
+- Some historical log sections above preserve contemporaneous uncertainty statements; use the later dated verification sections and this current summary for the most recent assessment.
