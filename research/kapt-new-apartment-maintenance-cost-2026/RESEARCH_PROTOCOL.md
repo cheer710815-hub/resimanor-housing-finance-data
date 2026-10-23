@@ -164,3 +164,10 @@ Audit of the **published N02 v3 archive**, not a fresh live K-apt query:
 - Exception register: 23 flagged records (20 metadata-not-in-package + 1 anomalous area relationship + 2 zero-household fields), involving **22 unique complexes** (흑석자이 has two flags).
 
 **Decision:** Do not publish a 60-complex KRW/m² comparison or interpret raw API values with a historical area denominator until the 20 missing snapshots and anomalous cases are resolved. The existing within-complex percentage-change results and DOI are unchanged. No claim of an API error is warranted solely on these flags.
+
+
+## Household-count metadata reconciliation — 2026-10-23
+
+Additional inspection of the released file `ANALYSIS/N02_60complex_official_size_merged_20261020.csv` (180 category rows; deduplicated to 60 distinct complex codes) finds **57 of 60 complexes with recorded household counts (`kaptdaCnt`)**: 19 old20 sourced from the official V5 API 2026-10-20 and 38 new40 sourced from basic_info.json. Three remain **not verified**: old20 A10023362 (name blank in this merged CSV), new40 공주금흥LH행복1단지 A10023277 and 흑석자이 A10023350. Earlier observations of `hoCnt=0` in some new40 basic_info payloads must not be interpreted as actual zero-household buildings; in this merged analysis these are missing/unverified.
+
+**Critical distinction:** `kaptdaCnt` is the number of households, *not total floor/private area in m²*. No old20 area denominator is supplied merely by this merged-size table. The 60-complex KRW/m² analysis is therefore **not unblocked** by recovering household counts. This audit does not alter the released N02 v3 findings, eligible cohort medians, or DOI.
