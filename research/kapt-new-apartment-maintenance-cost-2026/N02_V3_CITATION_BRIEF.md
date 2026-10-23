@@ -66,3 +66,16 @@ This page is an **attribution and re-use guide**, not an additional dataset depo
 - OpenAIRE describes its source harvesting as approximately weekly: https://www.openaire.eu/faqs . Allow for indexing delay; query the exact DOI in EXPLORE again rather than creating an additional deposit.
 - The OpenAIRE Link service is designed for genuine links among research results, ORCID and funding projects. It is **not** a generic backlink-submission tool; do not attach an unrelated funded project or create duplicate records: https://www.openaire.eu/claim-publication
 - Check again after a reasonable harvesting interval. Record the exact public record URL if found; only then mark indexing **confirmed** in the central tracker.
+
+## Published v3 attached-archive audit — 2026-10-23
+
+**Evidence scope:** User-supplied copy of `N02_Zenodo_v3_UPDATED_CANDIDATE_20261021 (2).zip`; Zenodo server's own file checksum **not** independently retrieved. The record's publication and v3 version chain were confirmed from the user's Zenodo screenshots.
+
+- Size: **315,715 bytes**; SHA-256: `0bfc9edc2e6f051c1bbbb496fe7b07730a12fcb177fb067478bcf8715ad80d08`.
+- Outer ZIP CRC: **PASS**. Exactly 21 files: `MANIFEST_SHA256.json` and 20 manifest-listed files; all **20/20 SHA-256** match, with no omitted or missing files.
+- Nested 20-complex and 40-complex source ZIPs: **CRC PASS**. Included `REPRODUCE/n02_independent_recompute.py` independently reprocessed **24,480 API source records** (8,160 + 16,320), **60 unique complexes**, and **180 comparisons**; **180 matched, 0 mismatched, 0 issues**.
+- Strict eligible median changes: pay **+1.9256590518% (n=50)**, cleaning **+2.2423650369% (n=50)**, security **+1.8591552704% (n=47)**.
+- **Metadata wording issue, not a numerical-data failure:** the archived `PUBLICATION_STATUS.txt` still says `CANDIDATE — NOT PUBLISHED`, and `REPRODUCE/RUN_INSTRUCTIONS.md` retains candidate wording. The study is already published as v3; do not edit the immutable publication or invent a new DOI solely to fix this text. This paragraph documents the correction on the existing GitHub project.
+- **Open limits:** source API raw-field monetary units, month-specific historic area denominators and Zenodo server-side byte hash remain unverified. Do not assert that the user-supplied copy has been proven byte-identical to the server-hosted archive.
+
+**Canonical v3:** https://doi.org/10.5281/zenodo.23553560. **Concept DOI:** https://doi.org/10.5281/zenodo.23393935. Older v1/v2 remain part of this same version chain.
