@@ -151,3 +151,16 @@ Verified directly against the published N02 v3 ZIP (nested `RAW/N02_new40_cohort
 | 202509 | guardCost (security) | 5,210,567 | 5,210,567 | 157 | Exact |
 
 Independent published itemization pages: https://www.aptdamoa.com/apt/A10020809/202507.html and https://www.aptdamoa.com/apt/A10020809/202509.html (third-party K-apt-derived display, not official K-apt field schema). All six archived amounts match the published **complex-wide KRW totals**, not displayed per-m² rates. Thus there is strong empirical evidence that these raw API fields represent **KRW total amounts** for this comparison. The `pay` field maps to **급여 (salary)**, not the entirety of general-management labor expenses. A different reference-month basis for another public page or updated historical area values should not be presumed without checking. The historical 24-month area denominator is not independently validated. No alteration to published medians or DOI is warranted.
+
+
+## Area-denominator quality gate — 2026-10-23
+
+Audit of the **published N02 v3 archive**, not a fresh live K-apt query:
+
+- Existing old20 raw archive: 20 expense CSVs and **no basic-info area metadata**. This means areas for these 20 are *not bundled*, not that official K-apt has no area data.
+- New40 raw archive: 40 basic_info JSONs with positive `privArea` and `kaptMarea` values.
+- Exception 1: 흑석자이, code A10023350, `privArea=249083.74`, `kaptMarea=167725.34`, ratio 1.4851. Different definitions or data irregularity remain possible, not established error.
+- Exception 2: `hoCnt=0` in new40 basic_info for **흑석자이 (A10023350)** and **공주금흥LH행복1단지 (A10023277)**. Zero may be a missing/default sentinel; do not infer zero occupied dwellings.
+- Exception register: 23 flagged records (20 metadata-not-in-package + 1 anomalous area relationship + 2 zero-household fields), involving **22 unique complexes** (흑석자이 has two flags).
+
+**Decision:** Do not publish a 60-complex KRW/m² comparison or interpret raw API values with a historical area denominator until the 20 missing snapshots and anomalous cases are resolved. The existing within-complex percentage-change results and DOI are unchanged. No claim of an API error is warranted solely on these flags.
