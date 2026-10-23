@@ -135,3 +135,19 @@ The official K-apt complex comparison interface (https://www.k-apt.go.kr/apiinfo
 ### Local MD5 prepared for official Zenodo fixity check (2026-10-23)
 
 For the user-provided 315,715-byte v3 ZIP, independently calculated **MD5 `add3f57b550f6e299ffb5c84dc2b4de6`** and SHA-256 `0bfc9edc2e6f051c1bbbb496fe7b07730a12fcb177fb067478bcf8715ad80d08`. Zenodo records file MD5 checksums. Direct Zenodo record API fetch failed (network access/DNS), so **server-side checksum equality is not yet verified**. Compare the official file checksum shown by Zenodo for record 23553560 against the MD5 above before closing the server-fixity audit; do not confuse the local checksum with a verified Zenodo-reported value.
+
+
+## Archived API-to-public-K-apt-derived amount cross-check — 2026-10-23
+
+Verified directly against the published N02 v3 ZIP (nested `RAW/N02_new40_cohort_results.zip`, `cohort_results/A10020809_202407/cost_raw_long.csv`) and two public K-apt-derived expense itemization pages for complex A10020809 (대라수어썸브릿지 1,2단지아파트):
+
+| Month | API field | N02 raw amount | Published complex-wide amount (KRW) | Published KRW/m² | Match |
+|---|---|---:|---:|---:|---|
+| 202507 | pay (salary) | 11,643,269 | 11,643,269 | 350 | Exact |
+| 202507 | cleanCost (cleaning) | 3,833,020 | 3,833,020 | 115 | Exact |
+| 202507 | guardCost (security) | 5,137,937 | 5,137,937 | 154 | Exact |
+| 202509 | pay (salary) | 11,643,269 | 11,643,269 | 350 | Exact |
+| 202509 | cleanCost (cleaning) | 3,812,858 | 3,812,858 | 115 | Exact |
+| 202509 | guardCost (security) | 5,210,567 | 5,210,567 | 157 | Exact |
+
+Independent published itemization pages: https://www.aptdamoa.com/apt/A10020809/202507.html and https://www.aptdamoa.com/apt/A10020809/202509.html (third-party K-apt-derived display, not official K-apt field schema). All six archived amounts match the published **complex-wide KRW totals**, not displayed per-m² rates. Thus there is strong empirical evidence that these raw API fields represent **KRW total amounts** for this comparison. The `pay` field maps to **급여 (salary)**, not the entirety of general-management labor expenses. A different reference-month basis for another public page or updated historical area values should not be presumed without checking. The historical 24-month area denominator is not independently validated. No alteration to published medians or DOI is warranted.
