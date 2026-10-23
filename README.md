@@ -80,6 +80,7 @@ The RePEc archive directory contains the archive template, series template, and 
 ## N02 research — New-apartment maintenance costs (60 complexes)
 
 - [Research protocol and version history](./research/kapt-new-apartment-maintenance-cost-2026/RESEARCH_PROTOCOL.md)
+- [v3 published-package documentation errata](./research/kapt-new-apartment-maintenance-cost-2026/PUBLISHED_V3_DOCUMENTATION_ERRATA_20261023.md) — clarifies outdated candidate-status wording in archived documents
 - [Published 60-complex dataset (Zenodo v3)](https://doi.org/10.5281/zenodo.23553560)
 - [Resimanor analysis article](https://resimanor.com/new-apartment-maintenance-cost-24-month-analysis/)
 - All-versions DOI: https://doi.org/10.5281/zenodo.23393935
