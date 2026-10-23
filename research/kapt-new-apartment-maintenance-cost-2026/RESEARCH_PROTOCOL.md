@@ -118,3 +118,16 @@ These reproduce the published rounded values (+1.93%, +2.24%, +1.86%). This is *
 The official K-apt complex comparison interface (https://www.k-apt.go.kr/apiinfo/goApiSearchCompare_detail.do) visibly labels its displayed comparison values **원/㎡ (KRW per square meter)** and shows detailed common-cost categories. It also states that management-area standards entered by managers can differ from exclusive area and that display figures can differ from household bills.
 
 **Crucial distinction:** The **web interface's display unit does not itself establish the raw API's units** for `pay`, `cleanCost`, or `guardCost` in the service catalog at https://www.data.go.kr/data/15057937/openapi.do. The specific API response-field dictionary or authoritative API provider answer is still needed, as is validation of monthly historical area denominators. No back-conversion to total KRW or KRW/m² was authorized by this visual cross-check. Continue reporting only component-level relative changes with the established limitations.
+
+## Published v3 attached-archive audit — 2026-10-23
+
+**Evidence scope:** User-supplied copy of `N02_Zenodo_v3_UPDATED_CANDIDATE_20261021 (2).zip`; Zenodo server's own file checksum **not** independently retrieved. The record's publication and v3 version chain were confirmed from the user's Zenodo screenshots.
+
+- Size: **315,715 bytes**; SHA-256: `0bfc9edc2e6f051c1bbbb496fe7b07730a12fcb177fb067478bcf8715ad80d08`.
+- Outer ZIP CRC: **PASS**. Exactly 21 files: `MANIFEST_SHA256.json` and 20 manifest-listed files; all **20/20 SHA-256** match, with no omitted or missing files.
+- Nested 20-complex and 40-complex source ZIPs: **CRC PASS**. Included `REPRODUCE/n02_independent_recompute.py` independently reprocessed **24,480 API source records** (8,160 + 16,320), **60 unique complexes**, and **180 comparisons**; **180 matched, 0 mismatched, 0 issues**.
+- Strict eligible median changes: pay **+1.9256590518% (n=50)**, cleaning **+2.2423650369% (n=50)**, security **+1.8591552704% (n=47)**.
+- **Metadata wording issue, not a numerical-data failure:** the archived `PUBLICATION_STATUS.txt` still says `CANDIDATE — NOT PUBLISHED`, and `REPRODUCE/RUN_INSTRUCTIONS.md` retains candidate wording. The study is already published as v3; do not edit the immutable publication or invent a new DOI solely to fix this text. This paragraph documents the correction on the existing GitHub project.
+- **Open limits:** source API raw-field monetary units, month-specific historic area denominators and Zenodo server-side byte hash remain unverified. Do not assert that the user-supplied copy has been proven byte-identical to the server-hosted archive.
+
+**Canonical v3:** https://doi.org/10.5281/zenodo.23553560. **Concept DOI:** https://doi.org/10.5281/zenodo.23393935. Older v1/v2 remain part of this same version chain.
