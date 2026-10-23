@@ -77,3 +77,14 @@ K-apt's own thematic common-cost statistics page states: **발생 공용관리�
 3. How does the API mark and retain missing, non-disclosed, 0-valued and revised monthly records, including their reference month and last corrected date?
 
 **Status:** Public documentation partially clarifies the statistics screen; individual API field definitions and historic denominators remain unanswered. No contact made or ticket issued.
+
+## CORRECTION — existing official inquiry and provider forwarding found (2026-10-23)
+
+**Supersedes every earlier “not submitted / no contact / ticket not sent” statement in this document.** A cross-check of the user's already connected Gmail verified:
+
+- **2026-10-17:** Actual email sent from the research team's account to `opendata_help@nia.or.kr`, subject `[공식 명세 확인 요청] 국토교통부 공동주택 공용관리비 API 17종 응답 필드 단위 및 면적 기준`. Full inquiry covered 17 operations / 35 money fields, units of `pay`, `cleanCost`, `guardCost`, `elevCost`, `lrefCost1–4`, historical denominators, overlap rules, null/zero/updates and JSON re-use.
+- **2026-10-19:** Official reply from `data@nia.or.kr` stated that the portal is an intermediary, **had forwarded the enquiry to the data provider (국토교통부, 053-663-8263) and requested its response**, and advised contacting that provider for details.
+- The reply did **not** supply an official field dictionary, raw-field unit, per-month denominator or correction history. **Technical clarification remains pending.** No additional duplicate inquiry was sent during the 2026-10-23 audit.
+- The original inquiry referenced v2 20 complexes because it preceded publication of the v3 60-complex expanded version. For any provider follow-up, mention v3 DOI `10.5281/zenodo.23553560` and the prior enquiry rather than restarting the case.
+
+**Definitive current status: inquiry SENT 2026-10-17 → public-data support CONFIRMED FORWARDED to ministry 2026-10-19 → ministry technical response NOT YET FOUND.** Maintain the original source measurements and do not infer unit definitions from a generic data.go.kr licence or K-apt display unit.
