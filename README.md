@@ -14,6 +14,8 @@ South Korea's 2026 Stress DSR housing-finance reference data, including income-b
 
 For current methodology, machine-readable files, updates, and citation information, use the canonical data center and GitHub repository above.
 
+**Field-level data dictionary:** [DATA-DICTIONARY.md](DATA-DICTIONARY.md) — column types, units, scenario definitions, and reuse limitations.
+
 ## Website
 
 - https://resimanor.com/
