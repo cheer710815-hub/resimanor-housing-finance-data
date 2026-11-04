@@ -1,0 +1,86 @@
+name: Validate DSR reference consistency
+
+on:
+  push:
+    paths:
+      - 'income_mortgage_limits.csv'
+      - 'credit_debt_mortgage_limits.csv'
+      - 'stress_dsr_mortgage_examples_2026.json'
+      - '.github/workflows/validate-dsr-reference-consistency.yml'
+  pull_request:
+    paths:
+      - 'income_mortgage_limits.csv'
+      - 'credit_debt_mortgage_limits.csv'
+      - 'stress_dsr_mortgage_examples_2026.json'
+      - '.github/workflows/validate-dsr-reference-consistency.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cross-check public CSV and JSON figures
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          def records(path):
+              with Path(path).open(encoding="utf-8-sig", newline="") as f:
+                  rows = list(csv.DictReader(f))
+              assert rows, f"No rows in {path}"
+              return rows
+
+          income = records("income_mortgage_limits.csv")
+          credit = records("credit_debt_mortgage_limits.csv")
+          data = json.loads(Path("stress_dsr_mortgage_examples_2026.json").read_text(encoding="utf-8-sig"))
+          assert data["base_date"] and data["canonical_source"]
+          income_json = {int(x["annual_income_krw"]): x for x in data["income_scenarios"]}
+          scenarios = {"no_stress", "regional_example", "capital_regulated_example"}
+
+          observed = set()
+          for row in income:
+              income_krw = int(row["annual_income_krw"])
+              scenario = row["scenario"]
+              assert scenario in scenarios, f"Unrecognized scenario: {scenario}"
+              key = (income_krw, scenario)
+              assert key not in observed, f"Duplicate income-scenario key: {key}"
+              observed.add(key)
+              assert income_krw in income_json, f"Missing JSON income: {income_krw}"
+              expected = int(income_json[income_krw][scenario])
+              actual = int(row["estimated_mortgage_limit_krw"])
+              assert actual == expected, f"Income mismatch: {key}: CSV={actual}, JSON={expected}"
+              assert row["base_date"] == data["base_date"]
+              assert row["canonical_source"] == data["canonical_source"]
+          assert observed == {(income_krw, scenario) for income_krw in income_json for scenario in scenarios}, "Income scenario coverage mismatch"
+
+          credit_json = {
+              int(x["credit_loan_balance_krw"]): int(x["estimated_mortgage_limit_krw"])
+              for x in data["credit_debt_scenarios_for_income_80000000"]
+          }
+          assert len(credit_json) == len(data["credit_debt_scenarios_for_income_80000000"]), "Duplicate JSON credit key"
+          credit_seen = set()
+          for row in credit:
+              assert int(row["annual_income_krw"]) == 80000000
+              balance = int(row["credit_loan_balance_krw"])
+              assert balance not in credit_seen, f"Duplicate credit balance: {balance}"
+              credit_seen.add(balance)
+              assert balance in credit_json, f"Missing JSON credit scenario: {balance}"
+              actual = int(row["estimated_mortgage_limit_krw"])
+              assert actual == credit_json[balance], f"Credit mismatch for {balance}"
+              assert row["base_date"] == data["base_date"]
+              assert row["canonical_source"] == data["canonical_source"]
+          assert credit_seen == set(credit_json), "Credit scenario coverage mismatch"
+
+          print(f"PASS: {len(income)} income and {len(credit)} credit scenarios match CSV/JSON exactly.")
+          print("Structural/data consistency only; not verification of live loan rules or eligibility.")
+          PY
