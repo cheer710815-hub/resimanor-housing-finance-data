@@ -29,4 +29,4 @@ HUG 자료 2025년과 2026년 사이에는 기록이 없는 지역·분기가 �
 
 **권리와 인용:** 국토부/HUG 원자료 출처 별도 표시, Resimanor 작성 비교표와 해설 CC BY 4.0. 위 Zenodo DOI는 **기존 HUG 818행 데이터셋 v1.0**에 부여된 번호로 본 교차분석 CSV의 별도 DOI가 아닙니다.
 
-**발행 상태:** 연구 CSV와 브리프는 GitHub에 공개, WordPress 분석 기사는 미발행.
+**발행 상태(2026-11-09 확인):** 연구 CSV와 비교 문서는 GitHub에 공개되어 있으며, [Resimanor 분석 기사](https://resimanor.com/2026-h1-presale-hug-guarantee-analysis/)도 게시되어 있습니다. 본 GitHub 교차분석과 29개 공통 지역·분기 비교표는 기존 Zenodo v1.0 보관 ZIP에 포함되지 않은 후속자료입니다. 이 후속자료를 재사용할 때는 사용한 GitHub 개별 파일도 함께 인용하세요.
