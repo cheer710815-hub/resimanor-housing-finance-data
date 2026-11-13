@@ -1,0 +1,8 @@
+{
+  "executed_on": "2026-11-12",
+  "two_source_files_verified": true,
+  "matches_expected": true,
+  "differences": [],
+  "distributable_package_contains_raw_data": false,
+  "note": "Verification describes the prepublication local source-file test. Independent GitHub source-code retrievability is checked separately."
+}
