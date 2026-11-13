@@ -1,0 +1,5 @@
+source/
+*.pyc
+__pycache__/
+audit_results.json
+.DS_Store
