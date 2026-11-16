@@ -54,3 +54,11 @@ CC BY 4.0.
 ## Release decision
 
 No standalone DOI at v0.1. This is a scoped derivative dataset.
+
+## Downloadable tables and reproducibility
+
+The original `resimanor-mortgage-rate-shock-limit-2026-h2-v0.1.csv` contains **8 illustrative rows with zero existing monthly debt service only**. It does not on its own reproduce the overall 40-pair mean.
+
+The supplementary file [`resimanor-mortgage-rate-shock-limit-2026-h2-40pairs-SUPPLEMENTAL.csv`](./resimanor-mortgage-rate-shock-limit-2026-h2-40pairs-SUPPLEMENTAL.csv) contains **all 40 matched income × existing-debt-service × region comparisons**, derived from the parent 160-row dataset. The mean modeled mortgage-limit loss is **KRW 38,140,904.65 (about KRW 38.14 million)**; the mean of row-level percentage decreases calculated before display rounding is **14.7808% (about 14.8%)**. The supplement is not a separate independent study or a new DOI.
+
+Both tables represent standardized illustrative DSR assumptions, **not official loan offers or actual mortgage approval limits**. The original 8-row CSV and the parent 160-row CSV are unchanged.
