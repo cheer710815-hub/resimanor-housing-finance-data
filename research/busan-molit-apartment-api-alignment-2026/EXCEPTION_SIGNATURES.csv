@@ -1,0 +1,4 @@
+district,month,contract_day,amount_10000krw,area_sqm_exact,floor,building_normalized,dong_normalized,jibun,molit_excess_rows,molit_candidate_cancel_marks,molit_candidate_cancel_dates,finding
+BUSANJINGU,202603,31,62500,59.9359,17,양정포레힐즈스위첸1단지,양정동,531,1,(blank)|O,(blank)|26.10.19,observed excess by multiset; cause unverified
+BUSANJINGU,202603,26,83000,84.9296,24,양정자이더샵skview아파트2단지,양정동,541,1,(blank),(blank),observed excess by multiset; cause unverified
+BUSANJINGU,202604,8,44000,59.968,7,e편한세상시민공원2단지,전포동,928,1,(blank),(blank),observed excess by multiset; cause unverified
