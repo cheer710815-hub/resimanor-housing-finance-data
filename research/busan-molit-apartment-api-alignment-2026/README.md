@@ -18,6 +18,7 @@ The record signature includes contract year/month/day, price, area at original p
 - [Technical report (Korean)](TECHNICAL_REPORT_KO.md)
 - [Monthly comparison (CSV)](MONTHLY_RESULTS.csv)
 - [Three exception signatures (CSV)](EXCEPTION_SIGNATURES.csv)
+- [Archived-source multiset reproduction script (Python)](reproduce_pool28.py)
 
 ### Official source datasets
 - [Busan City House Trade Price API](https://www.data.go.kr/data/15167888/openapi.do)
@@ -28,4 +29,4 @@ The record signature includes contract year/month/day, price, area at original p
 ## Attribution and reuse
 **ARHRN** identifies the research project, **not a verified legal author name**. The responsible individual/organization has not been publicly designated. No separate license grant for this research directory has been confirmed; do not assume the dataset-specific license statements elsewhere in this repository automatically cover this new study. Provider rights and source attribution remain applicable. **No DOI has been registered.**
 
-For citation, use the study title, research ID, this repository URL, publication date (2026-11-17), and the specific commit hash. Do not identify the data providers as the report authors. This initial publication is the technical report and summary tables; source-collection and reproduction scripts are still being incorporated, so this directory does not yet provide a turnkey independent re-run.
+For citation, use the study title, research ID, this repository URL, publication date (2026-11-17), and the specific commit hash. Do not identify the data providers as the report authors. The original offline reproduction script is provided as `reproduce_pool28.py`. It requires three archived raw-source ZIPs that are **not redistributed**, so the historic figures are **not turnkey-reproducible by downloading this repository alone**. Separate API live-collection code remains under review; fresh source snapshots may differ.
