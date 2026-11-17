@@ -19,6 +19,8 @@ The record signature includes contract year/month/day, price, area at original p
 - [Monthly comparison (CSV)](MONTHLY_RESULTS.csv)
 - [Three exception signatures (CSV)](EXCEPTION_SIGNATURES.csv)
 - [Archived-source multiset reproduction script (Python)](reproduce_pool28.py)
+- [Official API snapshot collector (Python)](fetch_official_sources.py)
+- [Field crosswalk and reproduction boundaries](SCHEMA_AND_REPRODUCE.md)
 
 ### Official source datasets
 - [Busan City House Trade Price API](https://www.data.go.kr/data/15167888/openapi.do)
@@ -29,4 +31,4 @@ The record signature includes contract year/month/day, price, area at original p
 ## Attribution and reuse
 **ARHRN** identifies the research project, **not a verified legal author name**. The responsible individual/organization has not been publicly designated. No separate license grant for this research directory has been confirmed; do not assume the dataset-specific license statements elsewhere in this repository automatically cover this new study. Provider rights and source attribution remain applicable. **No DOI has been registered.**
 
-For citation, use the study title, research ID, this repository URL, publication date (2026-11-17), and the specific commit hash. Do not identify the data providers as the report authors. The original offline reproduction script is provided as `reproduce_pool28.py`. It requires three archived raw-source ZIPs that are **not redistributed**, so the historic figures are **not turnkey-reproducible by downloading this repository alone**. Separate API live-collection code remains under review; fresh source snapshots may differ.
+For citation, use the study title, research ID, this repository URL, publication date (2026-11-17), and the specific commit hash. Do not identify the data providers as the report authors. The original offline reproduction script is provided as `reproduce_pool28.py`. It requires three archived raw-source ZIPs that are **not redistributed**, so the historic figures are **not turnkey-reproducible by downloading this repository alone**. The official API snapshot collector is provided and its parser was tested offline against 23 archived source responses (12 query groups); **live authenticated collection has not yet been tested**. Run `python fetch_official_sources.py --out POOL28_NEW_SNAPSHOT` with your own API keys, then place `reproduce_pool28.py` in the resulting directory and run it. New snapshots may differ from the November 2026 historical snapshot; preserve the new manifest and date. The collector prompts for credentials without writing them to its audit outputs.
