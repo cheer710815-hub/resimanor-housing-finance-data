@@ -1,0 +1,9 @@
+district,month,busan_rows,molit_rows,coarse_molit_only_excess,coarse_busan_only_excess,coarse_ambiguous_molit_rows,coarse_ambiguous_busan_rows,strict_molit_only_excess,strict_busan_only_excess,strict_ambiguous_molit_rows,strict_ambiguous_busan_rows,molit_cancel_marked_rows
+JUNGGU,202601,9,9,0,0,2,2,0,0,2,2,1
+JUNGGU,202602,4,4,0,0,0,0,0,0,0,0,0
+JUNGGU,202603,24,24,0,0,2,2,0,0,2,2,1
+JUNGGU,202604,6,6,0,0,0,0,0,0,0,0,0
+BUSANJINGU,202601,493,493,0,0,46,46,0,0,46,46,27
+BUSANJINGU,202602,309,309,0,0,18,18,0,0,18,18,15
+BUSANJINGU,202603,485,487,2,0,45,43,2,0,45,43,31
+BUSANJINGU,202604,373,374,1,0,24,24,1,0,24,24,14
