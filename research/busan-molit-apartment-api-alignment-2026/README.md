@@ -21,6 +21,7 @@ The record signature includes contract year/month/day, price, area at original p
 - [Archived-source multiset reproduction script (Python)](reproduce_pool28.py)
 - [Official API snapshot collector (Python)](fetch_official_sources.py)
 - [Field crosswalk and reproduction boundaries](SCHEMA_AND_REPRODUCE.md)
+- [Public summary-table consistency validator](validate_public_tables.py)
 
 ### Official source datasets
 - [Busan City House Trade Price API](https://www.data.go.kr/data/15167888/openapi.do)
@@ -32,3 +33,11 @@ The record signature includes contract year/month/day, price, area at original p
 **ARHRN** identifies the research project, **not a verified legal author name**. The responsible individual/organization has not been publicly designated. No separate license grant for this research directory has been confirmed; do not assume the dataset-specific license statements elsewhere in this repository automatically cover this new study. Provider rights and source attribution remain applicable. **No DOI has been registered.**
 
 For citation, use the study title, research ID, this repository URL, publication date (2026-11-17), and the specific commit hash. Do not identify the data providers as the report authors. The original offline reproduction script is provided as `reproduce_pool28.py`. It requires three archived raw-source ZIPs that are **not redistributed**, so the historic figures are **not turnkey-reproducible by downloading this repository alone**. The official API snapshot collector is provided and its parser was tested offline against 23 archived source responses (12 query groups); **live authenticated collection has not yet been tested**. Run `python fetch_official_sources.py --out POOL28_NEW_SNAPSHOT` with your own API keys, then place `reproduce_pool28.py` in the resulting directory and run it. New snapshots may differ from the November 2026 historical snapshot; preserve the new manifest and date. The collector prompts for credentials without writing them to its audit outputs.
+
+## Public-result consistency check
+
+Run `python validate_public_tables.py` in this directory (Python 3, standard library only). The check validates that the published monthly CSV, exception CSV and Korean report agree on counts and covered months. It **does not** validate underlying agency responses or identify why the three record-signature differences arose. For a historical source-level check, archived source ZIPs are required as described above.
+
+## Citation suggestion (no DOI)
+
+**Title:** *Busan–MOLIT apartment transaction API alignment: record-signature consistency and cancellation information (Busan Jung-gu and Busanjin-gu, Jan–Apr 2026)*. ARHRN POOL-28 research project, public technical report v1.0.0 (17 Nov 2026). Repository: https://github.com/cheer710815-hub/resimanor-housing-finance-data/tree/main/research/busan-molit-apartment-api-alignment-2026 . Include the consulted Git commit and access date. **ARHRN is a project identifier, not an established legal author name.**
