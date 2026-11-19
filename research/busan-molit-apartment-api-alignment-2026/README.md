@@ -22,6 +22,7 @@ The record signature includes contract year/month/day, price, area at original p
 - [Official API snapshot collector (Python)](fetch_official_sources.py)
 - [Field crosswalk and reproduction boundaries](SCHEMA_AND_REPRODUCE.md)
 - [Public summary-table consistency validator](validate_public_tables.py)
+- [2026-11-19 post-publication offline QA record](POST_PUBLICATION_QA_20261119.md)
 
 ### Official source datasets
 - [Busan City House Trade Price API](https://www.data.go.kr/data/15167888/openapi.do)
