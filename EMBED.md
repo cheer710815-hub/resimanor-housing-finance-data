@@ -55,13 +55,13 @@ Resimanor의 공개 차트와 데이터를 기사·블로그·가이드에 사�
 
 ## Interactive widget
 
-스트레스 DSR 한도 가상 예시 위젯을 외부 사이트에 삽입할 수 있습니다. 링크는 자동으로 표시되지 않으며, 출처 링크 표시를 원하면 컨테이너에 `data-show-source="true"`를 추가하세요. 두 개 이상의 위젯도 독립적으로 동작하도록 수정했습니다. 계산 데이터는 기존 2026년 시나리오를 유지하며 금융기관 승인한도나 최신 규제 적합성 판정을 제공하지 않습니다.
+스트레스 DSR 한도 가상 예시 위젯을 외부 사이트에 삽입할 수 있습니다. 링크는 자동으로 표시되지 않으며, 출처 링크 표시를 원하면 컨테이너에 `data-show-source="true"`를 추가하세요. 두 개 이상의 위젯도 독립적으로 동작하도록 수정했습니다. 원자료 금액은 억원 단위 소수 둘째 자리까지 표시하며, 계산 데이터는 기존 2026년 시나리오를 유지하고 금융기관 승인한도나 최신 규제 적합성 판정을 제공하지 않습니다.
 
 ### HTML embed
 
 ```html
 <div data-resimanor-dsr-widget></div>
-<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/resimanor-housing-finance-data@34092de454230ff2fa832e2b6965b7167cab27a2/widgets/resimanor-dsr-widget.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/resimanor-housing-finance-data@12dfb8fa39b3d6c6e4313ca3e662f208bcf77ba6/widgets/resimanor-dsr-widget.js"></script>
 ```
 
 ### Widget source
