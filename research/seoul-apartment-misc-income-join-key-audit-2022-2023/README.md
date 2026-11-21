@@ -27,9 +27,14 @@ Across both years, **2,309 apartment codes** occur in both source files. The col
 
 ## Reproduce
 
-1. Download the official `etc_income_2022.csv` and `etc_income_2023.csv` files. Put both unchanged in a local `source/` directory at the repository root.
-2. Run `python scripts/reproduce.py --source-dir source --output audit_results.json --strict` using Python 3.9+ (standard library only).
-3. Compare the output to `results/audit_summary.csv`. Strict mode checks the archived file SHA-256 as well as the published metrics.
+**Source availability as checked 2026-11-21:** the Seoul Open Data Plaza OA-15819 dataset page currently displays **"해당 데이터는 종료된 서비스입니다"** ("This data service has ended") and an invalid-URL warning. The historical 2022/2023 CSVs were used for this audit, but fresh downloads of the identical originals from that page are **not currently verified**. The repository intentionally does **not** redistribute those raw files. No substitute download URL is asserted.
+
+1. Obtain archived copies of the original `etc_income_2022.csv` and `etc_income_2023.csv` from a lawfully accessible source, without altering their bytes. If you do not have the originals, you can inspect the published aggregate results and code, but **you cannot independently re-run the strict raw-data audit**.
+2. From the **repository root**, enter this research directory: `cd research/seoul-apartment-misc-income-join-key-audit-2022-2023` and create a local `source/` subdirectory there. Put the two original CSVs in that `source/` folder.
+3. From this research directory, run `python scripts/reproduce.py --source-dir source --output audit_results.json --strict` using Python 3.9+ (standard library only; source CSV decoding assumes CP949).
+4. Compare the JSON output with `results/audit_summary.csv`. Strict mode checks source-file SHA-256 digests, published metrics, and shared-code count. If the same originals are unavailable, do **not** report a successful independent strict reproduction.
+
+The original published findings remain historical findings, not evidence that today's official download interface is available. No change to the 2022–2023 calculated values or original hashes is made by this notice.
 
 **Original SHA-256:**  
 2022: `c676b180bc507c2e2e70470c2176ef5ab0ff9aaef1dd2bd80de8ad1805f3aa5f`  
@@ -46,7 +51,7 @@ Across both years, **2,309 apartment codes** occur in both source files. The col
 
 ## Scope, provenance and reuse
 
-The source dataset is published by Seoul Metropolitan Government and marked as **공공누리 제1유형 (출처표시)** on its data page. These scripts and aggregate statistics are derived research materials. **Original raw CSV files are not redistributed.**
+The historical source dataset was published by Seoul Metropolitan Government and was marked as **공공누리 제1유형 (출처표시)** on its data page. The public download interface currently states that the service has ended; check any surviving official record for current access and reuse terms. These scripts and aggregate statistics are derived research materials. **Original raw CSV files are not redistributed.**
 
 Source and code identifiers: [Seoul Open Data Plaza dataset](https://data.seoul.go.kr/dataList/OA-15819/S/1/datasetView.do); [Seoul apartment code reference](https://data.seoul.go.kr/dataList/OA-15818/A/1/datasetView.do). See [attribution and limitations](docs/ATTRIBUTION_AND_LIMITATIONS.md).
 
