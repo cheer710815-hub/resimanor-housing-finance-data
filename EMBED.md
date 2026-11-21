@@ -61,7 +61,7 @@ Resimanor의 공개 차트와 데이터를 기사·블로그·가이드에 사�
 
 ```html
 <div data-resimanor-dsr-widget></div>
-<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/resimanor-housing-finance-data@2f2a30ca1124853c0af9cff054bdddecd3794ed2/widgets/resimanor-dsr-widget.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cheer710815-hub/resimanor-housing-finance-data@34092de454230ff2fa832e2b6965b7167cab27a2/widgets/resimanor-dsr-widget.js"></script>
 ```
 
 ### Widget source
