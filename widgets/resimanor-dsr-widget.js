@@ -9,7 +9,7 @@
     80000000:{none:559000000,regional:511000000,capital:401000000},
     100000000:{none:698000000,regional:639000000,capital:501000000}
   };
-  const fmt=n=>Math.round(n/10000000)/10+'억원';
+  const fmt=n=>(Math.round(n/1000000)/100).toFixed(2)+'억원';
   roots.forEach(function(root){
   if(root.getAttribute('data-rsw-initialized')==='true') return;
   root.setAttribute('data-rsw-initialized','true');
