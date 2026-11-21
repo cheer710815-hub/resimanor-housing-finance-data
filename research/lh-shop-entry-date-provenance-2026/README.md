@@ -9,7 +9,7 @@ Status: public technical note and reproducibility code. **Zenodo and DOI: on hol
 - [Reproduction script](stage8_reproduce.py)
 - [Independent verification script](INDEPENDENT_CHECK.py)
 - [Research data dictionary and scope](METHODS_AND_SCOPE.md)
-- [Research landing page at Resimanor](https://resimanor.com/) — see the site for the published research article
+- Resimanor research page: awaiting WordPress final publish confirmation; GitHub technical note is already public.
 
 ## Official source files (download separately)
 
