@@ -70,3 +70,27 @@ This dictionary describes the existing **mortgage example CSVs and JSON**, not l
 4. The JSON's `income_scenarios` numbers are **KRW amounts**, not percentages or thousands of won.
 5. Prefer the canonical [data page](https://resimanor.com/housing-finance-dsr-data/) and [METHODOLOGY.md](METHODOLOGY.md); cite the specific archived release only if its contents/version have been checked.
 6. This file does not imply that the original 2026-09-18 reference dataset has been amended or that prior DOI deposits have been replaced.
+
+## Published widget verification and version scope — 2026-11-22
+
+The canonical Resimanor data-center page embeds
+`widgets/resimanor-dsr-widget.js` using the pinned commit
+`12dfb8fa39b3d6c6e4313ca3e662f208bcf77ba6`. The illustrative
+`income_mortgage_limits.csv` and `credit_debt_mortgage_limits.csv` retain
+their **2026-09-18** reference assumptions; this check does not update them.
+
+- The 18 widget values match all 18 rows in `income_mortgage_limits.csv`.
+- The four credit-loan examples pass an independent 30-year equal-payment
+  principal calculation under the recorded assumptions.
+- The 50,000,000 KRW income / 7.0% screening-rate example has an observed
+  512,613 KRW absolute difference from the unrounded formula. Preserve the
+  published 250,000,000 KRW value until a documented rounding policy decision;
+  it is a **rounding precision notice**, not proof of a regulatory error.
+- Workflow: [Validate DSR reference consistency](.github/workflows/validate-dsr-reference-consistency.yml).
+- GitHub Actions run **#2** completed successfully on 2026-11-22 for
+  [commit `cbccf96a19ed21344fb63090dadc4807e6e4ac8c`](https://github.com/cheer710815-hub/resimanor-housing-finance-data/commit/cbccf96a19ed21344fb63090dadc4807e6e4ac8c).
+
+**Scope limit:** this is a regression/consistency test of illustrative values,
+not a check of the latest lender rules, stress-rate treatment, affordability,
+eligibility, or HUG guarantees. Documentation update does not change the CSV,
+widget, existing DOI, or past archived releases.
