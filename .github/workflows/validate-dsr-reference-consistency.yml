@@ -6,12 +6,14 @@ on:
       - 'income_mortgage_limits.csv'
       - 'credit_debt_mortgage_limits.csv'
       - 'stress_dsr_mortgage_examples_2026.json'
+      - 'widgets/resimanor-dsr-widget.js'
       - '.github/workflows/validate-dsr-reference-consistency.yml'
   pull_request:
     paths:
       - 'income_mortgage_limits.csv'
       - 'credit_debt_mortgage_limits.csv'
       - 'stress_dsr_mortgage_examples_2026.json'
+      - 'widgets/resimanor-dsr-widget.js'
       - '.github/workflows/validate-dsr-reference-consistency.yml'
   workflow_dispatch:
 
@@ -83,4 +85,58 @@ jobs:
 
           print(f"PASS: {len(income)} income and {len(credit)} credit scenarios match CSV/JSON exactly.")
           print("Structural/data consistency only; not verification of live loan rules or eligibility.")
+          PY
+      - name: Compare live DSR widget with CSV and verify formula assumptions
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          import math
+          import re
+          from pathlib import Path
+
+          js = Path("widgets/resimanor-dsr-widget.js").read_text(encoding="utf-8")
+          with Path("income_mortgage_limits.csv").open(encoding="utf-8-sig", newline="") as f:
+              income_rows = list(csv.DictReader(f))
+          with Path("credit_debt_mortgage_limits.csv").open(encoding="utf-8-sig", newline="") as f:
+              credit_rows = list(csv.DictReader(f))
+          widget = {}
+          for m in re.finditer(r"(\d{8,9}):\{none:(\d+),regional:(\d+),capital:(\d+)\}", js):
+              widget[int(m.group(1))] = dict(zip(
+                  ("no_stress", "regional_example", "capital_regulated_example"),
+                  map(int, m.groups()[1:])))
+          assert len(widget) == 6, "Unexpected widget income table"
+          assert len(income_rows) == 18, "Unexpected CSV scenario count"
+          assert len(credit_rows) == 4, "Unexpected credit scenario count"
+
+          def principal(annual_payment, rate_pct, years):
+              r = rate_pct / 1200
+              n = 12 * years
+              return annual_payment / 12 * (-math.expm1(-n * math.log1p(r))) / r
+
+          seen = set()
+          rounding_warnings = 0
+          for row in income_rows:
+              income, scenario = int(row["annual_income_krw"]), row["scenario"]
+              amount = int(row["estimated_mortgage_limit_krw"])
+              assert (income,scenario) not in seen, "Duplicate scenario"
+              seen.add((income,scenario))
+              assert widget[income][scenario] == amount, f"Widget and CSV differ: {income}/{scenario}"
+              estimated = principal(income * float(row["dsr_limit_pct"]) / 100,
+                                    float(row["screening_rate_pct"]),
+                                    int(row["mortgage_term_years"]))
+              difference = abs(amount - estimated)
+              assert difference <= 600_000, f"Formula drift above 600,000 KRW: {income}/{scenario}"
+              if difference > 500_000:
+                  rounding_warnings += 1
+                  print(f"NOTICE: rounding edge case {income}/{scenario}: difference {difference:,.0f} KRW")
+          assert len(seen) == 18
+          for row in credit_rows:
+              amount = int(row["estimated_mortgage_limit_krw"])
+              estimated = principal(float(row["annual_mortgage_capacity_remaining_krw"]),
+                                    float(row["mortgage_screening_rate_pct"]),
+                                    int(row["mortgage_term_years"]))
+              assert abs(amount - estimated) <= 500_000, "Credit scenario formula drift"
+          print(f"PASS: 18 widget/CSV entries and 4 credit examples; {rounding_warnings} rounding notice(s)")
+          print("Illustrative assumptions only; not a current lending-rule or eligibility certification.")
           PY
