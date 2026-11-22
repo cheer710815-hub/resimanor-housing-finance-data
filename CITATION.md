@@ -37,3 +37,12 @@ Resimanor 주택금융 데이터를 인용할 때는 가능한 경우 **원문 �
 - Snapshot date: 2026-10-05
 - DOI: not assigned because this is a bounded, non-exhaustive pilot
 - License for Resimanor-created metadata/derived fields: CC BY 4.0
+
+
+## Dataset-level license and version boundaries (checked 2026-11-22)
+
+- **CC BY 4.0 scope:** reuse the publisher-created dataset tables, explanatory metadata, and derived reference materials that are explicitly marked CC BY 4.0, following attribution and change-notice requirements. A repository-level license declaration does **not** automatically relicense original government data, linked third-party materials, separately licensed subprojects, photographs, or entire website articles. Check the source and each dataset folder first.
+- **Where to start:** [canonical data center](https://resimanor.com/housing-finance-dsr-data/) · [site reuse/citation policy](https://resimanor.com/citation-policy/) · [CC BY 4.0 text](https://creativecommons.org/licenses/by/4.0/).
+- **GitHub is mutable:** cite the exact file path, checked date, and preferably the commit SHA when reusing a changing `main` branch file. A revised README or a green CI workflow does not create a new dataset version or amend any previously archived DOI release.
+- **Citation identity:** cite the dataset actually used. DOI references elsewhere in this repository may point to *distinct* studies and archived versions. An untested DOI link must not be described as confirmed publicly accessible.
+- **Quality limitations:** the public checks validate structure, formula assumptions, and/or CSV-widget equality, not the current legal validity of housing eligibility, loan approvals, or a particular project notice.
