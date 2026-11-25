@@ -11,3 +11,7 @@ Interim policy as of 2026-11-24. No new DOI or provider deposit is authorized.
 7. Research data may support explanatory website posts, but commercial blog objectives are distinct from scholarly repository eligibility.
 
 Cross-reference RESEARCH_INVENTORY.md and DOI_REGISTRY.md; all pending checks remain unresolved until evidenced.
+
+A source being publicly accessible does not by itself establish permission to redistribute or relicense its contents. Record the original source, acquisition date, applicable reuse terms and third-party rights. A license for independently created material applies only to material for which the relevant rights are held. Preserve required attribution and do not impose additional restrictions on material already licensed under CC BY 4.0. Where source rights remain uncertain, prefer links and independently derived summaries over redistributing original files.
+
+Count research families, release versions, external deposits, metadata mirrors and independent third-party citations separately. A change of platform, language or title alone does not establish a new study. Research purpose, distinct contribution, reproducibility, accurate disclosure of AI assistance and human review, and provider eligibility must be documented before any future deposit.
