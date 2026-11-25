@@ -46,3 +46,10 @@ Resimanor 주택금융 데이터를 인용할 때는 가능한 경우 **원문 �
 - **GitHub is mutable:** cite the exact file path, checked date, and preferably the commit SHA when reusing a changing `main` branch file. A revised README or a green CI workflow does not create a new dataset version or amend any previously archived DOI release.
 - **Citation identity:** cite the dataset actually used. DOI references elsewhere in this repository may point to *distinct* studies and archived versions. An untested DOI link must not be described as confirmed publicly accessible.
 - **Quality limitations:** the public checks validate structure, formula assumptions, and/or CSV-widget equality, not the current legal validity of housing eligibility, loan approvals, or a particular project notice.
+
+## Distinct mortgage scenario datasets
+
+- [2026 H2 DSR mortgage limit scenarios (160 cases)](./datasets/dsr-mortgage-limit-2026-h2/): archived version identifier `10.5281/zenodo.23231673`; [methodology](./datasets/dsr-mortgage-limit-2026-h2/METHODOLOGY.md) and [validation](./datasets/dsr-mortgage-limit-2026-h2/VALIDATION_REPORT.md).
+- [Auto installment mortgage DSR scenarios (64 cases)](./datasets/auto-installment-mortgage-dsr-2026/): archived version identifier `10.5281/zenodo.23274478`; [calculation assumptions](./datasets/auto-installment-mortgage-dsr-2026/README.md) and [validation](./datasets/auto-installment-mortgage-dsr-2026/VALIDATION.md).
+
+These identifiers refer to different datasets, not alternate identifiers for the basic DSR dataset above. Use the dataset-specific citation metadata, identify the exact version or Git revision used, and distinguish modeled scenarios from actual lending outcomes. Current DOI accessibility was not tested. The documentation clarification does not constitute a new dataset release.
