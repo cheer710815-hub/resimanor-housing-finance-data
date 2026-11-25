@@ -18,3 +18,5 @@
 - Independently verify authorship and formal policy compatibility before any future scholarly deposit.
 
 **Operations blocked:** New Zenodo/Figshare DOI, mass-upload, external reposting, force push, branch deletion, silent history rewrite.
+
+2026-11-25 documentation review: clarified the scope of repository-level citation metadata, distinguished release identifiers from research families, and documented source-rights and reproducibility limitations. Existing data, analysis code, historical research versions, and frozen archived files are outside the scope of these proposed documentation changes. Current remote DOI accessibility and deposited-file identity remain unverified.
