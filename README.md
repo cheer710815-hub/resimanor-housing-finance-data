@@ -35,7 +35,7 @@ For current methodology, machine-readable files, updates, and citation informati
 
 ## Legacy DOI mirrors
 
-The exact dataset was also deposited in several DOI-minting repositories before the canonical-DOI policy was adopted. These records are retained as legacy mirrors only and should not be used as the preferred citation.
+Historical records describe parallel deposits of the stress-DSR reference family. Exact deposited-file equivalence and current availability have not been reverified. Cite the specific version actually used. The root `CITATION.cff` describes the historical stress-DSR reference release v1.0, not every dataset in this repository. For other studies, consult the [research inventory](RESEARCH_INVENTORY.md), [DOI register](DOI_REGISTRY.md), and study-specific citation metadata.
 
 - Figshare: https://doi.org/10.6084/m9.figshare.33948214
 - Harvard Dataverse: https://doi.org/10.7910/DVN/Y4J5LD
