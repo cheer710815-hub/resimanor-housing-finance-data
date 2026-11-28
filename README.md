@@ -1,5 +1,8 @@
 # Resimanor Housing Finance Data
 
+> **Research integrity / DOI audit notice (2026-11-24):** The DOI links in this README document **historical registrations**; live access and deposited-file validity are not currently established. Figshare account access is disabled and Zenodo access restrictions are unresolved. This GitHub documentation does not authorize any new DOI or repeat deposit. The stress-DSR baseline was registered at multiple repositories as legacy mirrors; see [research inventory](RESEARCH_INVENTORY.md), [DOI register](DOI_REGISTRY.md), and [publication safeguards](PUBLICATION_POLICY.md). Historical research versions and their frozen files remain unchanged.
+
+
 South Korea's 2026 Stress DSR housing-finance reference data, including income-based mortgage borrowing examples and the effect of existing credit obligations on borrowing capacity.
 
 이 저장소는 대한민국의 2026 스트레스 DSR 제도를 기준으로 연소득별 주택담보대출 한도와 기존 신용대출에 따른 한도 변화를 검증할 수 있도록 정리한 공개 자료입니다. 계산 근거는 금융위원회 등 공식 정책자료를 우선하며, CSV·JSON, 방법론, 출처 정책과 인용 메타데이터를 함께 제공합니다.
@@ -32,7 +35,7 @@ For current methodology, machine-readable files, updates, and citation informati
 
 ## Legacy DOI mirrors
 
-The exact dataset was also deposited in several DOI-minting repositories before the canonical-DOI policy was adopted. These records are retained as legacy mirrors only and should not be used as the preferred citation.
+Historical records describe parallel deposits of the stress-DSR reference family. Exact deposited-file equivalence and current availability have not been reverified. Cite the specific version actually used. The root `CITATION.cff` describes the historical stress-DSR reference release v1.0, not every dataset in this repository. For other studies, consult the [research inventory](RESEARCH_INVENTORY.md), [DOI register](DOI_REGISTRY.md), and study-specific citation metadata.
 
 - Figshare: https://doi.org/10.6084/m9.figshare.33948214
 - Harvard Dataverse: https://doi.org/10.7910/DVN/Y4J5LD
